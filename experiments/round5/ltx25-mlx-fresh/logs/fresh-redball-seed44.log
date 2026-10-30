@@ -1,0 +1,24 @@
+START fresh-redball-seed44
+[Loading text encoder (Gemma)] ...
+[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+[Loading text encoder (Gemma)] done in 2.6s
+[Encoding prompt] ...
+[Encoding prompt] done in 13.0s
+[Loading transformer (transformer-distilled.safetensors)] ...
+[Loading transformer (transformer-distilled.safetensors)] done in 0.5s
+[estimate] denoising (ancestral): 8 steps x 1 passes over 672 video + 49 audio tokens = 8 forwards
+Denoising (ancestral):   0%|          | 0/8 [00:00<?, ?it/s]                                                            [estimate] denoising (ancestral): ~1 min 4 s remaining (9.2 s/forward) (first step includes warm-up)
+Denoising (ancestral):   0%|          | 0/8 [00:09<?, ?it/s]Denoising (ancestral):  12%|█▎        | 1/8 [00:09<01:04,  9.18s/it]                                                                    [estimate] denoising (ancestral): ~58 s remaining (9.7 s/forward) (refined)
+Denoising (ancestral):  12%|█▎        | 1/8 [00:18<01:04,  9.18s/it]Denoising (ancestral):  25%|██▌       | 2/8 [00:18<00:56,  9.46s/it]Denoising (ancestral):  38%|███▊      | 3/8 [00:28<00:47,  9.45s/it]Denoising (ancestral):  50%|█████     | 4/8 [00:37<00:37,  9.40s/it]Denoising (ancestral):  62%|██████▎   | 5/8 [00:46<00:27,  9.13s/it]Denoising (ancestral):  75%|███████▌  | 6/8 [00:54<00:17,  8.92s/it]Denoising (ancestral):  88%|████████▊ | 7/8 [01:03<00:08,  8.87s/it]Denoising (ancestral):  88%|████████▊ | 7/8 [01:12<00:10, 10.30s/it]
+[estimate] denoising (ancestral): 3 steps x 1 passes over 2688 video + 49 audio tokens = 3 forwards
+Denoising (ancestral):   0%|          | 0/3 [00:00<?, ?it/s]                                                            [estimate] denoising (ancestral): ~1 min 4 s remaining (32.2 s/forward) (first step includes warm-up)
+Denoising (ancestral):   0%|          | 0/3 [00:32<?, ?it/s]Denoising (ancestral):  33%|███▎      | 1/3 [00:32<01:04, 32.21s/it]                                                                    [estimate] denoising (ancestral): ~32 s remaining (31.6 s/forward) (refined)
+Denoising (ancestral):  33%|███▎      | 1/3 [01:03<01:04, 32.21s/it]Denoising (ancestral):  67%|██████▋   | 2/3 [01:03<00:31, 31.84s/it]Denoising (ancestral):  67%|██████▋   | 2/3 [01:34<00:47, 47.17s/it]
+[Loading decoders (VAE only, --no-audio)] ...
+[Loading decoders (VAE only, --no-audio)] done in 0.0s
+[Decoding video (--no-audio)] ...
+[vae-decode tiling] frames=40/8 est. 11.7 GB budget=12.0 GB
+[vae-decode tiling] peak Metal memory 9.19 GB
+[Decoding video (--no-audio)] done in 9.0s
+RESULT {"label": "fresh-redball-seed44", "model": "LTX-2.5 distilled MLX 4-bit", "round": 5, "prompt_key": "redball", "fresh_process": true, "prompt": "A single bright red ball rolls from the left side to the right side of a wooden table, moving steadily across the whole table until it reaches the right edge. The ball remains round and keeps the same size and color throughout the shot. A plain beige wall is visible in the background. Soft daylight enters from a window on the left. The camera stays completely still, showing the entire table surface in one continuous shot.", "status": "success", "error": null, "seed": 44, "width": 768, "height": 512, "frames": 49, "playback_fps": 25, "elapsed_client_s": 193.567, "before": {"time": 1793348744.432144, "power": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=23068771)\t38%; discharging; 2:25 remaining present: true", "swap_bytes": 13089505280, "available_bytes": 12722569216, "free_disk_bytes": 13249904640}, "after": {"time": 1793348938.01409, "power": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=23068771)\t35%; discharging; 1:26 remaining present: true", "swap_bytes": 13054246912, "available_bytes": 12793217024, "free_disk_bytes": 14321967104}, "mlx_peak_active_bytes": 9865884750, "mlx_peak_sampled_max_bytes": 16223772796, "phys_footprint_sampled_max_bytes": 16472960928, "phys_footprint_lifetime_max_bytes": 16590024632, "conditions": "BATTERY", "sampled_max_rss_bytes": 4940840960, "swap_delta_bytes": -35258368, "low_ram_streaming": true, "audio": false, "pipeline": "DistilledPipeline (LTX-2.5 pack, ancestral Euler) two-stage:384x256 8steps +2x spatial upscale +768x512 3steps", "timing_scope": "Native pipeline generation through MP4 saving; includes uncached text encoding and native model load/free lifecycle. Warm runs reuse cached prompt embeddings, matching ComfyUI prompt caching; model residency differs by runtime. Setup and downloads excluded."}
+CASE_COMPLETED

@@ -1,0 +1,41 @@
+{
+  "label": "fresh-bluecar-seed43",
+  "model": "LTX-2.5 distilled MLX 4-bit",
+  "round": 5,
+  "prompt_key": "bluecar",
+  "fresh_process": true,
+  "prompt": "A small blue toy car drives from the right side to the left side of a white desk, moving steadily across the whole desk until it reaches the left edge. The car keeps the same shape, size and color throughout the shot. A plain light-grey wall is visible in the background. Soft daylight comes from above. The camera stays completely still, showing the entire desk surface in one continuous shot.",
+  "status": "success",
+  "error": null,
+  "seed": 43,
+  "width": 768,
+  "height": 512,
+  "frames": 49,
+  "playback_fps": 25,
+  "elapsed_client_s": 197.01,
+  "before": {
+    "time": 1793349127.5177321,
+    "power": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=23068771)\t33%; discharging; 0:58 remaining present: true",
+    "swap_bytes": 13325369344,
+    "available_bytes": 13741621248,
+    "free_disk_bytes": 13248159744
+  },
+  "after": {
+    "time": 1793349324.540809,
+    "power": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=23068771)\t30%; discharging; 0:38 remaining present: true",
+    "swap_bytes": 13076135936,
+    "available_bytes": 13838893056,
+    "free_disk_bytes": 14307315712
+  },
+  "mlx_peak_active_bytes": 9865884750,
+  "mlx_peak_sampled_max_bytes": 16223772796,
+  "phys_footprint_sampled_max_bytes": 15433231616,
+  "phys_footprint_lifetime_max_bytes": 16598478680,
+  "conditions": "BATTERY",
+  "sampled_max_rss_bytes": 6047924224,
+  "swap_delta_bytes": -249233408,
+  "low_ram_streaming": true,
+  "audio": false,
+  "pipeline": "DistilledPipeline (LTX-2.5 pack, ancestral Euler) two-stage:384x256 8steps +2x spatial upscale +768x512 3steps",
+  "timing_scope": "Native pipeline generation through MP4 saving; includes uncached text encoding and native model load/free lifecycle. Warm runs reuse cached prompt embeddings, matching ComfyUI prompt caching; model residency differs by runtime. Setup and downloads excluded."
+}

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/dyn/AI/video-model-comparison-2026-10-29/round6/kandinsky6-lite-redball/benchmark.py", line 31, in <module>
+    E=torch.load(ROOT/'embeds.pt');assert E['prompt']==POSITIVE and E['mask_is_none']
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

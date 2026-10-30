@@ -5,3 +5,8 @@ __pycache__/
 *.safetensors
 *.gguf
 ~$*
+experiments/ltx23-mlx/gemma/
+experiments/ltx23-mlx/model/
+experiments/ltx25-mlx/model/
+experiments/mlx-runtime/
+*.pt

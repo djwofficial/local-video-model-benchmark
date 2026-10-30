@@ -1,0 +1,12 @@
+W1031 00:35:00.846000 19720 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+/Users/dyn/AI/venvs/kandinsky/lib/python3.12/site-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]Loading pipeline components...:  20%|██        | 1/5 [00:00<00:01,  3.22it/s]The config attributes {'base_image_seq_len': 256, 'base_shift': 0.5, 'invert_sigmas': False, 'max_image_seq_len': 4096, 'max_shift': 1.15, 'nfe': None, 'shift_terminal': None, 'stochastic_sampling': False, 'time_shift_type': 'exponential', 'use_beta_sigmas': False, 'use_dynamic_shifting': False, 'use_exponential_sigmas': False, 'use_karras_sigmas': False} were passed to PiflowScheduler, but are not expected and will be ignored. Please verify your scheduler_config.json configuration file.
+
+Loading weights:   0%|          | 0/196 [00:00<?, ?it/s][A
+Loading weights:   1%|          | 2/196 [00:00<00:23,  8.26it/s][ALoading weights: 100%|██████████| 196/196 [00:00<00:00, 802.68it/s]
+Loading pipeline components...:  80%|████████  | 4/5 [00:00<00:00,  6.41it/s]
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 729/729 [00:00<00:00, 9210.95it/s]
+Loading pipeline components...: 100%|██████████| 5/5 [00:00<00:00,  6.46it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:00<00:00,  6.08it/s]
+RESULT {"label": "encode", "status": "success", "load_s": 37.679, "encode_s": 81.661, "total_s": 119.822, "mask_is_none": false, "embeds_shape": [1, 1024, 3584], "phys_footprint_lifetime_max_bytes": 19464849064, "phys_footprint_sampled_max_bytes": 19435554472, "mps_driver_sampled_max_bytes": 18854150144, "swap_delta_bytes": 9475850240}
+ENCODE_COMPLETED

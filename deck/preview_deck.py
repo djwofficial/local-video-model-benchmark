@@ -19,7 +19,7 @@ from pptx.util import Emu
 
 DPI=144;FONTS='/Applications/Microsoft PowerPoint.app/Contents/Resources/DFonts/'
 _cache={}
-FAMILIES={'Aptos':('Aptos','Aptos-Bold','Aptos-Italic','Aptos-Bold-Italic'),'Calibri':('Calibri','Calibrib','Calibrii','Calibriz')}
+FAMILIES={'Aptos':('Aptos','Aptos-Bold','Aptos-Italic','Aptos-Bold-Italic'),'Calibri':('Calibri','Calibrib','Calibrii','Calibriz'),'Microsoft JhengHei':('MSJH','MSJHBD','MSJH','MSJHBD')}
 def font(pt,bold,italic,family=None):
     name=FAMILIES.get(family,FAMILIES['Aptos'])[bool(bold)+2*bool(italic)]
     key=(name,pt)
@@ -39,13 +39,18 @@ def layout(tf,width):
             f=r.font;pt=f.size.pt if f.size else 18;size=max(size or 0,pt)
             fnt=font(pt,bool(f.bold),bool(f.italic),f.name);col=rgb(f.color) if f.color and f.color.type else (0,0,0)
             for i,part in enumerate(r.text.split(' ')):
-                words.append([('' if i==0 else ' ')+part,fnt,col])
+                # CJK text has no spaces: every CJK character is its own break point (marked with a leading NUL).
+                toks=[''] if not part else []
+                for ch in part:
+                    if toks and not ('\u3000'<=ch<='\u9fff' or '\uff00'<=ch<='\uffef') and not toks[-1].startswith('\0'): toks[-1]+=ch
+                    else: toks.append(('\0' if '\u3000'<=ch<='\u9fff' or '\uff00'<=ch<='\uffef' else '')+ch)
+                for j,t in enumerate(toks): words.append([((' ' if i and not j else '')+t),fnt,col])
         size=size or 18;h=size*1.2*DPI/72;after=(p.space_after.pt if p.space_after is not None else 0)*DPI/72
         cur=[];w=0
         for t,fnt,col in words:
-            tw=fnt.getlength(t)
-            if cur and w+tw>width and t.startswith(' '):
-                lines.append((h,cur));cur=[(t[1:],fnt,col)];w=fnt.getlength(t[1:])
+            brk=t.startswith(' ') or t.startswith('\0');t=t.replace('\0','');tw=fnt.getlength(t)
+            if cur and w+tw>width and brk:
+                t=t.lstrip(' ');lines.append((h,cur));cur=[(t,fnt,col)];w=fnt.getlength(t)
             else: cur.append((t,fnt,col));w+=tw
         lines.append((h,cur))
         if after: lines[-1]=(lines[-1][0]+after,lines[-1][1])

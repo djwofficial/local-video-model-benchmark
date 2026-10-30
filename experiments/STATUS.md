@@ -40,3 +40,7 @@ Same prompt, 512×320, 25-frame cold smoke; 49-frame warmup plus measured seeds4
 Model downloads are serialized, not concurrent with one another. Preserve all baseline files. All generation local and offline. Browser access localhost8188 was denied; do not retry via other UI paths. Local backend API remains usable.
 
 Next: review results and contact sheets, finish MLX generation, revise the PPT using actual multi-model rows and clearly disclose conditions and metrics.
+
+# Cleanup (30 Oct 2026, user request)
+
+Model weights and Python environments were moved to the macOS Trash after the project ended: ltx25-mlx/model (LTX-2.5 MLX int4, 27 GB), /Users/dyn/AI/models (ComfyUI baseline LTX-Video 2B checkpoint and text encoders, 15 GB) and /Users/dyn/AI/venvs (2.3 GB). All videos, results, logs, scripts, reports and decks are kept. Weights can be re-downloaded from the sources listed in each folder's models-sources.json.

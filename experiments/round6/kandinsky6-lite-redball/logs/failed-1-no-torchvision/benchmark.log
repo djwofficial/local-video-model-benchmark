@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/dyn/AI/video-model-comparison-2026-10-29/round6/kandinsky6-lite-redball/benchmark.py", line 30, in <module>
+    assert subprocess.call([sys.executable,'-u',str(ROOT/'encode.py')],stdout=open(ROOT/'logs/encode.log','w'),stderr=subprocess.STDOUT)==0,'encode failed'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: encode failed

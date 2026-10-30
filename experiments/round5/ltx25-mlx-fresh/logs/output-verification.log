@@ -1,0 +1,68 @@
+[
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx25-mlx-fresh/output/fresh-bluecar-seed42.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx25-mlx-fresh/output/fresh-bluecar-seed42-contact.jpg",
+    "mean_absolute_frame_difference": 1.4836017114144784
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx25-mlx-fresh/output/fresh-bluecar-seed43.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx25-mlx-fresh/output/fresh-bluecar-seed43-contact.jpg",
+    "mean_absolute_frame_difference": 2.8699722996464483
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx25-mlx-fresh/output/fresh-bluecar-seed44.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx25-mlx-fresh/output/fresh-bluecar-seed44-contact.jpg",
+    "mean_absolute_frame_difference": 2.925016102967439
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx25-mlx-fresh/output/fresh-redball-seed42.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx25-mlx-fresh/output/fresh-redball-seed42-contact.jpg",
+    "mean_absolute_frame_difference": 0.3126451351024487
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx25-mlx-fresh/output/fresh-redball-seed43.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx25-mlx-fresh/output/fresh-redball-seed43-contact.jpg",
+    "mean_absolute_frame_difference": 1.58652870743363
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx25-mlx-fresh/output/fresh-redball-seed44.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx25-mlx-fresh/output/fresh-redball-seed44-contact.jpg",
+    "mean_absolute_frame_difference": 1.5553081653736258
+  }
+]

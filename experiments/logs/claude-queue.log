@@ -24,3 +24,5 @@ Retired completed-test cache: /Users/dyn/AI/models/vae/wan2.2_vae.safetensors
 {"time": 1793342096.0423849, "stage": "testing", "controller": "claude_queue.py", "model": "round5/ltx25-mlx-redball"}
 {"time": 1793342815.302024, "stage": "testing", "controller": "claude_queue.py", "model": "round5/ltx25-mlx-bluecar"}
 {"time": 1793343501.373121, "stage": "queue_complete_pending_review", "controller": "claude_queue.py", "stages": ["mlx:round5/ltx25-mlx-redball", "mlx:round5/ltx25-mlx-bluecar"]}
+{"time": 1793348346.062331, "stage": "testing", "controller": "claude_queue.py", "model": "round5/ltx25-mlx-fresh"}
+{"time": 1793349517.1099641, "stage": "queue_complete_pending_review", "controller": "claude_queue.py", "stages": ["mlx:round5/ltx25-mlx-fresh"]}

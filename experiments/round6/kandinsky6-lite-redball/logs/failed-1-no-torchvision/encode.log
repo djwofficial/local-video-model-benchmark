@@ -1,0 +1,36 @@
+W1031 00:34:35.949000 19654 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+/Users/dyn/AI/venvs/kandinsky/lib/python3.12/site-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]The config attributes {'base_image_seq_len': 256, 'base_shift': 0.5, 'invert_sigmas': False, 'max_image_seq_len': 4096, 'max_shift': 1.15, 'nfe': None, 'shift_terminal': None, 'stochastic_sampling': False, 'time_shift_type': 'exponential', 'use_beta_sigmas': False, 'use_dynamic_shifting': False, 'use_exponential_sigmas': False, 'use_karras_sigmas': False} were passed to PiflowScheduler, but are not expected and will be ignored. Please verify your scheduler_config.json configuration file.
+Loading pipeline components...:  20%|██        | 1/5 [00:00<00:01,  3.04it/s]
+Traceback (most recent call last):
+  File "/Users/dyn/AI/video-model-comparison-2026-10-29/round6/kandinsky6-lite-redball/encode.py", line 28, in <module>
+    pipe=Kandinsky6TI2VAPipeline.from_pretrained(MODEL,transformer=None,vae=None,audio_vae=None,vocoder=None,torch_dtype=torch.bfloat16)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dyn/AI/venvs/kandinsky/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 89, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/dyn/AI/venvs/kandinsky/lib/python3.12/site-packages/diffusers/pipelines/pipeline_utils.py", line 1044, in from_pretrained
+    loaded_sub_model = load_sub_model(
+                       ^^^^^^^^^^^^^^^
+  File "/Users/dyn/AI/venvs/kandinsky/lib/python3.12/site-packages/diffusers/pipelines/pipeline_loading_utils.py", line 923, in load_sub_model
+    loaded_sub_model = load_method(os.path.join(cached_folder, name), **loading_kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dyn/AI/venvs/kandinsky/lib/python3.12/site-packages/transformers/processing_utils.py", line 1749, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dyn/AI/venvs/kandinsky/lib/python3.12/site-packages/transformers/processing_utils.py", line 1889, in _get_arguments_from_pretrained
+    sub_processor = auto_processor_class.from_pretrained(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dyn/AI/venvs/kandinsky/lib/python3.12/site-packages/transformers/models/auto/video_processing_auto.py", line 433, in from_pretrained
+    return video_processor_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dyn/AI/venvs/kandinsky/lib/python3.12/site-packages/transformers/utils/import_utils.py", line 2437, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/Users/dyn/AI/venvs/kandinsky/lib/python3.12/site-packages/transformers/utils/import_utils.py", line 2423, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+Qwen2VLVideoProcessor requires the Torchvision library but it was not found in your environment. Check out the instructions on the
+installation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.
+Please note that you may need to restart your runtime after installation.
+

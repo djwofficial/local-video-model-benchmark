@@ -1,0 +1,7 @@
+CASE redball 42
+CASE redball 43
+CASE redball 44
+CASE bluecar 42
+CASE bluecar 43
+CASE bluecar 44
+FRESH_COMPLETED {"redball": {"videos": {"42": {"seconds": 196.934, "peak_gib": 15.451152667403221, "sampled_max_gib": 12.119332872331142, "mlx_peak_gib": 15.10956585034728, "swap_delta_gib": 3.1434326171875, "conditions": "BATTERY"}, "43": {"seconds": 199.473, "peak_gib": 15.470210939645767, "sampled_max_gib": 14.258570909500122, "mlx_peak_gib": 15.10956585034728, "swap_delta_gib": -0.24090576171875, "conditions": "BATTERY"}, "44": {"seconds": 193.567, "peak_gib": 15.450664453208447, "sampled_max_gib": 15.341640383005142, "mlx_peak_gib": 15.10956585034728, "swap_delta_gib": -0.0328369140625, "conditions": "BATTERY"}}, "avg_peak_gib": 15.457342686752478, "max_peak_gib": 15.470210939645767, "mean_seconds": 196.65800000000002}, "bluecar": {"videos": {"42": {"seconds": 188.169, "peak_gib": 15.45838537812233, "sampled_max_gib": 14.942058227956295, "mlx_peak_gib": 15.10956585034728, "swap_delta_gib": 0.25250244140625, "conditions": "BATTERY"}, "43": {"seconds": 197.01, "peak_gib": 15.45853789895773, "sampled_max_gib": 14.373317003250122, "mlx_peak_gib": 15.10956585034728, "swap_delta_gib": -0.23211669921875, "conditions": "BATTERY"}, "44": {"seconds": 190.488, "peak_gib": 15.481807686388493, "sampled_max_gib": 14.299159355461597, "mlx_peak_gib": 15.10956585034728, "swap_delta_gib": 0.01922607421875, "conditions": "BATTERY"}}, "avg_peak_gib": 15.466243654489517, "max_peak_gib": 15.481807686388493, "mean_seconds": 191.889}}

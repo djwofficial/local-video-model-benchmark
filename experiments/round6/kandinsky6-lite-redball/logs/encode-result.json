@@ -1,0 +1,29 @@
+{
+  "label": "encode",
+  "status": "success",
+  "load_s": 37.679,
+  "encode_s": 81.661,
+  "total_s": 119.822,
+  "mask_is_none": false,
+  "embeds_shape": [
+    1,
+    1024,
+    3584
+  ],
+  "phys_footprint_lifetime_max_bytes": 19464849064,
+  "phys_footprint_sampled_max_bytes": 19435554472,
+  "mps_driver_sampled_max_bytes": 18854150144,
+  "swap_delta_bytes": 9475850240,
+  "before": {
+    "time": 1793378102.670186,
+    "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t63%; charging; 1:12 remaining present: true",
+    "swap_bytes": 8187019264,
+    "available_bytes": 7789838336
+  },
+  "after": {
+    "time": 1793378222.228977,
+    "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t65%; charging; 1:14 remaining present: true",
+    "swap_bytes": 17662869504,
+    "available_bytes": 4157849600
+  }
+}
