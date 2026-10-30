@@ -132,10 +132,10 @@ The notable new open video release with a small (3B) variant is Kandinsky 6.0 Vi
 - LTX-2.3 IC-LoRA details (sizes, licensing, Mac support) were not researched in this pass.
 - I did not find a September 2026 open T2V release beyond MiniMax H3 tooling updates; the search coverage of Sep–Oct releases was limited.
 
-## License suitability for a large Taiwanese telecom (revenue far above US$10M)
+## License suitability for a large company (revenue far above US$10M)
 
 ### Takeaway
-Permissive and commercially usable without revenue caps: Kandinsky 6.0 (MIT), LongCat-Video (MIT), Helios (Apache-2.0), Wan2.2 (Apache-2.0), Lance (Apache-2.0 per MLX card), and Cosmos 3 (OpenMDW-1.1, permissive). Not suitable without a separate agreement: LTX-2.5 (free only below US$10M) and MiniMax H3 (Taiwan is inside its territory, but use above US$20M yearly revenue needs prior written authorization and a "MiniMax H3" UI notice).
+Permissive and commercially usable without revenue caps: Kandinsky 6.0 (MIT), LongCat-Video (MIT), Helios (Apache-2.0), Wan2.2 (Apache-2.0), Lance (Apache-2.0 per MLX card), and Cosmos 3 (OpenMDW-1.1, permissive). Not suitable without a separate agreement: LTX-2.5 (free only below US$10M) and MiniMax H3 (use above US$20M yearly revenue needs prior written authorization and a "MiniMax H3" UI notice).
 
 ### Cited Findings
 - Kandinsky 6.0: MIT for code, checkpoints and Diffusers integration — [arXiv 2610.05608](https://arxiv.org/abs/2610.05608); model card license: mit — [Lite-distill card](https://huggingface.co/kandinskylab/Kandinsky-6.0-Lite-distill-5s-Diffusers)

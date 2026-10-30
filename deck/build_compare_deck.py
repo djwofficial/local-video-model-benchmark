@@ -6,7 +6,7 @@
 
 Run (after extract_frames.py and make_videos.py):  uv run build_compare_deck.py [out.pptx]
 Slide 1: the two test prompts, English with a Traditional Chinese translation underneath.
-Slide 2: the round-5 results in the mentor's table format. Mean performance and average peak memory come from fresh
+Slide 2: the round-5 results in the reference table format. Mean performance and average peak memory come from fresh
 runs (one video per process, as the Mac-mini script); LTX-2.5 is measured (round5/ltx25-mlx-fresh), LTX-2.3 is estimated
 from the first, fresh video of its same-settings runs because its weights were removed.
 Slides 3-4: LTX-2.3 and LTX-2.5 side by side on the same seed, red ball then blue car (playable MP4s).
@@ -88,7 +88,7 @@ def build():
         cjk(b.text(s,L,y+1.6,W,0.85,[f'「{zh}」'],size=15,color=b.MUTED))
     s.notes_slide.notes_text_frame.text='English prompts copied from the benchmark scripts that ran (round5/ltx25-mlx-redball and -bluecar; identical for LTX-2.3). The Traditional Chinese lines are translations for reading only; the models were prompted in English.'
 
-    # Slide 2: results table in the mentor's format (fresh-run time and average peak; LTX-2.3 estimated, see footnote).
+    # Slide 2: results table in the reference format (fresh-run time and average peak; LTX-2.3 estimated, see footnote).
     s=bs.slide(prs,'Benchmark results','LTX-2.3 vs LTX-2.5 distilled  ·  MacBook Pro M4 Pro, 24 GB  ·  768×512, 2 s video, text only, seeds 42, 43, 44')
     rows=[]
     for model in ('LTX-2.3','LTX-2.5'):

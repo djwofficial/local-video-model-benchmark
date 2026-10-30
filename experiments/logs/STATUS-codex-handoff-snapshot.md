@@ -1,6 +1,6 @@
 # HANDOFF TO CLAUDE AT USER REQUEST
 
-Codex serial controllers stopped to conserve Codex usage. Read latest checkpoint in `/Users/dyn/Documents/ChatGPT/Taiwan Mobile Internship/Claude-video-benchmark-handoff.md`. No generation currently running; Wan VAE downloader may finish independently.
+Codex serial controllers stopped to conserve Codex usage. Read latest checkpoint in `<workspace>/Claude-video-benchmark-handoff.md`. No generation currently running; Wan VAE downloader may finish independently.
 
 # Local video model comparison
 

@@ -5,7 +5,7 @@
 """Simple deck: which local model makes the red-ball video correctly, with the videos playable inside.
 
 Run (after summarize_results.py, extract_frames.py and make_videos.py):  uv run build_simple_deck.py [out.pptx]
-Slide 1: the mentor's table for every tested configuration plus how many of its three videos were correct.
+Slide 1: the reference table for every tested configuration plus how many of its three videos were correct.
 Slide 2: the recommended keyframe setup (9/9) and its videos. Slide 3: the text-only setup that passed 3/3.
 Slide 4: what changed to get there. Slide 5: memory vs size (round-4 ladder of the keyframe setup).
 Slides 6+: every other configuration's three videos (seeds 42, 43, 44) with a plain reason per verdict.
@@ -127,7 +127,7 @@ def build():
     prs.core_properties.title='Local video model benchmark — which model makes the red-ball video correctly'
     mem_note='¹ Memory: ComfyUI rows = mean of each run’s 1 Hz sampled maximum MPS driver allocation; MLX rows = mean of each run’s sampled MLX peak. Neither is total RAM.'
 
-    # Slide 1: mentor's table for every configuration, winner first.
+    # Slide 1: reference table for every configuration, winner first.
     s=b.new_slide(prs,'Local video model benchmark results',[[('MacBook Pro M4 Pro, 24GB unified memory  ·  same red-ball prompt, judged on every measured video',{})]])
     rows=[]
     for k in KEYS:

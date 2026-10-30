@@ -14,10 +14,10 @@ Laporan ini memakai tiga label angka:
 
 Bukti yang ada sangat tipis. Dari semua model di daftar, **satu-satunya run terukur di Mac 24 GB adalah MiniMax H3 di MacBook Pro M4 Pro 24 GB**, lewat rute streaming MLX dari Argus ([Argus](https://github.com/Argus-AiTeam/minimax-h3-mac)). Untuk **M5 Pro 24 GB**, tidak ada run terukur sama sekali untuk kandidat mana pun. Satu-satunya data dari mesin itu adalah laporan bug mlx-video. Dalam laporan itu, pemuatan T5 gagal karena timeout GPU. Setelah di-patch, run Wan 2.1 1.3B kecil (480×480, 17 frame) selesai dalam 165 dtk, dan 78% waktunya habis untuk encoding T5 ([mlx-video #54](https://github.com/Blaizzy/mlx-video/issues/54)). Semua angka in-house proyek ini berasal dari MacBook Pro M4 Pro.
 
-| # | Model dan rute | Unduhan | Muat di 15 GiB / 42 GiB? | Puncak memori proses | Waktu per klip | Lisensi untuk telco besar | Bukti di Mac |
+| # | Model dan rute | Unduhan | Muat di 15 GiB / 42 GiB? | Puncak memori proses | Waktu per klip | Lisensi untuk perusahaan besar | Bukti di Mac |
 |---|---|---|---|---|---|---|---|
 | 1 | **Kandinsky 6.0 Lite distill** (3B). Diffusers di PyTorch MPS, dua fase (encode Qwen → bebaskan memori → DiT+VAE), `sample_audio=False` | 24,5 GB tanpa audio (26,7 GB penuh) | Tidak / Ya | E: ~16 GiB di fase encoder, ~8–12 GiB di fase DiT | E: ~4–9 mnt per klip 2 dtk 768×512. K: 173,7 dtk per klip 5 dtk 480×864 di RTX 5060 Ti | **MIT, tanpa ambang** | Tidak ada |
-| 2 | **HunyuanVideo 1.5 480p T2V** + LoRA 4-step LightX2V. ComfyUI + ComfyUI-GGUF di MPS | ~14,1 GB (encoder GGUF) / ~18,8 GB (encoder fp8) | Ya, tipis (GGUF) / Ya | E: ~10–13 GiB | E: ~5–10 mnt | Tencent Community: Taiwan boleh, ambang 100 juta MAU, output tidak boleh dipakai melatih model lain | K: maintainer menyatakan macOS bisa; tidak ada angka |
+| 2 | **HunyuanVideo 1.5 480p T2V** + LoRA 4-step LightX2V. ComfyUI + ComfyUI-GGUF di MPS | ~14,1 GB (encoder GGUF) / ~18,8 GB (encoder fp8) | Ya, tipis (GGUF) / Ya | E: ~10–13 GiB | E: ~5–10 mnt | Tencent Community: tidak berlaku di EU/UK/Korea Selatan, ambang 100 juta MAU, output tidak boleh dipakai melatih model lain | K: maintainer menyatakan macOS bisa; tidak ada angka |
 | 3 | **Wan 2.2 TI2V-5B, uji ulang adil**. Workflow ComfyUI FP16 lama dengan setelan ronde 2 | 18,15 GB (file lama sudah dihapus permanen saat ronde 1, jadi perlu unduh ulang) | Tidak / Ya | T: 14,94 GiB di 512×320. E: ~15–17 GiB di 768×512 | T: 274 dtk di 512×320. E: ~11–14 mnt di 768×512 | **Apache-2.0** | T: in-house, 1/3 dengan protokol lama |
 | 4 | **MiniMax H3 base** (t2va). ComfyUI GGUF Q3_K_M + Qwen3-VL-32B Q4_K_M | ~29–31 GB | Tidak / Ya | E: ~15–16 GiB di fase encoder, ~11–13 GiB di fase DiT | E: ~3–8 mnt per klip 2,3 dtk 352×608. T: 1378 dtk per klip 5,17 dtk 768×448 (Argus, M4 Pro 24 GB) | Butuh izin tertulis di atas US$20 juta; hanya untuk evaluasi | T: 24 GB lewat Argus; rute GGUF belum diuji di 24 GB |
 | 5 | **Wan 2.2 A14B Q4** + Lightning, mlx-video | ~31 GB | Tidak / Ya | T: 16,37 GiB RSS di mesin 128 GB. E: kemungkinan >17,8 GiB di 24 GB | T: 10:25 (512×320×81) di M5 Max. E: ~8–12 mnt | Apache-2.0 | T: hanya M5 Max 128 GB; ada bug terbuka |
@@ -26,7 +26,7 @@ Sumber angka tabel dibahas per model di bagian berikut.
 
 Urutan peringkat ditimbang dari tiga hal:
 
-1. Apakah lisensinya bisa dipakai untuk produksi oleh perusahaan sebesar Taiwan Mobile.
+1. Apakah lisensinya bisa dipakai untuk produksi oleh perusahaan besar.
 2. Seberapa kuat bukti prompt-following-nya.
 3. Berapa biaya pembuktiannya dengan disk 42 GiB.
 
@@ -120,11 +120,11 @@ Ada alternatif Apple-native: `PocketAiHub/HunyuanVideo-1.5-Distilled-MLX` (21,08
 
 Ketentuan lisensi Tencent Hunyuan Community ([LICENSE](https://huggingface.co/tencent/HunyuanVideo-1.5/blob/main/LICENSE)):
 
-- Lisensi tidak berlaku di EU, UK dan Korea Selatan. **Taiwan tidak termasuk wilayah yang dikecualikan.**
+- Lisensi tidak berlaku di EU, UK dan Korea Selatan.
 - Ambangnya **100 juta MAU**, bukan pendapatan.
 - Output tidak boleh dipakai untuk memperbaiki model AI lain.
 
-Bagi telco besar, ambang berbasis MAU ini justru lebih ramah daripada ambang pendapatan di LTX-2.5 dan H3. Syaratnya, produk terkait harus di bawah 100 juta MAU, dan tidak ada staf, region cloud atau pengguna di wilayah yang dikecualikan. Hal ini perlu dikonfirmasi tim legal.
+Bagi perusahaan besar, ambang berbasis MAU ini justru lebih ramah daripada ambang pendapatan di LTX-2.5 dan H3. Syaratnya, produk terkait harus di bawah 100 juta MAU, dan tidak ada staf, region cloud atau pengguna di wilayah yang dikecualikan. Hal ini perlu dikonfirmasi tim legal.
 
 ## Wan 2.2 belum gagal secara adil; H3 hanya pantas sebagai patokan kualitas
 
@@ -176,7 +176,7 @@ Draw Things juga mendukung H3 sejak 11 September 2026, termasuk varian SpinQuant
 
 Lisensinya membuat H3 hanya bisa menjadi patokan ([LICENSE](https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE)):
 
-- Taiwan tidak termasuk wilayah yang dikecualikan (EU, UK, Korea Selatan, AS).
+- Wilayah yang dikecualikan: EU, UK, Korea Selatan, AS.
 - Produk atau layanan dengan pendapatan di atas **US$20 juta per tahun butuh izin tertulis dari MiniMax**.
 - UI komersial wajib menampilkan "MiniMax H3".
 - Output tidak boleh dipakai untuk memperbaiki model AI lain.
@@ -221,6 +221,6 @@ Kandinsky dan HunyuanVideo sama-sama memakai Qwen2.5-VL-7B, tetapi dalam format 
 
 ## Kesimpulan
 
-Untuk perusahaan sebesar Taiwan Mobile, kemenangan yang paling mungkin dari eksperimen ini adalah di sisi lisensi, bukan kualitas. Kandidat dengan lisensi paling bersih (Kandinsky MIT, Wan Apache-2.0) justru paling sedikit punya bukti di Mac. Jadi eksperimen berikutnya pada dasarnya membeli informasi kelayakan. Model MIT yang menyamai 6/6, meskipun dua kali lebih lambat, sudah merupakan upgrade bisnis, karena menghapus kebutuhan Paid Commercial Use Agreement dengan Lightricks. Sebaliknya, model dengan bukti kualitas terkuat (H3) terkunci oleh lisensi dan kecepatan, sehingga nilainya hanya sebagai penanda batas atas.
+Untuk perusahaan besar, kemenangan yang paling mungkin dari eksperimen ini adalah di sisi lisensi, bukan kualitas. Kandidat dengan lisensi paling bersih (Kandinsky MIT, Wan Apache-2.0) justru paling sedikit punya bukti di Mac. Jadi eksperimen berikutnya pada dasarnya membeli informasi kelayakan. Model MIT yang menyamai 6/6, meskipun dua kali lebih lambat, sudah merupakan upgrade bisnis, karena menghapus kebutuhan Paid Commercial Use Agreement dengan Lightricks. Sebaliknya, model dengan bukti kualitas terkuat (H3) terkunci oleh lisensi dan kecepatan, sehingga nilainya hanya sebagai penanda batas atas.
 
 Pelajaran teknisnya: di Mac 24 GB, jumlah parameter DiT adalah petunjuk yang menyesatkan. DiT 3B Kandinsky diperkirakan tetap lebih lambat dari LTX-2.5 22B. Penyebabnya, VAE 8× menghasilkan ~20 ribu token untuk klip 2 dtk, dan encoder 7B-nya sendiri sudah memenuhi hampir seluruh working set. Yang menentukan muat atau tidaknya sebuah model adalah ukuran encoder teks dan disiplin memuat secara bertahap. Yang menentukan kecepatannya adalah jumlah token dan jumlah langkah. Karena itu, distill 4–10 langkah dan skrip dua fase lebih penting daripada memilih model "kecil".

@@ -167,7 +167,7 @@ def build():
     pend_note='² Not run or still running: '+'; '.join(f"{m['short']} — {PENDING[m['key']]}" for m in pending)+'. No numbers are shown for runs that did not happen.' if pending else None
     record={'deck':str(OUT),'models':[]}
 
-    # Slide 1: mentor's comparison layout, one row per model.
+    # Slide 1: reference comparison layout, one row per model.
     s=new_slide(prs,'Local video model benchmark results',[[('MacBook Pro M4 Pro, 24GB unified memory  ·  ',{}),('Battery power, Low Power Mode on',{'color':TEAL,'bold':True})]])
     rows=[]
     for m in models:

@@ -109,7 +109,7 @@ The research report is [`docs/research/Model video layak diuji di Mac.md`](docs/
 | `docs/HANDOFF.md` | Running project notes |
 
 **Not included:**
-- **Model weights.** Sources and checksums are in each folder's `models-sources.json`.
+- **Model weights.** They are too large for GitHub. Download links, commands and checksums are in [`WEIGHTS.md`](WEIGHTS.md).
 - **Third-party runtime code.** ltx-2-mlx is pinned at commit `895201d`.
 
 All weights and Python environments were removed from the test Mac on 31 Oct 2026; videos and results are kept.

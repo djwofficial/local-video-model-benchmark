@@ -334,13 +334,13 @@ So local prompt-following may fall below what the leaderboards suggest.
 
 ---
 
-## Q5. What do the license terms mean for a large Taiwanese telecom (revenue far above US$20M): territory, commercial thresholds, attribution?
+## Q5. What do the license terms mean for a large company (revenue far above US$20M): territory, commercial thresholds, attribution?
 
 ### Takeaway
-**Taiwan is not an excluded territory.** The exclusions are the EU, UK, US and South Korea, so local evaluation in Taiwan is allowed under the Community License. Commercial use is another matter: products or services earning more than US$20M a year need **prior written authorization from MiniMax**, and any commercial product must prominently display "MiniMax H3".
+The excluded territories are the EU, UK, US and South Korea. Commercial use is another matter: products or services earning more than US$20M a year need **prior written authorization from MiniMax**, and any commercial product must prominently display "MiniMax H3".
 
 ### Cited Findings
-- **Territory:** the Excluded Territories are "the European Union, the United Kingdom, the Republic of Korea and the United States of America". Taiwan is not mentioned. Hong Kong appears only as the governing law (Section IX.1). — [LICENSE](https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE)
+- **Territory:** the Excluded Territories are "the European Union, the United Kingdom, the Republic of Korea and the United States of America". Hong Kong appears only as the governing law (Section IX.1). — [LICENSE](https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE)
 - The official FAQ says the license "currently excludes the EU, UK, US, and South Korea" and that MiniMax "will expand the territory scope as the regulatory picture clarifies". This means the territory list may change. — [design.minimax.io/h3](https://design.minimax.io/h3)
 - **Commercial threshold:** Section IV.1 requires prior written authorization if products or services "generate more than 20 million US dollars" in yearly revenue. There is no MAU or headcount threshold. — [LICENSE](https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE)
 - The FAQ wording is "if your commercial products or services exceed US$20 million in yearly revenue". To apply, email api@minimax.io with subject "MiniMax H3 licensing – authorization request". It does not say whether parent or affiliate revenue counts. — [design.minimax.io/h3](https://design.minimax.io/h3)
@@ -363,7 +363,7 @@ So local prompt-following may fall below what the leaderboards suggest.
 - **Port code licenses:** PipeNetwork and Argus code is Apache-2.0. mlx-h3 says it is not affiliated with MiniMax. — [PipeNetwork](https://github.com/PipeNetwork/minimax-h3-mlx); [Argus](https://github.com/Argus-AiTeam/minimax-h3-mac); [PyPI](https://pypi.org/project/mlx-h3/)
 
 ### Inferences
-- Internal, non-commercial technical evaluation on a Mac in Taiwan appears permitted without applying. Any production or customer-facing use by a company of this size would very likely trigger the US$20M clause, which means written authorization plus "MiniMax H3" shown in the UI. [Legal review needed; not legal advice]
+- Internal, non-commercial technical evaluation on a Mac appears permitted without applying. Any production or customer-facing use by a company of this size would very likely trigger the US$20M clause, which means written authorization plus "MiniMax H3" shown in the UI. [Legal review needed; not legal advice]
 - If any development, hosting or users sit in the US, EU, UK or South Korea (cloud regions, vendors, staff), the territory exclusion could apply.
 - The anti-distillation clause matters if the team ever wants to use H3 outputs to fine-tune LTX or other models.
 

@@ -28,17 +28,17 @@ Codex stopped the serial controllers at the user's explicit request to conserve 
 
 Claude can resume `continue_comparison.py` with the Comfy Python and `continue_mlx.py` with the MLX Python, or run each candidate manually. Read those scripts first; they serialize jobs and stop on errors. Use temporary idle-sleep prevention while working and release it afterward. Existing state JSON is marked handed-off, rather than actively running. Update this document's stale candidate-status lines after actual results exist.
 
-The user authorizes Claude to continue the remaining tests, troubleshoot actual failures, and finish the editable PPT in the mentor's format. Do not merely repeat installation instructions. Preserve the completed baseline, test evidence and source manifests. The user currently cannot connect a charger; report battery/Low Power Mode conditions honestly.
+The user authorizes Claude to continue the remaining tests, troubleshoot actual failures, and finish the editable PPT in the reference format. Do not merely repeat installation instructions. Preserve the completed baseline, test evidence and source manifests. The user currently cannot connect a charger; report battery/Low Power Mode conditions honestly.
 
 ## Objective and current status
 
-Continue the user's authorized local video model testing and produce a PowerPoint comparison matching the mentor's table layout. Check current state before doing any work; do not start duplicate downloads or GPU jobs.
+Continue the user's authorized local video model testing and produce a PowerPoint comparison matching the reference table layout. Check current state before doing any work; do not start duplicate downloads or GPU jobs.
 
 Live experiment folder: `/Users/dyn/AI/video-model-comparison-2026-10-29`.
 Read `STATUS.md`, `comparison-state.json`, `ltx23-mlx/pipeline-state.json`, `comparison-results.json` and `RESULTS.md` there first. Individual model folders contain `pipeline-state.json`, `results.jsonl`, logs, workflows, output movies, source/checksum manifests and visual assessments. These live files take precedence over this handoff if they are newer.
 
 Baseline: `/Users/dyn/AI/ltx-benchmark-2026-10-29`.
-Hardware: Apple M4 Pro,24GB unified memory; macOS27.0.1,arm64. This is not the mentor's M3 Max36GB machine. The current tests use battery power and Low Power Mode, because the user cannot connect a charger. Disclose this condition; never label these as AC-power results.
+Hardware: Apple M4 Pro,24GB unified memory; macOS27.0.1,arm64. This is not the reference M3 Max36GB machine. The current tests use battery power and Low Power Mode, because the user cannot connect a charger. Disclose this condition; never label these as AC-power results.
 
 ## Candidates
 
@@ -50,7 +50,7 @@ Hardware: Apple M4 Pro,24GB unified memory; macOS27.0.1,arm64. This is not the m
 6. LTX-Video2B v0.9.5 round 2 (768×512, new prompt): 0/3, 142.91 s/clip (AC).
 7. LTX-2.3 distilled MLX4-bit round 3 (round 2 + start/end keyframes): 9/9 on seeds 42–50, 132.22 s/clip (AC).
 
-Keep candidates labelled pending until actual measured results exist. Preserve errors from failed tests; a runtime import is not proof that video generation works. Never use the mentor's numbers as this Mac's measurements.
+Keep candidates labelled pending until actual measured results exist. Preserve errors from failed tests; a runtime import is not proof that video generation works. Never use the reference numbers as this Mac's measurements.
 
 ## Existing installation
 
@@ -111,8 +111,8 @@ Review actual contact sheets and movies before making quality claims. Visual-tas
 
 ## PowerPoint deliverable
 
-Workspace: `/Users/dyn/Documents/ChatGPT/Taiwan Mobile Internship/benchmark-ppt`.
-Reference: mentor's screenshot supplied in the conversation. Required table columns: Model,Weights,Mean performance,TTFT(ms),MemoryGiB. Use one row per model, not one row per seed. Video TTFT is unmeasured: use“—”. Match navy table header, alternating pale rows, off-white background, actual output frames on right, task observations below and honest memory/conditions footnotes. All performance values must come from actual logs. Keep tables/text editable and embed images.
+Workspace: `<workspace>/benchmark-ppt`.
+Reference: reference screenshot supplied in the conversation. Required table columns: Model,Weights,Mean performance,TTFT(ms),MemoryGiB. Use one row per model, not one row per seed. Video TTFT is unmeasured: use“—”. Match navy table header, alternating pale rows, off-white background, actual output frames on right, task observations below and honest memory/conditions footnotes. All performance values must come from actual logs. Keep tables/text editable and embed images.
 
 The previous single-model deck `output/Local-video-benchmark-M4-Pro.pptx` was conceptually incomplete; final comparison should use a new revision filename. Check output folder for the latest comparison before recreating anything.
 

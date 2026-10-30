@@ -125,7 +125,7 @@ HunyuanVideo 1.5 has an 8.3B DiT. Its text encoder is Qwen2.5-VL-7B (16.58 GB bf
 - the LightX2V 4-step **T2V** 480p distill;
 - a 4-step LoRA (0.34 GB).
 
-One **MLX port** exists: `PocketAiHub/HunyuanVideo-1.5-Distilled-MLX` (21.08 GB, July 2026). It is **gated and territory-restricted**; its README and benchmark were not readable without login. **No measured Mac speed or memory numbers were found.** A Tencent engineer says macOS works without the advanced features. The license excludes the EU, the UK and South Korea, **not Taiwan**. It also has a 100M-MAU threshold and a ban on using outputs to improve other AI models.
+One **MLX port** exists: `PocketAiHub/HunyuanVideo-1.5-Distilled-MLX` (21.08 GB, July 2026). It is **gated and territory-restricted**; its README and benchmark were not readable without login. **No measured Mac speed or memory numbers were found.** A Tencent engineer says macOS works without the advanced features. The license excludes the EU, the UK and South Korea. It also has a 100M-MAU threshold and a ban on using outputs to improve other AI models.
 
 ### Cited Findings
 - **Specs [C].** 8.3B-parameter DiT. 3D causal VAE with 16× spatial and 4× temporal compression and 32 latent channels. 54 dual-stream blocks, dim 2048. "Minimum GPU Memory: 14 GB (with model offloading enabled)". The official requirements say NVIDIA GPU with CUDA, Linux. — [HF card](https://huggingface.co/tencent/HunyuanVideo-1.5); [tech report](https://arxiv.org/html/2511.18870v2)
@@ -174,7 +174,6 @@ One **MLX port** exists: `PocketAiHub/HunyuanVideo-1.5-Distilled-MLX` (21.08 GB,
   - Over 100 million MAU on the release date means a separate license is required.
   - "You must not use … any Output or results … to improve any other AI model".
   - No use outside the Territory. An Acceptable Use Policy applies.
-  - Taiwan is **not** among the excluded territories.
 
   — [LICENSE](https://huggingface.co/tencent/HunyuanVideo-1.5/blob/main/LICENSE)
 
@@ -187,7 +186,7 @@ One **MLX port** exists: `PocketAiHub/HunyuanVideo-1.5-Distilled-MLX` (21.08 GB,
 
   With the bf16 Qwen it is about 25.7 GB.
 - **[E] Steps.** The cfg-distilled model at 50 steps would likely be far slower on an M5 Pro than the LTX baseline. The **4-step LoRA or LightX2V distill** is the only realistic T2V setting for parity with LTX-2.5 distilled.
-- **[E] MLX port.** It is the only Apple-native path. At 19.6 GiB on disk, it requires removing another model. Reading its README and benchmark requires accepting the gate. Since the gate is territory-based, a user in Taiwan should be eligible, but legal or corporate policy should confirm.
+- **[E] MLX port.** It is the only Apple-native path. At 19.6 GiB on disk, it requires removing another model. Reading its README and benchmark requires accepting the gate. Since the gate is territory-based, a user outside those territories should be eligible, but legal or corporate policy should confirm.
 
 ### Gaps
 - No measured Mac (MPS or MLX) speed or peak memory for HunyuanVideo 1.5 was found. The PocketAI benchmark JSON exists but is gated.

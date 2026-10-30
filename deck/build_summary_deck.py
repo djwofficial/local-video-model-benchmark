@@ -5,7 +5,7 @@
 """Three-slide summary of the one setup that was correct on every seed (project-manager version).
 
 Run (after make_videos.py):  uv run build_summary_deck.py [out.pptx]
-Slide 1: the mentor's table for LTX-2.3 distilled (MLX 4-bit) + keyframes, with three headline numbers.
+Slide 1: the reference table for LTX-2.3 distilled (MLX 4-bit) + keyframes, with three headline numbers.
 Slide 2: that setup's videos (seeds 42-44, playable) and what each part of its name means.
 Slide 3: how big it can go on 24 GB (round-4 ladder table, no videos).
 Slide 4: upgrade test, LTX-2.5 distilled vs LTX-2.3 on two prompts (round 5). Slide 5: the six LTX-2.5 videos.
