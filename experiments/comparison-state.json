@@ -1,8 +1,9 @@
 {
-  "time": 1793304482.781662,
+  "time": 1793343501.373121,
   "stage": "queue_complete_pending_review",
   "controller": "claude_queue.py",
   "stages": [
-    "mlx:round4/ltx23-mlx-ladder"
+    "mlx:round5/ltx25-mlx-redball",
+    "mlx:round5/ltx25-mlx-bluecar"
   ]
 }

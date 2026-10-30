@@ -1,0 +1,170 @@
+[
+  {
+    "repo": "dgrauet/ltx-2.5-mlx-q4",
+    "revision": "e9a20add8c5937fcab635fb8e7a52926487a5776",
+    "file": "transformer-distilled.safetensors",
+    "kind": "model",
+    "size": 11320034990,
+    "sha256": "413479747a7ecd39c71460c3b0e4c872399c64fdaff85f4ef2a28c435a45f21d"
+  },
+  {
+    "repo": "dgrauet/ltx-2.5-mlx-q4",
+    "revision": "e9a20add8c5937fcab635fb8e7a52926487a5776",
+    "file": "text_encoder.safetensors",
+    "kind": "model",
+    "size": 10563078719,
+    "sha256": "687a14a73d93814da5942dd55d1cf095b549c8cec31553bbaf280797492049d1"
+  },
+  {
+    "repo": "dgrauet/ltx-2.5-mlx-q4",
+    "revision": "e9a20add8c5937fcab635fb8e7a52926487a5776",
+    "file": "text_encoder_config.json",
+    "kind": "model",
+    "size": 4377,
+    "sha256": null
+  },
+  {
+    "repo": "dgrauet/ltx-2.5-mlx-q4",
+    "revision": "e9a20add8c5937fcab635fb8e7a52926487a5776",
+    "file": "connector.safetensors",
+    "kind": "model",
+    "size": 4032375032,
+    "sha256": "ad25a36abf03315a7adf1d1f7340c538efe85bb35fa7ee3130661d56020ba461"
+  },
+  {
+    "repo": "dgrauet/ltx-2.5-mlx-q4",
+    "revision": "e9a20add8c5937fcab635fb8e7a52926487a5776",
+    "file": "spatial_upscaler_x2_v1_0.safetensors",
+    "kind": "model",
+    "size": 995745333,
+    "sha256": "df7de2dc9e32815113d8ba876dcd1e8a4a91c0ea1530b840430bf3220de90294"
+  },
+  {
+    "repo": "dgrauet/ltx-2.5-mlx-q4",
+    "revision": "e9a20add8c5937fcab635fb8e7a52926487a5776",
+    "file": "spatial_upscaler_x2_v1_0_config.json",
+    "kind": "model",
+    "size": 275,
+    "sha256": null
+  },
+  {
+    "repo": "dgrauet/ltx-2.5-mlx-q4",
+    "revision": "e9a20add8c5937fcab635fb8e7a52926487a5776",
+    "file": "vae_decoder_conv.safetensors",
+    "kind": "model",
+    "size": 814351176,
+    "sha256": "fd250ca3bdeb4ce67b5343d62a45883924faf5314aa60a870eb7c575f5519c80"
+  },
+  {
+    "repo": "dgrauet/ltx-2.5-mlx-q4",
+    "revision": "e9a20add8c5937fcab635fb8e7a52926487a5776",
+    "file": "vae_encoder_conv.safetensors",
+    "kind": "model",
+    "size": 637887026,
+    "sha256": "34625a28efc2c447071221b9855849d9d4a90e19d5363c7347c00896f8409502"
+  },
+  {
+    "repo": "dgrauet/ltx-2.5-mlx-q4",
+    "revision": "e9a20add8c5937fcab635fb8e7a52926487a5776",
+    "file": "duration_head.safetensors",
+    "kind": "model",
+    "size": 3808462,
+    "sha256": "e3ec9ff07d9aadd6e3073af63a7d66612c029b6e46ecb21f2d5ee5f43cd53c29"
+  },
+  {
+    "repo": "dgrauet/ltx-2.5-mlx-q4",
+    "revision": "e9a20add8c5937fcab635fb8e7a52926487a5776",
+    "file": "audio_vae.safetensors",
+    "kind": "model",
+    "size": 106510725,
+    "sha256": "b91400bd1cd52ba3f4df54dc6214526b1b01de1bf5bf21544d29738a926dcc7a"
+  },
+  {
+    "repo": "dgrauet/ltx-2.5-mlx-q4",
+    "revision": "e9a20add8c5937fcab635fb8e7a52926487a5776",
+    "file": "vocoder.safetensors",
+    "kind": "model",
+    "size": 258315820,
+    "sha256": "86fd7336e7fe23e04c0eacd3d1949de1f38bb7c8ff8241042e8166769c2cd28b"
+  },
+  {
+    "repo": "dgrauet/ltx-2.5-mlx-q4",
+    "revision": "e9a20add8c5937fcab635fb8e7a52926487a5776",
+    "file": "tokenizer.json",
+    "kind": "model",
+    "size": 32169626,
+    "sha256": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f"
+  },
+  {
+    "repo": "dgrauet/ltx-2.5-mlx-q4",
+    "revision": "e9a20add8c5937fcab635fb8e7a52926487a5776",
+    "file": "tokenizer_config.json",
+    "kind": "model",
+    "size": 2749,
+    "sha256": null
+  },
+  {
+    "repo": "dgrauet/ltx-2.5-mlx-q4",
+    "revision": "e9a20add8c5937fcab635fb8e7a52926487a5776",
+    "file": "chat_template.jinja",
+    "kind": "model",
+    "size": 17466,
+    "sha256": null
+  },
+  {
+    "repo": "dgrauet/ltx-2.5-mlx-q4",
+    "revision": "e9a20add8c5937fcab635fb8e7a52926487a5776",
+    "file": "processor_config.json",
+    "kind": "model",
+    "size": 1382,
+    "sha256": null
+  },
+  {
+    "repo": "dgrauet/ltx-2.5-mlx-q4",
+    "revision": "e9a20add8c5937fcab635fb8e7a52926487a5776",
+    "file": "embedded_config.json",
+    "kind": "model",
+    "size": 2557,
+    "sha256": null
+  },
+  {
+    "repo": "dgrauet/ltx-2.5-mlx-q4",
+    "revision": "e9a20add8c5937fcab635fb8e7a52926487a5776",
+    "file": "generation_config.json",
+    "kind": "model",
+    "size": 255,
+    "sha256": null
+  },
+  {
+    "repo": "dgrauet/ltx-2.5-mlx-q4",
+    "revision": "e9a20add8c5937fcab635fb8e7a52926487a5776",
+    "file": "quantize_config.json",
+    "kind": "model",
+    "size": 213,
+    "sha256": null
+  },
+  {
+    "repo": "dgrauet/ltx-2.5-mlx-q4",
+    "revision": "e9a20add8c5937fcab635fb8e7a52926487a5776",
+    "file": "split_model.json",
+    "kind": "model",
+    "size": 1028,
+    "sha256": null
+  },
+  {
+    "repo": "dgrauet/ltx-2.5-mlx-q4",
+    "revision": "e9a20add8c5937fcab635fb8e7a52926487a5776",
+    "file": "LICENSE",
+    "kind": "model",
+    "size": 30399,
+    "sha256": null
+  },
+  {
+    "repo": "dgrauet/ltx-2.5-mlx-q4",
+    "revision": "e9a20add8c5937fcab635fb8e7a52926487a5776",
+    "file": "README.md",
+    "kind": "model",
+    "size": 2409,
+    "sha256": null
+  }
+]

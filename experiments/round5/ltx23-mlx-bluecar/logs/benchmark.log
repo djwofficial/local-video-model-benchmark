@@ -1,0 +1,83 @@
+START warmup-49f-seed41
+[Loading text encoder (Gemma)] ...
+[Loading text encoder (Gemma)] done in 4.5s
+[Encoding prompt] ...
+[Encoding prompt] done in 8.6s
+[Loading transformer (transformer-distilled-1.1.safetensors)] ...
+[Loading transformer (transformer-distilled-1.1.safetensors)] done in 0.4s
+[estimate] denoising: 8 steps x 1 passes over 672 video + 49 audio tokens = 8 forwards
+Denoising:   0%|          | 0/8 [00:00<?, ?it/s]                                                [estimate] denoising: ~41 s remaining (5.8 s/forward) (first step includes warm-up)
+Denoising:   0%|          | 0/8 [00:05<?, ?it/s]Denoising:  12%|█▎        | 1/8 [00:05<00:40,  5.81s/it]                                                        [estimate] denoising: ~33 s remaining (5.6 s/forward) (refined)
+Denoising:  12%|█▎        | 1/8 [00:11<00:40,  5.81s/it]Denoising:  25%|██▌       | 2/8 [00:11<00:33,  5.66s/it]Denoising:  38%|███▊      | 3/8 [00:16<00:27,  5.58s/it]Denoising:  50%|█████     | 4/8 [00:22<00:22,  5.56s/it]Denoising:  62%|██████▎   | 5/8 [00:27<00:16,  5.58s/it]Denoising:  75%|███████▌  | 6/8 [00:33<00:11,  5.59s/it]Denoising:  88%|████████▊ | 7/8 [00:39<00:05,  5.57s/it]Denoising: 100%|██████████| 8/8 [00:44<00:00,  5.56s/it]Denoising: 100%|██████████| 8/8 [00:44<00:00,  5.58s/it]
+[estimate] denoising: 3 steps x 1 passes over 2688 video + 49 audio tokens = 3 forwards
+Denoising:   0%|          | 0/3 [00:00<?, ?it/s]                                                [estimate] denoising: ~39 s remaining (19.5 s/forward) (first step includes warm-up)
+Denoising:   0%|          | 0/3 [00:19<?, ?it/s]Denoising:  33%|███▎      | 1/3 [00:19<00:39, 19.51s/it]                                                        [estimate] denoising: ~19 s remaining (19.5 s/forward) (refined)
+Denoising:  33%|███▎      | 1/3 [00:39<00:39, 19.51s/it]Denoising:  67%|██████▋   | 2/3 [00:39<00:19, 19.50s/it]Denoising: 100%|██████████| 3/3 [00:58<00:00, 19.49s/it]Denoising: 100%|██████████| 3/3 [00:58<00:00, 19.50s/it]
+[Loading decoders (VAE only, --no-audio)] ...
+[Loading decoders (VAE only, --no-audio)] done in 0.0s
+[Decoding video (--no-audio)] ...
+[vae-decode tiling] frames=40/8 est. 11.7 GB budget=12.0 GB
+[vae-decode tiling] peak Metal memory 9.19 GB
+[Decoding video (--no-audio)] done in 6.0s
+RESULT {"label": "warmup-49f-seed41", "model": "LTX-2.3 distilled MLX 4-bit", "round": 5, "prompt_key": "bluecar", "prompt": "A small blue toy car drives from the right side to the left side of a white desk, moving steadily across the whole desk until it reaches the left edge. The car keeps the same shape, size and color throughout the shot. A plain light-grey wall is visible in the background. Soft daylight comes from above. The camera stays completely still, showing the entire desk surface in one continuous shot.", "status": "success", "error": null, "seed": 41, "width": 768, "height": 512, "frames": 49, "playback_fps": 25, "elapsed_client_s": 124.061, "before": {"time": 1793333708.9079108, "power": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=23068771)\t100%; discharging; 9:28 remaining present: true", "swap_bytes": 6566576128, "available_bytes": 7854145536, "free_disk_bytes": 21766352896}, "after": {"time": 1793333832.977461, "power": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=23068771)\t97%; discharging; 8:48 remaining present: true", "swap_bytes": 12088967168, "available_bytes": 12080332800, "free_disk_bytes": 16387715072}, "mlx_peak_active_bytes": 9865884750, "mlx_peak_sampled_max_bytes": 15263595036, "phys_footprint_sampled_max_bytes": 13788440032, "phys_footprint_lifetime_max_bytes": 15644961616, "conditions": "BATTERY", "sampled_max_rss_bytes": 3701932032, "swap_delta_bytes": 5522391040, "low_ram_streaming": true, "audio": false, "pipeline": "DistilledPipeline two-stage:384x256 8steps +2x spatial upscale +768x512 3steps", "timing_scope": "Native pipeline generation through MP4 saving; includes uncached text encoding and native model load/free lifecycle. Warm runs reuse cached prompt embeddings, matching ComfyUI prompt caching; model residency differs by runtime. Setup and downloads excluded."}
+START benchmark-49f-seed42
+[Encoding prompt] ...
+[Encoding prompt] done in 0.0s
+[Loading transformer (transformer-distilled-1.1.safetensors)] ...
+[Loading transformer (transformer-distilled-1.1.safetensors)] done in 0.4s
+[estimate] denoising: 8 steps x 1 passes over 672 video + 49 audio tokens = 8 forwards
+Denoising:   0%|          | 0/8 [00:00<?, ?it/s]                                                [estimate] denoising: ~39 s remaining (5.6 s/forward) (first step includes warm-up)
+Denoising:   0%|          | 0/8 [00:05<?, ?it/s]Denoising:  12%|█▎        | 1/8 [00:05<00:39,  5.64s/it]                                                        [estimate] denoising: ~33 s remaining (5.5 s/forward) (refined)
+Denoising:  12%|█▎        | 1/8 [00:11<00:39,  5.64s/it]Denoising:  25%|██▌       | 2/8 [00:11<00:33,  5.56s/it]Denoising:  38%|███▊      | 3/8 [00:16<00:27,  5.55s/it]Denoising:  50%|█████     | 4/8 [00:22<00:22,  5.54s/it]Denoising:  62%|██████▎   | 5/8 [00:27<00:16,  5.57s/it]Denoising:  75%|███████▌  | 6/8 [00:33<00:11,  5.59s/it]Denoising:  88%|████████▊ | 7/8 [00:39<00:05,  5.60s/it]Denoising: 100%|██████████| 8/8 [00:44<00:00,  5.63s/it]Denoising: 100%|██████████| 8/8 [00:44<00:00,  5.60s/it]
+[estimate] denoising: 3 steps x 1 passes over 2688 video + 49 audio tokens = 3 forwards
+Denoising:   0%|          | 0/3 [00:00<?, ?it/s]                                                [estimate] denoising: ~38 s remaining (19.1 s/forward) (first step includes warm-up)
+Denoising:   0%|          | 0/3 [00:19<?, ?it/s]Denoising:  33%|███▎      | 1/3 [00:19<00:38, 19.07s/it]                                                        [estimate] denoising: ~19 s remaining (19.1 s/forward) (refined)
+Denoising:  33%|███▎      | 1/3 [00:38<00:38, 19.07s/it]Denoising:  67%|██████▋   | 2/3 [00:38<00:19, 19.09s/it]Denoising: 100%|██████████| 3/3 [00:57<00:00, 19.26s/it]Denoising: 100%|██████████| 3/3 [00:57<00:00, 19.21s/it]
+[Loading decoders (VAE only, --no-audio)] ...
+[Loading decoders (VAE only, --no-audio)] done in 0.0s
+[Decoding video (--no-audio)] ...
+[vae-decode tiling] frames=40/8 est. 11.7 GB budget=12.0 GB
+[vae-decode tiling] peak Metal memory 9.19 GB
+[Decoding video (--no-audio)] done in 6.2s
+RESULT {"label": "benchmark-49f-seed42", "model": "LTX-2.3 distilled MLX 4-bit", "round": 5, "prompt_key": "bluecar", "prompt": "A small blue toy car drives from the right side to the left side of a white desk, moving steadily across the whole desk until it reaches the left edge. The car keeps the same shape, size and color throughout the shot. A plain light-grey wall is visible in the background. Soft daylight comes from above. The camera stays completely still, showing the entire desk surface in one continuous shot.", "status": "success", "error": null, "seed": 42, "width": 768, "height": 512, "frames": 49, "playback_fps": 25, "elapsed_client_s": 109.659, "before": {"time": 1793333832.990019, "power": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=23068771)\t97%; discharging; 8:48 remaining present: true", "swap_bytes": 12088967168, "available_bytes": 12080332800, "free_disk_bytes": 16387702784}, "after": {"time": 1793333942.6578681, "power": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=23068771)\t93%; discharging; 8:08 remaining present: true", "swap_bytes": 11862474752, "available_bytes": 13281804288, "free_disk_bytes": 16389996544}, "mlx_peak_active_bytes": 9865884750, "mlx_peak_sampled_max_bytes": 9865884750, "phys_footprint_sampled_max_bytes": 7639091264, "phys_footprint_lifetime_max_bytes": 15644961616, "conditions": "BATTERY", "sampled_max_rss_bytes": 1874984960, "swap_delta_bytes": -226492416, "low_ram_streaming": true, "audio": false, "pipeline": "DistilledPipeline two-stage:384x256 8steps +2x spatial upscale +768x512 3steps", "timing_scope": "Native pipeline generation through MP4 saving; includes uncached text encoding and native model load/free lifecycle. Warm runs reuse cached prompt embeddings, matching ComfyUI prompt caching; model residency differs by runtime. Setup and downloads excluded."}
+START benchmark-49f-seed43
+[Encoding prompt] ...
+[Encoding prompt] done in 0.0s
+[Loading transformer (transformer-distilled-1.1.safetensors)] ...
+[Loading transformer (transformer-distilled-1.1.safetensors)] done in 0.4s
+[estimate] denoising: 8 steps x 1 passes over 672 video + 49 audio tokens = 8 forwards
+Denoising:   0%|          | 0/8 [00:00<?, ?it/s]                                                [estimate] denoising: ~42 s remaining (6.0 s/forward) (first step includes warm-up)
+Denoising:   0%|          | 0/8 [00:05<?, ?it/s]Denoising:  12%|█▎        | 1/8 [00:05<00:41,  5.99s/it]                                                        [estimate] denoising: ~35 s remaining (5.8 s/forward) (refined)
+Denoising:  12%|█▎        | 1/8 [00:11<00:41,  5.99s/it]Denoising:  25%|██▌       | 2/8 [00:11<00:35,  5.87s/it]Denoising:  38%|███▊      | 3/8 [00:17<00:29,  5.84s/it]Denoising:  50%|█████     | 4/8 [00:23<00:23,  5.90s/it]Denoising:  62%|██████▎   | 5/8 [00:29<00:17,  5.92s/it]Denoising:  75%|███████▌  | 6/8 [00:35<00:11,  5.93s/it]Denoising:  88%|████████▊ | 7/8 [00:41<00:05,  5.93s/it]Denoising: 100%|██████████| 8/8 [00:47<00:00,  5.88s/it]Denoising: 100%|██████████| 8/8 [00:47<00:00,  5.90s/it]
+[estimate] denoising: 3 steps x 1 passes over 2688 video + 49 audio tokens = 3 forwards
+Denoising:   0%|          | 0/3 [00:00<?, ?it/s]                                                [estimate] denoising: ~39 s remaining (19.3 s/forward) (first step includes warm-up)
+Denoising:   0%|          | 0/3 [00:19<?, ?it/s]Denoising:  33%|███▎      | 1/3 [00:19<00:38, 19.33s/it]                                                        [estimate] denoising: ~19 s remaining (19.2 s/forward) (refined)
+Denoising:  33%|███▎      | 1/3 [00:38<00:38, 19.33s/it]Denoising:  67%|██████▋   | 2/3 [00:38<00:19, 19.28s/it]Denoising: 100%|██████████| 3/3 [00:57<00:00, 19.24s/it]Denoising: 100%|██████████| 3/3 [00:57<00:00, 19.25s/it]
+[Loading decoders (VAE only, --no-audio)] ...
+[Loading decoders (VAE only, --no-audio)] done in 0.0s
+[Decoding video (--no-audio)] ...
+[vae-decode tiling] frames=40/8 est. 11.7 GB budget=12.0 GB
+[vae-decode tiling] peak Metal memory 9.19 GB
+[Decoding video (--no-audio)] done in 6.0s
+RESULT {"label": "benchmark-49f-seed43", "model": "LTX-2.3 distilled MLX 4-bit", "round": 5, "prompt_key": "bluecar", "prompt": "A small blue toy car drives from the right side to the left side of a white desk, moving steadily across the whole desk until it reaches the left edge. The car keeps the same shape, size and color throughout the shot. A plain light-grey wall is visible in the background. Soft daylight comes from above. The camera stays completely still, showing the entire desk surface in one continuous shot.", "status": "success", "error": null, "seed": 43, "width": 768, "height": 512, "frames": 49, "playback_fps": 25, "elapsed_client_s": 112.028, "before": {"time": 1793333942.674918, "power": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=23068771)\t93%; discharging; 8:08 remaining present: true", "swap_bytes": 11862474752, "available_bytes": 13346324480, "free_disk_bytes": 16389988352}, "after": {"time": 1793334054.713042, "power": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=23068771)\t88%; discharging; 7:08 remaining present: true", "swap_bytes": 11551834112, "available_bytes": 7553531904, "free_disk_bytes": 16312729600}, "mlx_peak_active_bytes": 9865884750, "mlx_peak_sampled_max_bytes": 9865884750, "phys_footprint_sampled_max_bytes": 6464997368, "phys_footprint_lifetime_max_bytes": 15644961616, "conditions": "BATTERY", "sampled_max_rss_bytes": 1271660544, "swap_delta_bytes": -310640640, "low_ram_streaming": true, "audio": false, "pipeline": "DistilledPipeline two-stage:384x256 8steps +2x spatial upscale +768x512 3steps", "timing_scope": "Native pipeline generation through MP4 saving; includes uncached text encoding and native model load/free lifecycle. Warm runs reuse cached prompt embeddings, matching ComfyUI prompt caching; model residency differs by runtime. Setup and downloads excluded."}
+START benchmark-49f-seed44
+[Encoding prompt] ...
+[Encoding prompt] done in 0.0s
+[Loading transformer (transformer-distilled-1.1.safetensors)] ...
+[Loading transformer (transformer-distilled-1.1.safetensors)] done in 0.4s
+[estimate] denoising: 8 steps x 1 passes over 672 video + 49 audio tokens = 8 forwards
+Denoising:   0%|          | 0/8 [00:00<?, ?it/s]                                                [estimate] denoising: ~39 s remaining (5.6 s/forward) (first step includes warm-up)
+Denoising:   0%|          | 0/8 [00:05<?, ?it/s]Denoising:  12%|█▎        | 1/8 [00:05<00:39,  5.60s/it]                                                        [estimate] denoising: ~32 s remaining (5.4 s/forward) (refined)
+Denoising:  12%|█▎        | 1/8 [00:10<00:39,  5.60s/it]Denoising:  25%|██▌       | 2/8 [00:10<00:32,  5.46s/it]Denoising:  38%|███▊      | 3/8 [00:16<00:27,  5.44s/it]Denoising:  50%|█████     | 4/8 [00:21<00:21,  5.46s/it]Denoising:  62%|██████▎   | 5/8 [00:27<00:16,  5.47s/it]Denoising:  75%|███████▌  | 6/8 [00:32<00:10,  5.48s/it]Denoising:  88%|████████▊ | 7/8 [00:38<00:05,  5.49s/it]Denoising: 100%|██████████| 8/8 [00:43<00:00,  5.49s/it]Denoising: 100%|██████████| 8/8 [00:43<00:00,  5.48s/it]
+[estimate] denoising: 3 steps x 1 passes over 2688 video + 49 audio tokens = 3 forwards
+Denoising:   0%|          | 0/3 [00:00<?, ?it/s]                                                [estimate] denoising: ~38 s remaining (18.9 s/forward) (first step includes warm-up)
+Denoising:   0%|          | 0/3 [00:18<?, ?it/s]Denoising:  33%|███▎      | 1/3 [00:18<00:37, 18.90s/it]                                                        [estimate] denoising: ~19 s remaining (18.8 s/forward) (refined)
+Denoising:  33%|███▎      | 1/3 [00:37<00:37, 18.90s/it]Denoising:  67%|██████▋   | 2/3 [00:37<00:18, 18.84s/it]Denoising: 100%|██████████| 3/3 [00:56<00:00, 18.84s/it]Denoising: 100%|██████████| 3/3 [00:56<00:00, 18.85s/it]
+[Loading decoders (VAE only, --no-audio)] ...
+[Loading decoders (VAE only, --no-audio)] done in 0.0s
+[Decoding video (--no-audio)] ...
+[vae-decode tiling] frames=40/8 est. 11.7 GB budget=12.0 GB
+[vae-decode tiling] peak Metal memory 9.19 GB
+[Decoding video (--no-audio)] done in 5.8s
+RESULT {"label": "benchmark-49f-seed44", "model": "LTX-2.3 distilled MLX 4-bit", "round": 5, "prompt_key": "bluecar", "prompt": "A small blue toy car drives from the right side to the left side of a white desk, moving steadily across the whole desk until it reaches the left edge. The car keeps the same shape, size and color throughout the shot. A plain light-grey wall is visible in the background. Soft daylight comes from above. The camera stays completely still, showing the entire desk surface in one continuous shot.", "status": "success", "error": null, "seed": 44, "width": 768, "height": 512, "frames": 49, "playback_fps": 25, "elapsed_client_s": 107.239, "before": {"time": 1793334054.7265532, "power": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=23068771)\t88%; discharging; 7:08 remaining present: true", "swap_bytes": 11551834112, "available_bytes": 7553531904, "free_disk_bytes": 16312717312}, "after": {"time": 1793334161.973788, "power": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=23068771)\t84%; discharging; 6:28 remaining present: true", "swap_bytes": 11442782208, "available_bytes": 11826888704, "free_disk_bytes": 16373432320}, "mlx_peak_active_bytes": 9865884750, "mlx_peak_sampled_max_bytes": 9865884750, "phys_footprint_sampled_max_bytes": 7998736400, "phys_footprint_lifetime_max_bytes": 15644961616, "conditions": "BATTERY", "sampled_max_rss_bytes": 1351237632, "swap_delta_bytes": -109051904, "low_ram_streaming": true, "audio": false, "pipeline": "DistilledPipeline two-stage:384x256 8steps +2x spatial upscale +768x512 3steps", "timing_scope": "Native pipeline generation through MP4 saving; includes uncached text encoding and native model load/free lifecycle. Warm runs reuse cached prompt embeddings, matching ComfyUI prompt caching; model residency differs by runtime. Setup and downloads excluded."}
+ALL_RUNS_COMPLETED

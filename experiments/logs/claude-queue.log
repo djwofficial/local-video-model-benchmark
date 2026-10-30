@@ -19,3 +19,8 @@ Retired completed-test cache: /Users/dyn/AI/models/vae/wan2.2_vae.safetensors
 {"time": 1793295648.4271958, "stage": "queue_complete_pending_review", "controller": "claude_queue.py", "stages": ["mlx:round3/ltx23-mlx-keyframes"]}
 {"time": 1793296858.050473, "stage": "testing", "controller": "claude_queue.py", "model": "round4/ltx23-mlx-ladder"}
 {"time": 1793304482.781662, "stage": "queue_complete_pending_review", "controller": "claude_queue.py", "stages": ["mlx:round4/ltx23-mlx-ladder"]}
+{"time": 1793333708.5648031, "stage": "testing", "controller": "claude_queue.py", "model": "round5/ltx23-mlx-bluecar"}
+{"time": 1793334162.749105, "stage": "queue_complete_pending_review", "controller": "claude_queue.py", "stages": ["mlx:round5/ltx23-mlx-bluecar"]}
+{"time": 1793342096.0423849, "stage": "testing", "controller": "claude_queue.py", "model": "round5/ltx25-mlx-redball"}
+{"time": 1793342815.302024, "stage": "testing", "controller": "claude_queue.py", "model": "round5/ltx25-mlx-bluecar"}
+{"time": 1793343501.373121, "stage": "queue_complete_pending_review", "controller": "claude_queue.py", "stages": ["mlx:round5/ltx25-mlx-redball", "mlx:round5/ltx25-mlx-bluecar"]}

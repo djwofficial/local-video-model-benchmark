@@ -1,0 +1,40 @@
+{
+  "label": "benchmark-49f-seed44",
+  "model": "LTX-2.5 distilled MLX 4-bit",
+  "round": 5,
+  "prompt_key": "bluecar",
+  "prompt": "A small blue toy car drives from the right side to the left side of a white desk, moving steadily across the whole desk until it reaches the left edge. The car keeps the same shape, size and color throughout the shot. A plain light-grey wall is visible in the background. Soft daylight comes from above. The camera stays completely still, showing the entire desk surface in one continuous shot.",
+  "status": "success",
+  "error": null,
+  "seed": 44,
+  "width": 768,
+  "height": 512,
+  "frames": 49,
+  "playback_fps": 25,
+  "elapsed_client_s": 171.423,
+  "before": {
+    "time": 1793343328.892513,
+    "power": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=23068771)\t56%; discharging; 1:23 remaining present: true",
+    "swap_bytes": 13057261568,
+    "available_bytes": 13083099136,
+    "free_disk_bytes": 14533992448
+  },
+  "after": {
+    "time": 1793343500.330594,
+    "power": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=23068771)\t54%; discharging; 1:10 remaining present: true",
+    "swap_bytes": 12361007104,
+    "available_bytes": 10425991168,
+    "free_disk_bytes": 14538444800
+  },
+  "mlx_peak_active_bytes": 9865884750,
+  "mlx_peak_sampled_max_bytes": 9865884750,
+  "phys_footprint_sampled_max_bytes": 5996726360,
+  "phys_footprint_lifetime_max_bytes": 16595070904,
+  "conditions": "BATTERY",
+  "sampled_max_rss_bytes": 1285832704,
+  "swap_delta_bytes": -696254464,
+  "low_ram_streaming": true,
+  "audio": false,
+  "pipeline": "DistilledPipeline (LTX-2.5 pack, ancestral Euler) two-stage:384x256 8steps +2x spatial upscale +768x512 3steps",
+  "timing_scope": "Native pipeline generation through MP4 saving; includes uncached text encoding and native model load/free lifecycle. Warm runs reuse cached prompt embeddings, matching ComfyUI prompt caching; model residency differs by runtime. Setup and downloads excluded."
+}

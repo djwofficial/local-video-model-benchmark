@@ -1,0 +1,65 @@
+{
+  "criterion": "Exactly one blue toy car visibly drives right to left, keeps its shape (no morphing or duplicates), camera essentially still.",
+  "method": "Human review of five-frame strips (output/*-strip.jpg) and denser frame strips, supported by ../check_object.py bluecar (object-check.json).",
+  "passed": 3,
+  "evaluated": 3,
+  "seeds": [
+    {
+      "seed": 42,
+      "pass": true,
+      "observation": "One blue toy car enters at the right edge, drives steadily left across the desk and leaves at the left edge; same shape throughout",
+      "checker": {
+        "frames_with_object": 47,
+        "frames": 49,
+        "progress": 0.923,
+        "max_move_back": 0.0,
+        "longest_gap_frames": 2,
+        "x_at_strip": [
+          0.939,
+          0.694,
+          0.419,
+          0.152,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 43,
+      "pass": true,
+      "observation": "One blue toy car enters at the right edge, drives steadily left and leaves at the left edge; same shape throughout",
+      "checker": {
+        "frames_with_object": 43,
+        "frames": 49,
+        "progress": 0.904,
+        "max_move_back": 0.0,
+        "longest_gap_frames": 6,
+        "x_at_strip": [
+          0.912,
+          0.644,
+          0.288,
+          0.063,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 44,
+      "pass": true,
+      "observation": "One blue toy car enters from the right, drives steadily left and leaves at the left edge; same shape throughout",
+      "checker": {
+        "frames_with_object": 44,
+        "frames": 49,
+        "progress": 0.96,
+        "max_move_back": 0.0,
+        "longest_gap_frames": 3,
+        "x_at_strip": [
+          null,
+          0.863,
+          0.529,
+          0.187,
+          null
+        ]
+      }
+    }
+  ]
+}

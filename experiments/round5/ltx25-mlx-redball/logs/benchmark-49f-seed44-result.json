@@ -1,0 +1,40 @@
+{
+  "label": "benchmark-49f-seed44",
+  "model": "LTX-2.5 distilled MLX 4-bit",
+  "round": 5,
+  "prompt_key": "redball",
+  "prompt": "A single bright red ball rolls from the left side to the right side of a wooden table, moving steadily across the whole table until it reaches the right edge. The ball remains round and keeps the same size and color throughout the shot. A plain beige wall is visible in the background. Soft daylight enters from a window on the left. The camera stays completely still, showing the entire table surface in one continuous shot.",
+  "status": "success",
+  "error": null,
+  "seed": 44,
+  "width": 768,
+  "height": 512,
+  "frames": 49,
+  "playback_fps": 25,
+  "elapsed_client_s": 167.557,
+  "before": {
+    "time": 1793342646.592917,
+    "power": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=23068771)\t64%; discharging; 4:03 remaining present: true",
+    "swap_bytes": 11499995136,
+    "available_bytes": 13140033536,
+    "free_disk_bytes": 15685828608
+  },
+  "after": {
+    "time": 1793342814.177439,
+    "power": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=23068771)\t62%; discharging; 3:23 remaining present: true",
+    "swap_bytes": 11654135808,
+    "available_bytes": 12153634816,
+    "free_disk_bytes": 15617531904
+  },
+  "mlx_peak_active_bytes": 9865884750,
+  "mlx_peak_sampled_max_bytes": 9865884750,
+  "phys_footprint_sampled_max_bytes": 7212025704,
+  "phys_footprint_lifetime_max_bytes": 16590188400,
+  "conditions": "BATTERY",
+  "sampled_max_rss_bytes": 2236563456,
+  "swap_delta_bytes": 154140672,
+  "low_ram_streaming": true,
+  "audio": false,
+  "pipeline": "DistilledPipeline (LTX-2.5 pack, ancestral Euler) two-stage:384x256 8steps +2x spatial upscale +768x512 3steps",
+  "timing_scope": "Native pipeline generation through MP4 saving; includes uncached text encoding and native model load/free lifecycle. Warm runs reuse cached prompt embeddings, matching ComfyUI prompt caching; model residency differs by runtime. Setup and downloads excluded."
+}

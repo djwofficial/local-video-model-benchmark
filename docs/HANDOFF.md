@@ -10,6 +10,8 @@ New goal from the user: one setup that makes the red-ball prompt correctly 3/3 o
 
 Next agreed with the user: one different prompt (blue toy car right→left), text-only then new keyframes, seeds 42–44 (`round5/`, plan in `~/.claude/plans/coba-kamu-deep-research-generic-wave.md`). Not started yet.
 
+**Round 5 (30 Oct 2026): LTX-2.5 distilled MLX int4 (`dgrauet/ltx-2.5-mlx-q4`, gated; files in `ltx25-mlx/`), text only, 768×512×49, seeds 42–44.** Red ball 3/3 (175 s/video), blue car (new prompt, right→left) 3/3 (168 s/video); peak process memory 15.45 GiB (text encoder Gemma-4 at start-up), 5.6–7.7 GiB while making a video, under the 17.8 GiB macOS GPU limit. LTX-2.3 on the blue car: 3/3, 110 s, 14.57 GiB peak (`round5/ltx23-mlx-bluecar`). Runs on battery (Low Power Mode off) except LTX-2.3 red ball (AC). The LTX-2.3 weights were retired with user approval to fit LTX-2.5 (checksums and recovery URLs in `retired-candidate-cache.json`); the Mac-mini recipe needs them re-downloaded. Research: LTX-2.5 Fast Elo 947 vs LTX-2.3 Fast 838 (Artificial Analysis); MiniMax H3 (1161) needs ~100 GB, not feasible. Deck: summary rev2 (slides 4–5).
+
 All configurations: `RESULTS.md` (now with settings, power condition and task-pass columns). Deck: `benchmark-ppt/output/Local-video-model-comparison-M4-Pro-rev7.pptx`, built by `benchmark-ppt/build_simple_deck.py` after `summarize_results.py`, `extract_frames.py` and `make_videos.py`.
 
 ## Claude checkpoint — 29 Oct 2026, 16:50 CST

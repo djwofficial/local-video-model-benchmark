@@ -1,0 +1,40 @@
+{
+  "label": "benchmark-49f-seed44",
+  "model": "LTX-2.3 distilled MLX 4-bit",
+  "round": 5,
+  "prompt_key": "bluecar",
+  "prompt": "A small blue toy car drives from the right side to the left side of a white desk, moving steadily across the whole desk until it reaches the left edge. The car keeps the same shape, size and color throughout the shot. A plain light-grey wall is visible in the background. Soft daylight comes from above. The camera stays completely still, showing the entire desk surface in one continuous shot.",
+  "status": "success",
+  "error": null,
+  "seed": 44,
+  "width": 768,
+  "height": 512,
+  "frames": 49,
+  "playback_fps": 25,
+  "elapsed_client_s": 107.239,
+  "before": {
+    "time": 1793334054.7265532,
+    "power": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=23068771)\t88%; discharging; 7:08 remaining present: true",
+    "swap_bytes": 11551834112,
+    "available_bytes": 7553531904,
+    "free_disk_bytes": 16312717312
+  },
+  "after": {
+    "time": 1793334161.973788,
+    "power": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=23068771)\t84%; discharging; 6:28 remaining present: true",
+    "swap_bytes": 11442782208,
+    "available_bytes": 11826888704,
+    "free_disk_bytes": 16373432320
+  },
+  "mlx_peak_active_bytes": 9865884750,
+  "mlx_peak_sampled_max_bytes": 9865884750,
+  "phys_footprint_sampled_max_bytes": 7998736400,
+  "phys_footprint_lifetime_max_bytes": 15644961616,
+  "conditions": "BATTERY",
+  "sampled_max_rss_bytes": 1351237632,
+  "swap_delta_bytes": -109051904,
+  "low_ram_streaming": true,
+  "audio": false,
+  "pipeline": "DistilledPipeline two-stage:384x256 8steps +2x spatial upscale +768x512 3steps",
+  "timing_scope": "Native pipeline generation through MP4 saving; includes uncached text encoding and native model load/free lifecycle. Warm runs reuse cached prompt embeddings, matching ComfyUI prompt caching; model residency differs by runtime. Setup and downloads excluded."
+}

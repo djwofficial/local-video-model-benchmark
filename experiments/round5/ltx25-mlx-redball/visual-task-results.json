@@ -1,0 +1,65 @@
+{
+  "criterion": "Exactly one red ball visibly rolls left to right and stays round (same narrow task as rounds 1-4).",
+  "method": "Human review of five-frame strips (output/*-strip.jpg) and denser frame strips, supported by ../check_object.py redball (object-check.json).",
+  "passed": 3,
+  "evaluated": 3,
+  "seeds": [
+    {
+      "seed": 42,
+      "pass": true,
+      "observation": "One small round red ball rolls steadily from the far left (x 0.05) across the back of the table to the right (x 0.82); camera still",
+      "checker": {
+        "frames_with_object": 49,
+        "frames": 49,
+        "progress": 0.771,
+        "max_move_back": 0.0,
+        "longest_gap_frames": 0,
+        "x_at_strip": [
+          0.046,
+          0.276,
+          0.481,
+          0.658,
+          0.817
+        ]
+      }
+    },
+    {
+      "seed": 43,
+      "pass": true,
+      "observation": "One round red ball rolls steadily from the left-centre to the right and out past the right edge in the last frames",
+      "checker": {
+        "frames_with_object": 48,
+        "frames": 49,
+        "progress": 0.652,
+        "max_move_back": 0.0,
+        "longest_gap_frames": 1,
+        "x_at_strip": [
+          0.337,
+          0.537,
+          0.713,
+          0.868,
+          null
+        ]
+      }
+    },
+    {
+      "seed": 44,
+      "pass": true,
+      "observation": "One round red ball rolls steadily to the right; the camera pans right with it (window leaves the frame), so it moves less on screen (x 0.42 to 0.75)",
+      "checker": {
+        "frames_with_object": 49,
+        "frames": 49,
+        "progress": 0.324,
+        "max_move_back": 0.0,
+        "longest_gap_frames": 0,
+        "x_at_strip": [
+          0.422,
+          0.493,
+          0.575,
+          0.663,
+          0.746
+        ]
+      }
+    }
+  ]
+}

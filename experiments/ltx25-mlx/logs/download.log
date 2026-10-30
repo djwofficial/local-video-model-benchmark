@@ -1,0 +1,23 @@
+revision e9a20add8c5937fcab635fb8e7a52926487a5776; 21 files to fetch, 26.79 GiB; free 43.34 GiB
+downloaded transformer-distilled.safetensors (10.54 GiB) in 932 s
+downloaded text_encoder.safetensors (9.84 GiB) in 1296 s
+downloaded text_encoder_config.json (0.00 GiB) in 1 s
+downloaded connector.safetensors (3.76 GiB) in 182 s
+downloaded spatial_upscaler_x2_v1_0.safetensors (0.93 GiB) in 51 s
+downloaded spatial_upscaler_x2_v1_0_config.json (0.00 GiB) in 1 s
+downloaded vae_decoder_conv.safetensors (0.76 GiB) in 41 s
+downloaded vae_encoder_conv.safetensors (0.59 GiB) in 33 s
+downloaded duration_head.safetensors (0.00 GiB) in 4 s
+downloaded audio_vae.safetensors (0.10 GiB) in 9 s
+downloaded vocoder.safetensors (0.24 GiB) in 22 s
+downloaded tokenizer.json (0.03 GiB) in 3 s
+downloaded tokenizer_config.json (0.00 GiB) in 0 s
+downloaded chat_template.jinja (0.00 GiB) in 1 s
+downloaded processor_config.json (0.00 GiB) in 1 s
+downloaded embedded_config.json (0.00 GiB) in 1 s
+downloaded generation_config.json (0.00 GiB) in 0 s
+downloaded quantize_config.json (0.00 GiB) in 1 s
+downloaded split_model.json (0.00 GiB) in 0 s
+downloaded LICENSE (0.00 GiB) in 1 s
+downloaded README.md (0.00 GiB) in 0 s
+DOWNLOAD_VERIFIED 10 LFS files

@@ -8,6 +8,7 @@ Run (after make_videos.py):  uv run build_summary_deck.py [out.pptx]
 Slide 1: the mentor's table for LTX-2.3 distilled (MLX 4-bit) + keyframes, with three headline numbers.
 Slide 2: that setup's videos (seeds 42-44, playable) and what each part of its name means.
 Slide 3: how big it can go on 24 GB (round-4 ladder table, no videos).
+Slide 4: upgrade test, LTX-2.5 distilled vs LTX-2.3 on two prompts (round 5). Slide 5: the six LTX-2.5 videos.
 Every number is read from the result files under /Users/dyn/AI/video-model-comparison-2026-10-29, as in
 build_simple_deck.py; the asserts stop the build if a source no longer supports a sentence on a slide.
 """
@@ -20,7 +21,7 @@ import build_deck as b
 import build_simple_deck as sd
 
 b.FONT='Calibri'  # Office-safe font: same widths on older Office and in preview_deck.py
-OUT=Path(sys.argv[1]) if len(sys.argv)>1 else b.HERE/'output/Local-video-model-summary-M4-Pro.pptx'
+OUT=Path(sys.argv[1]) if len(sys.argv)>1 else b.HERE/'output/Local-video-model-summary-M4-Pro-rev2.pptx'
 KF=b.C/'round3/ltx23-mlx-keyframes'
 L,W=0.5,12.33  # left margin and content width, inches
 COLS=[(L+i*(3.89+0.33),3.89) for i in range(3)]  # three equal columns with 0.33" gaps
@@ -41,7 +42,8 @@ def load():
     kf['verdict']={v['seed']:v['pass'] for v in kf['task']['seeds']}
     assert kf['task']['passed']==kf['task']['evaluated']==9 and all(kf['verdict'].values())
     # "The only setup correct on every seed tested": text-only LTX-2.3 was 3/3 on seeds 42-44 but missed one of seeds 45-50.
-    summary=json.loads((b.C/'comparison-results.json').read_text())
+    # Rounds 1-3 only (red-ball prompt); round 5 (blue car, LTX-2.5) has its own slide with 3 seeds per prompt.
+    summary=[x for x in json.loads((b.C/'comparison-results.json').read_text()) if '(blue car)' not in x['model'] and not x['model'].startswith('LTX-2.5')]
     perfect={x['model'] for x in summary if x.get('task_passed')==x.get('task_evaluated')}
     assert perfect=={'LTX-2.3 distilled MLX (round 2)',kf['name']},perfect
     rob=sd.robustness();assert rob['passed']<rob['evaluated']
@@ -49,6 +51,27 @@ def load():
     stats=json.loads((b.C/'ltx23-mlx/runtime-stats.json').read_text())['mlx_device_info']
     kf['gpu_limit']=stats['max_recommended_working_set_size']/2**30  # macOS recommended GPU working set on this 24 GB Mac
     return kf
+
+# Round 5 (text only, 768×512×49): one folder per model and prompt; LTX-2.3 red ball is round 2 (memory from the
+# same-settings extra-seed run, which recorded process memory).
+R5=[('LTX-2.3','Red ball',b.C/'round2/ltx23-mlx',b.C/'round2/ltx23-mlx-moreseeds'),('LTX-2.3','Blue car',b.C/'round5/ltx23-mlx-bluecar',None),
+    ('LTX-2.5','Red ball',b.C/'round5/ltx25-mlx-redball',None),('LTX-2.5','Blue car',b.C/'round5/ltx25-mlx-bluecar',None)]
+WHY25={('ltx25_red',42):'small ball rolls left → right',('ltx25_red',43):'rolls left → right, exits',('ltx25_red',44):'rolls right; camera follows it',
+       ('ltx25_blue',42):'drives right → left across',('ltx25_blue',43):'drives right → left across',('ltx25_blue',44):'drives right → left across'}
+
+def round5():
+    out=[]
+    for model,prompt,folder,memfolder in R5:
+        rows=[json.loads(x) for x in (folder/'results.jsonl').read_text().splitlines() if x.strip()]
+        runs=[next(x for x in rows if x['label']==f'benchmark-49f-seed{s}' and x['status']=='success') for s in (42,43,44)]
+        mrows=[json.loads(x) for x in ((memfolder or folder)/'results.jsonl').read_text().splitlines() if x.strip()]
+        task=json.loads((folder/'visual-task-results.json').read_text())
+        out.append({'model':model,'prompt':prompt,'passed':task['passed'],'evaluated':task['evaluated'],'mean':sum(x['elapsed_client_s'] for x in runs)/3,
+                    'peak':max(x['phys_footprint_lifetime_max_bytes'] for x in mrows)/2**30,
+                    'run':max(x['phys_footprint_sampled_max_bytes'] for x in mrows if x['label'].startswith('benchmark'))/2**30,
+                    'power':'AC' if all('AC Power' in x['before']['power'] for x in runs) else 'battery','seconds':{s:x['elapsed_client_s'] for s,x in zip((42,43,44),runs)},
+                    'verdict':{v['seed']:v['pass'] for v in task['seeds']}})
+    return out
 
 def build():
     kf=load();lad=sd.ladder();p,n=kf['task']['passed'],kf['task']['evaluated']
@@ -69,7 +92,7 @@ def build():
         sd.box(s,x,3.15,w,1.7,fill,rounded=True)
         b.text(s,x+0.25,3.27,w-0.5,0.75,[[(big,{'bold':True,'size':40,'color':col})]])
         b.text(s,x+0.25,4.05,w-0.5,0.7,[label],size=14)
-    b.text(s,L,5.2,W,0.45,[[('Out of ',{}),(f"{kf['setups']} setups tested across {kf['models']} models",{'bold':True}),(', this is the only one that was correct on every seed tested.',{})]],size=16)
+    b.text(s,L,5.2,W,0.45,[[('Out of ',{}),(f"{kf['setups']} red-ball setups tested across {kf['models']} models",{'bold':True}),(', this is the only one correct on all 9 seeds tested. LTX-2.5 results are on slide 4.',{})]],size=16)
     b.text(s,L,6.3,W,0.75,['¹ Memory = peak process memory (Activity Monitor’s figure, GPU buffers included). TTFT (time to first token) applies to language models, not video, so it is “—”.',
                            'Seed = the random start number: the same prompt with a different seed gives a different video.'],size=11,color=b.MUTED,after=3)
     s.notes_slide.notes_text_frame.text=(f"Mean = ({' + '.join(f'{v:.3f}' for v in kf['seed_seconds'])}) / 3 = {kf['mean']:.4f} s (seeds 42–44, AC power). "
@@ -117,6 +140,40 @@ def build():
     b.text(s,L,6.8,W,0.3,['¹ Highest process memory, GPU buffers included. It comes from loading the text encoder at start-up, so it is the same for every size.'],size=11,color=b.MUTED)
     s.notes_slide.notes_text_frame.text='\n'.join(f"{r['config']}: peak {r['peak_footprint_gib']:.3f} GiB, while making the 2nd video {r['warm_footprint_gib']:.3f} GiB, warm swap Δ {r['warm_swap_delta_gib']:.2f} GiB, "
         f"cold {r['cold_seconds']:.1f} s, warm {r['warm_seconds']:.1f} s, correct {r['passed']}/2." for r in lad)+f"\n\nSources: {sd.LADDER} (ladder-results.json, visual-task-results.json, visual-assessment.md)."
+
+    # Slide 4: upgrade test table.
+    r5=round5();c23=[r for r in r5 if r['model']=='LTX-2.3'];c25=[r for r in r5 if r['model']=='LTX-2.5']
+    s=slide(prs,'Upgrade test: LTX-2.5 distilled vs LTX-2.3','Text only (no keyframes)  ·  768×512, 2 s  ·  2 prompts × 3 seeds (42, 43, 44)  ·  MacBook Pro M4 Pro, 24 GB')
+    rows=[[f"{r['model']} distilled",r['prompt'],(f"{r['passed']} of {r['evaluated']}",{'bold':True,'color':b.TEAL if r['passed']==r['evaluated'] else sd.RED}),f"{r['mean']:.0f} s",
+           (f"{r['peak']:.1f}",{'bold':r['model']=='LTX-2.5'}),f"{r['run']:.1f}",r['power']] for r in r5]
+    t=b.table(s,L,1.6,[2.4,1.7,1.5,1.8,1.75,1.88,1.3],['Model','Prompt','Correct','Time / video','Peak memory GiB¹','Memory making a video GiB','Power'],rows,
+              hdr_h=0.6,row_h=0.5,size=15,hdr_size=13,align=[None,None,CENTER,CENTER,CENTER,CENTER,CENTER]).table
+    for r in (3,4):
+        for c in range(7): t.cell(r,c).fill.fore_color.rgb=sd.MINT
+    p23,p25=max(r['peak'] for r in c23),max(r['peak'] for r in c25);m23=sum(r['mean'] for r in c23)/2;m25=sum(r['mean'] for r in c25)/2
+    tiles=[(f"{sum(r['passed'] for r in c25)} of {sum(r['evaluated'] for r in c25)}",f"LTX-2.5 videos correct (LTX-2.3: {sum(r['passed'] for r in c23)} of {sum(r['evaluated'] for r in c23)})",b.TEAL,sd.MINT),
+           (f'{p25:.1f} GiB',f"LTX-2.5 peak memory, under the {kf['gpu_limit']:.1f}{NB}GiB limit (LTX-2.3: {p23:.1f})",b.NAVY,b.PALE),
+           (f'{m25/m23:.1f}×',f'slower: about {m25:.0f}{NB}s per video vs {m23:.0f}{NB}s',b.NAVY,b.PALE)]
+    for (x,w),(big,label,col,fill) in zip(COLS,tiles):
+        sd.box(s,x,4.45,w,1.55,fill,rounded=True)
+        b.text(s,x+0.25,4.55,w-0.5,0.75,[[(big,{'bold':True,'size':40,'color':col})]])
+        b.text(s,x+0.25,5.3,w-0.5,0.62,[label],size=14)
+    b.text(s,L,6.2,W,0.85,['¹ Highest process memory incl. GPU buffers, set by loading the text encoder at start-up (LTX-2.5: Gemma-4, 9.8 GiB file). LTX-2.3 red-ball memory is from its same-settings run on seeds 45–50.',
+        'Both models were correct on every seed here, so 3 seeds per prompt cannot show which follows prompts better; LTX-2.5 ranks higher in public tests (Artificial Analysis Elo 947 vs 838).'],size=11,color=b.MUTED,after=3)
+    s.notes_slide.notes_text_frame.text='\n'.join(f"{r['model']} {r['prompt']}: {r['passed']}/{r['evaluated']}, mean {r['mean']:.2f} s (seeds "+', '.join(f'{v:.1f}' for v in r['seconds'].values())+f"), peak {r['peak']:.3f} GiB, while making {r['run']:.3f} GiB, {r['power']}." for r in r5)+'\n\nSources: '+', '.join(str(f) for _,_,f,_ in R5)+'. LTX-2.5 weights: dgrauet/ltx-2.5-mlx-q4 (int4), ltx-pipelines-mlx 0.18.0.'
+
+    # Slide 5: the six LTX-2.5 videos.
+    s=slide(prs,'LTX-2.5 distilled: the 6 test videos','Click a video to play it  ·  text only, 768×512, 49 frames (2 s), 25 FPS  ·  all 6 correct')
+    vw=3.3;vh=vw*512/768;x0=2.1
+    for i,(key,label,r) in enumerate([('ltx25_red','Red ball\nleft → right',c25[0]),('ltx25_blue','Blue car\nright → left',c25[1])]):
+        y=1.5+i*(vh+0.75)
+        b.text(s,L,y,1.5,vh,[[(t,{'bold':j==0,'size':16 if j==0 else 13,'color':b.NAVY if j==0 else b.MUTED})] for j,t in enumerate(label.split('\n'))],anchor=MSO_ANCHOR.MIDDLE)
+        for j,seed in enumerate((42,43,44)):
+            x=x0+j*(vw+0.33);ok=r['verdict'][seed]
+            s.shapes.add_movie(str(b.HERE/'assets/videos'/f'{key}-seed{seed}.mp4'),Inches(x),Inches(y),Inches(vw),Inches(vh),
+                               poster_frame_image=str(b.HERE/'assets/frames'/key/f'seed{seed}-f25.png'),mime_type='video/mp4')
+            b.text(s,x,y+vh+0.04,vw,0.3,[[(f'Seed {seed}  ',{'bold':True}),('Correct' if ok else 'Wrong',{'bold':True,'color':b.TEAL if ok else sd.RED}),(f"  ·  {WHY25[(key,seed)]}",{'color':b.MUTED})]],size=12)
+    s.notes_slide.notes_text_frame.text='\n'.join(f"{r['prompt']} seed {sd_}: {r['seconds'][sd_]:.1f} s, "+('correct' if r['verdict'][sd_] else 'wrong') for r in c25 for sd_ in (42,43,44))
 
     sd.number_slides(prs)
     OUT.parent.mkdir(parents=True,exist_ok=True);prs.save(OUT);print('Saved',OUT)

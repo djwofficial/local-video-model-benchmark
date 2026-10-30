@@ -23,7 +23,7 @@ Without keyframes (`--no-keyframes`, pure text-to-video):
 3. Create the environment and install it:
    `uv venv --python 3.12 ltx-mlx && uv pip install --python ltx-mlx/bin/python -e ltx-2-mlx/packages/ltx-core-mlx ltx-2-mlx/packages/ltx-pipelines-mlx av imageio-ffmpeg psutil`
    (exact versions used here: `../ltx23-mlx/requirements-lock.txt`).
-4. Weights, 28.1 GB in total; easiest is to copy the two folders from this Mac: `../ltx23-mlx/model` → `model/` and `../ltx23-mlx/gemma` → `gemma/` next to this README (they include the configuration and tokenizer files). From Hugging Face instead:
+4. Weights, 28.1 GB in total. (On 30 Oct 2026 the copies on the test Mac were removed to make room for LTX-2.5, so download them from Hugging Face; recovery URLs and checksums are in `../retired-candidate-cache.json`.) Formerly the easiest way was to copy the two folders from this Mac: `../ltx23-mlx/model` → `model/` and `../ltx23-mlx/gemma` → `gemma/` next to this README (they include the configuration and tokenizer files). From Hugging Face instead:
    - `dgrauet/ltx-2.3-mlx-q4`: `connector.safetensors` (6.34 GB), `transformer-distilled-1.1.safetensors` (11.32 GB), `spatial_upscaler_x2_v1_1.safetensors` (1.00 GB), `vae_decoder.safetensors` (0.81 GB), `vae_encoder.safetensors` (0.64 GB) plus the repo's `*.json` configuration files;
    - `mlx-community/gemma-3-12b-it-4bit`: both `model-0000x-of-00002.safetensors` shards (5.37 + 2.66 GB) plus its tokenizer and configuration files.
    SHA-256 of every weight file: `../ltx23-mlx/models-sources.json`.
@@ -58,6 +58,10 @@ These are the same settings with keyframes. Each configuration ran in its own pr
 - **Do not make longer clips with this recipe.** At 97–145 frames, the keyframes pin only the first and last frame. The ball rolls across in about 2 s and then rolls back, leaves the frame or disappears, so only 2 of 8 videos were correct. The script therefore stays at 49 frames.
 - Only two seeds per size were tested, so treat these as spot checks.
 - `--size` other than 768×512 was tested only with keyframes.
+
+## LTX-2.5 (round 5, text only)
+
+LTX-2.5 distilled MLX int4 (`dgrauet/ltx-2.5-mlx-q4`, gated on Hugging Face) ran with the same runtime: red ball 3/3, a new blue-car prompt 3/3, about 170 s per video, peak 15.45 GiB (under the 17.8 GiB limit). It is not yet tested with keyframes or on more seeds, so this recipe stays on LTX-2.3 + keyframes for now. Details: `../round5/`.
 
 ## M5 Pro notes
 

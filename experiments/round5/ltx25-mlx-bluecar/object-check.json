@@ -1,0 +1,89 @@
+[
+  {
+    "video": "benchmark-49f-seed42.mp4",
+    "preset": "bluecar",
+    "frames": 49,
+    "frames_with_object": 47,
+    "frames_with_one_blob": 46,
+    "max_blobs": 2,
+    "start_x": 0.939,
+    "end_x": 0.016,
+    "progress": 0.923,
+    "max_move_back": 0.0,
+    "longest_gap_frames": 2,
+    "min_aspect": 0.427,
+    "x_at_strip": [
+      0.939,
+      0.694,
+      0.419,
+      0.152,
+      null
+    ],
+    "strip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx25-mlx-bluecar/output/benchmark-49f-seed42-strip.jpg",
+    "strip_frames": [
+      1,
+      13,
+      25,
+      37,
+      49
+    ]
+  },
+  {
+    "video": "benchmark-49f-seed43.mp4",
+    "preset": "bluecar",
+    "frames": 49,
+    "frames_with_object": 43,
+    "frames_with_one_blob": 40,
+    "max_blobs": 2,
+    "start_x": 0.912,
+    "end_x": 0.008,
+    "progress": 0.904,
+    "max_move_back": 0.0,
+    "longest_gap_frames": 6,
+    "min_aspect": 0.411,
+    "x_at_strip": [
+      0.912,
+      0.644,
+      0.288,
+      0.063,
+      null
+    ],
+    "strip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx25-mlx-bluecar/output/benchmark-49f-seed43-strip.jpg",
+    "strip_frames": [
+      1,
+      13,
+      25,
+      37,
+      49
+    ]
+  },
+  {
+    "video": "benchmark-49f-seed44.mp4",
+    "preset": "bluecar",
+    "frames": 49,
+    "frames_with_object": 44,
+    "frames_with_one_blob": 18,
+    "max_blobs": 3,
+    "start_x": 0.984,
+    "end_x": 0.023,
+    "progress": 0.96,
+    "max_move_back": 0.0,
+    "longest_gap_frames": 3,
+    "min_aspect": 0.415,
+    "x_at_strip": [
+      null,
+      0.863,
+      0.529,
+      0.187,
+      null
+    ],
+    "strip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx25-mlx-bluecar/output/benchmark-49f-seed44-strip.jpg",
+    "strip_frames": [
+      1,
+      13,
+      25,
+      37,
+      49
+    ]
+  }
+]

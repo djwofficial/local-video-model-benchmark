@@ -29,6 +29,19 @@ Use **LTX-2.3 distilled (MLX 4-bit) with start and end keyframes**:
   - [`deck/Local-video-model-summary-M4-Pro.pptx`](deck/Local-video-model-summary-M4-Pro.pptx): a 3-slide summary of the setup that passed every seed (the table, its videos with what the name means, and how big it can go on 24 GB).
   - [`deck/Local-video-model-comparison-M4-Pro-rev7.pptx`](deck/Local-video-model-comparison-M4-Pro-rev7.pptx): every configuration in the mentor's table format, with videos embedded.
 
+## Upgrade test: LTX-2.5 distilled (round 5)
+
+LTX-2.5 distilled MLX int4 (`dgrauet/ltx-2.5-mlx-q4`, gated), text only, 768×512, 2 s, seeds 42–44:
+
+| Model | Prompt | Correct | s/video | Peak GiB |
+|---|---|---:|---:|---:|
+| LTX-2.3 distilled | red ball | 3/3 | 109 | 14.6 |
+| LTX-2.3 distilled | blue car (right → left) | 3/3 | 110 | 14.6 |
+| LTX-2.5 distilled | red ball | 3/3 | 175 | 15.5 |
+| LTX-2.5 distilled | blue car (right → left) | 3/3 | 168 | 15.5 |
+
+Both fit under the 17.8 GiB macOS GPU limit. LTX-2.5 is about 1.6× slower here; with 3 seeds per prompt both were always correct. Slides: `deck/Local-video-model-summary-M4-Pro-rev2.pptx`. Details: `experiments/round5/`.
+
 ## Every configuration tested
 
 | Model | Weights | Settings | Power | Mean s/video | Memory GiB¹ | Correct |

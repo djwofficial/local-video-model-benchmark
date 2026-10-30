@@ -16,7 +16,10 @@ HERE=Path(__file__).resolve().parent
 AI=Path('/Users/dyn/AI');C=AI/'video-model-comparison-2026-10-29'
 MODELS={'ltx095':(AI/'ltx-benchmark-2026-10-29/output','webm'),'ltx096d':(C/'ltx-distilled/output','webm'),'wan21':(C/'wan21/output','webm'),'wan22':(C/'wan22/output','webm'),'ltx23mlx':(C/'ltx23-mlx/output','mp4'),
         'ltx095_r2':(C/'round2/ltx095/output','webm'),'ltx23mlx_r2':(C/'round2/ltx23-mlx/output','mp4'),
-        'ltx23mlx_kf':(C/'round3/ltx23-mlx-keyframes/output','mp4')}
+        'ltx23mlx_kf':(C/'round3/ltx23-mlx-keyframes/output','mp4'),
+        # Round 5: LTX-2.3 on the blue-car prompt, and LTX-2.5 on both prompts (text only).
+        'ltx23mlx_blue':(C/'round5/ltx23-mlx-bluecar/output','mp4'),'ltx25_red':(C/'round5/ltx25-mlx-redball/output','mp4'),
+        'ltx25_blue':(C/'round5/ltx25-mlx-bluecar/output','mp4')}
 FRAMES=(0,24,48);GAP=8;BG=(248,250,252)
 index={}
 for key,(folder,ext) in MODELS.items():

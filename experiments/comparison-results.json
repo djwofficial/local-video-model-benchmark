@@ -275,5 +275,92 @@
       -0.38323974609375,
       -0.04833984375
     ]
+  },
+  {
+    "model": "LTX-2.3 distilled MLX (blue car)",
+    "root": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx23-mlx-bluecar",
+    "weights": "MLX 4-bit",
+    "settings": "768\u00d7512, blue-car prompt, text only",
+    "completed_measured_runs": 3,
+    "status": "measured",
+    "task_passed": 3,
+    "task_evaluated": 3,
+    "mean_s_per_clip": 109.64200000000001,
+    "generated_frames_per_second": 0.4469090312106674,
+    "run_seconds": [
+      109.659,
+      112.028,
+      107.239
+    ],
+    "conditions": [
+      "BATTERY",
+      "BATTERY",
+      "BATTERY"
+    ],
+    "memory_gib": 9.188321186229587,
+    "memory_metric": "Mean of per-run maxima of the 1 Hz sampled MLX peak (whole run); differs from MPS driver counter",
+    "swap_delta_gib": [
+      -0.2109375,
+      -0.289306640625,
+      -0.1015625
+    ]
+  },
+  {
+    "model": "LTX-2.5 distilled MLX (red ball)",
+    "root": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx25-mlx-redball",
+    "weights": "MLX 4-bit",
+    "settings": "768\u00d7512, new red-ball prompt, text only",
+    "completed_measured_runs": 3,
+    "status": "measured",
+    "task_passed": 3,
+    "task_evaluated": 3,
+    "mean_s_per_clip": 175.136,
+    "generated_frames_per_second": 0.279782568974968,
+    "run_seconds": [
+      185.938,
+      171.913,
+      167.557
+    ],
+    "conditions": [
+      "BATTERY",
+      "BATTERY",
+      "BATTERY"
+    ],
+    "memory_gib": 9.188321186229587,
+    "memory_metric": "Mean of per-run maxima of the 1 Hz sampled MLX peak (whole run); differs from MPS driver counter",
+    "swap_delta_gib": [
+      -1.11773681640625,
+      -0.2421875,
+      0.1435546875
+    ]
+  },
+  {
+    "model": "LTX-2.5 distilled MLX (blue car)",
+    "root": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx25-mlx-bluecar",
+    "weights": "MLX 4-bit",
+    "settings": "768\u00d7512, blue-car prompt, text only",
+    "completed_measured_runs": 3,
+    "status": "measured",
+    "task_passed": 3,
+    "task_evaluated": 3,
+    "mean_s_per_clip": 168.297,
+    "generated_frames_per_second": 0.29115195160935725,
+    "run_seconds": [
+      166.932,
+      166.536,
+      171.423
+    ],
+    "conditions": [
+      "BATTERY",
+      "BATTERY",
+      "BATTERY"
+    ],
+    "memory_gib": 9.188321186229587,
+    "memory_metric": "Mean of per-run maxima of the 1 Hz sampled MLX peak (whole run); differs from MPS driver counter",
+    "swap_delta_gib": [
+      -0.1796875,
+      -0.157958984375,
+      -0.6484375
+    ]
   }
 ]

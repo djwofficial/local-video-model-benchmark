@@ -326,5 +326,128 @@
         49
       ]
     }
+  },
+  "ltx23mlx_blue": {
+    "42": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx23-mlx-bluecar/output/benchmark-49f-seed42.mp4",
+      "frames_decoded": 49,
+      "size": [
+        768,
+        512
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    },
+    "43": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx23-mlx-bluecar/output/benchmark-49f-seed43.mp4",
+      "frames_decoded": 49,
+      "size": [
+        768,
+        512
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    },
+    "44": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx23-mlx-bluecar/output/benchmark-49f-seed44.mp4",
+      "frames_decoded": 49,
+      "size": [
+        768,
+        512
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    }
+  },
+  "ltx25_red": {
+    "42": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx25-mlx-redball/output/benchmark-49f-seed42.mp4",
+      "frames_decoded": 49,
+      "size": [
+        768,
+        512
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    },
+    "43": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx25-mlx-redball/output/benchmark-49f-seed43.mp4",
+      "frames_decoded": 49,
+      "size": [
+        768,
+        512
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    },
+    "44": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx25-mlx-redball/output/benchmark-49f-seed44.mp4",
+      "frames_decoded": 49,
+      "size": [
+        768,
+        512
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    }
+  },
+  "ltx25_blue": {
+    "42": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx25-mlx-bluecar/output/benchmark-49f-seed42.mp4",
+      "frames_decoded": 49,
+      "size": [
+        768,
+        512
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    },
+    "43": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx25-mlx-bluecar/output/benchmark-49f-seed43.mp4",
+      "frames_decoded": 49,
+      "size": [
+        768,
+        512
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    },
+    "44": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round5/ltx25-mlx-bluecar/output/benchmark-49f-seed44.mp4",
+      "frames_decoded": 49,
+      "size": [
+        768,
+        512
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    }
   }
 }

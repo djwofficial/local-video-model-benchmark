@@ -1,6 +1,6 @@
 # Local video model comparison
 
-MacBook Pro M4 Pro,24GB unified memory. Conditions per row: battery runs used Low Power Mode, AC runs did not, so times are only comparable within one condition. One prompt and three measured seeds42/43/44. Output 49frames,25FPS,1.96s playback, size per row. Cold smoke25frames and warmup excluded from means. Task = exactly one red ball visibly rolls left→right and stays round (visual-task-results.json).
+MacBook Pro M4 Pro,24GB unified memory. Conditions per row: battery runs used Low Power Mode, AC runs did not, so times are only comparable within one condition. One prompt (red ball) in rounds 1-3; round 5 adds a second prompt (one blue toy car driving right to left). Three measured seeds42/43/44. Output 49frames,25FPS,1.96s playback, size per row. Cold smoke25frames and warmup excluded from means. Task = exactly one red ball visibly rolls left→right and stays round (visual-task-results.json).
 
 |Model|Weights|Settings|Conditions|Measured runs|Mean s/clip|Memory GiB|Task pass|
 |---|---|---|---|---:|---:|---:|---:|
@@ -12,6 +12,9 @@ MacBook Pro M4 Pro,24GB unified memory. Conditions per row: battery runs used Lo
 |LTX-Video 2B v0.9.5 (round 2)|BF16|768×512, prompt without "slowly"|AC|3/3|142.91|15.12|0/3|
 |LTX-2.3 distilled MLX (round 2)|MLX 4-bit|768×512, prompt without "slowly"|AC|3/3|108.97|9.19|3/3|
 |LTX-2.3 distilled MLX (keyframes)|MLX 4-bit|768×512, new prompt, start + end keyframes|AC|3/3|132.22|9.19|9/9|
+|LTX-2.3 distilled MLX (blue car)|MLX 4-bit|768×512, blue-car prompt, text only|BATTERY|3/3|109.64|9.19|3/3|
+|LTX-2.5 distilled MLX (red ball)|MLX 4-bit|768×512, new red-ball prompt, text only|BATTERY|3/3|175.14|9.19|3/3|
+|LTX-2.5 distilled MLX (blue car)|MLX 4-bit|768×512, blue-car prompt, text only|BATTERY|3/3|168.30|9.19|3/3|
 
 Memory counters differ: ComfyUI reports mean per-run1Hz sampled maximum MPS driver allocation; MLX reports the mean of per-run maxima of the sampled MLX peak (cold runs with the Gemma text encoder peak higher, about 14.2 GiB). Neither is total RAM. System swap deltas recorded separately.
 
