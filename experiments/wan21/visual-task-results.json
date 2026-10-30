@@ -1,0 +1,23 @@
+{
+  "criterion": "Exactly one red ball visibly moves left to right while retaining a broadly round shape in the inspected keyframes. This narrow visual task does not score every prompt detail, flicker or overall model quality.",
+  "method": "Human visual review of six-keyframe contact sheets, all three measured seeds; no real-time playback claim. WebM retains49frames; WebP may coalesce repeats.",
+  "passed": 0,
+  "evaluated": 3,
+  "seeds": [
+    {
+      "seed": 42,
+      "pass": false,
+      "observation": "One red ball drops down and to the left off a striped box; no left-to-right roll, table barely visible"
+    },
+    {
+      "seed": 43,
+      "pass": false,
+      "observation": "Dozens of small red beads form a block and floating rows; not a single ball"
+    },
+    {
+      "seed": 44,
+      "pass": false,
+      "observation": "Cartoon-style room; a red mesh shape morphs and a ball appears floating only at the end"
+    }
+  ]
+}

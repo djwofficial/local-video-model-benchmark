@@ -1,0 +1,50 @@
+[
+  {
+    "path": "/Users/dyn/AI/models/checkpoints/ltxv-2b-0.9.6-distilled-04-25.safetensors",
+    "bytes": 6340744028,
+    "sha256": "94891bd4bd08de30d484befbfc54fdcffe6d1596a131baad700b9baa5e1de86b",
+    "recovery_url": "https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltxv-2b-0.9.6-distilled-04-25.safetensors",
+    "reason": "task-created candidate cache retired after completed benchmark to fit next 28.14GB MLX candidate",
+    "time": 1793257087.4489422
+  },
+  {
+    "path": "/Users/dyn/AI/models/diffusion_models/wan2.1_t2v_1.3B_fp16.safetensors",
+    "bytes": 2838303560,
+    "sha256": "be531024cd9018cb5b48c40cfbb6a6191645b1c792eb8bf4f8c1c6e10f924dc5",
+    "recovery_url": "https://huggingface.co/Comfy-Org/Wan-2.1/resolve/main/split_files/diffusion_models/wan2.1_t2v_1.3B_fp16.safetensors",
+    "reason": "task-created candidate cache retired after completed benchmark to fit next 28.14GB MLX candidate",
+    "time": 1793282772.510061
+  },
+  {
+    "path": "/Users/dyn/AI/models/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+    "bytes": 6735906897,
+    "sha256": "c3355d30191f1f066b26d93fba017ae9809dce6c627dda5f6a66eaa651204f68",
+    "recovery_url": "https://huggingface.co/Comfy-Org/Wan-2.1/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+    "reason": "task-created candidate cache retired after completed benchmark to fit next 28.14GB MLX candidate",
+    "time": 1793282775.52773
+  },
+  {
+    "path": "/Users/dyn/AI/models/vae/wan_2.1_vae.safetensors",
+    "bytes": 253815318,
+    "sha256": "2fc39d31359a4b0a64f55876d8ff7fa8d780956ae2cb13463b0223e15148976b",
+    "recovery_url": "https://huggingface.co/Comfy-Org/Wan-2.1/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+    "reason": "task-created candidate cache retired after completed benchmark to fit next 28.14GB MLX candidate",
+    "time": 1793282776.238181
+  },
+  {
+    "path": "/Users/dyn/AI/models/diffusion_models/wan2.2_ti2v_5B_fp16.safetensors",
+    "bytes": 9999658848,
+    "sha256": "456f901338bd9eadbded3828b819109a9b68e8a525ca5cf8d0049a69fcfeca1e",
+    "recovery_url": "https://huggingface.co/Comfy-Org/Wan-2.2/resolve/main/split_files/diffusion_models/wan2.2_ti2v_5B_fp16.safetensors",
+    "reason": "task-created candidate cache retired after completed benchmark to fit next 28.14GB MLX candidate",
+    "time": 1793282780.436073
+  },
+  {
+    "path": "/Users/dyn/AI/models/vae/wan2.2_vae.safetensors",
+    "bytes": 1409400960,
+    "sha256": "e40321bd36b9709991dae2530eb4ac303dd168276980d3e9bc4b6e2b75fed156",
+    "recovery_url": "https://huggingface.co/Comfy-Org/Wan-2.2/resolve/main/split_files/vae/wan2.2_vae.safetensors",
+    "reason": "task-created candidate cache retired after completed benchmark to fit next 28.14GB MLX candidate",
+    "time": 1793282781.711301
+  }
+]

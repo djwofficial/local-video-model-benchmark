@@ -1,0 +1,379 @@
+{
+  "criterion": "Exactly one red ball visibly rolls left to right and stays round, without leaving the frame or reversing direction (roll-back > ~0.05 of width counts as reversing). Same task as rounds 2-3; this narrow check does not score every prompt detail or overall quality.",
+  "method": "Human review of five-frame strips (output/*-strip.jpg) of all 18 videos, plus denser strips for borderline cases, supported by check_ball.py (HSV red-blob, every frame decoded at 768x512; ball-check.json).",
+  "passed": 11,
+  "evaluated": 18,
+  "per_config": {
+    "768x512x49": "2/2",
+    "960x640x49": "2/2",
+    "1152x768x49": "2/2",
+    "1344x896x49": "1/2",
+    "1536x1024x49": "2/2",
+    "768x512x97": "0/2",
+    "768x512x121": "1/2",
+    "768x512x145": "1/2",
+    "1536x1024x97": "0/2"
+  },
+  "seeds": [
+    {
+      "video": "768x512-49f-seed42.mp4",
+      "config": "768x512x49",
+      "seed": 42,
+      "pass": true,
+      "observation": "One round ball rolls steadily left (x 0.19) to right (x 0.90); no roll-back",
+      "checker": {
+        "frames_with_ball": 49,
+        "frames": 49,
+        "longest_gap_frames": 0,
+        "max_rollback": 0.0,
+        "x_at_strip": [
+          0.19,
+          0.423,
+          0.618,
+          0.775,
+          0.904
+        ]
+      }
+    },
+    {
+      "video": "768x512-49f-seed43.mp4",
+      "config": "768x512x49",
+      "seed": 43,
+      "pass": true,
+      "observation": "One round ball rolls steadily left (x 0.19) to right (x 0.91); no roll-back",
+      "checker": {
+        "frames_with_ball": 49,
+        "frames": 49,
+        "longest_gap_frames": 0,
+        "max_rollback": 0.0,
+        "x_at_strip": [
+          0.19,
+          0.42,
+          0.616,
+          0.775,
+          0.905
+        ]
+      }
+    },
+    {
+      "video": "960x640-49f-seed42.mp4",
+      "config": "960x640x49",
+      "seed": 42,
+      "pass": true,
+      "observation": "One round ball rolls steadily left to right; no roll-back",
+      "checker": {
+        "frames_with_ball": 49,
+        "frames": 49,
+        "longest_gap_frames": 0,
+        "max_rollback": 0.0,
+        "x_at_strip": [
+          0.19,
+          0.422,
+          0.623,
+          0.785,
+          0.905
+        ]
+      }
+    },
+    {
+      "video": "960x640-49f-seed43.mp4",
+      "config": "960x640x49",
+      "seed": 43,
+      "pass": true,
+      "observation": "One round ball rolls steadily left to right; no roll-back",
+      "checker": {
+        "frames_with_ball": 49,
+        "frames": 49,
+        "longest_gap_frames": 0,
+        "max_rollback": 0.0,
+        "x_at_strip": [
+          0.19,
+          0.445,
+          0.653,
+          0.798,
+          0.905
+        ]
+      }
+    },
+    {
+      "video": "1152x768-49f-seed42.mp4",
+      "config": "1152x768x49",
+      "seed": 42,
+      "pass": true,
+      "observation": "One round ball rolls steadily left to right; no roll-back",
+      "checker": {
+        "frames_with_ball": 49,
+        "frames": 49,
+        "longest_gap_frames": 0,
+        "max_rollback": 0.0,
+        "x_at_strip": [
+          0.19,
+          0.435,
+          0.639,
+          0.793,
+          0.904
+        ]
+      }
+    },
+    {
+      "video": "1152x768-49f-seed43.mp4",
+      "config": "1152x768x49",
+      "seed": 43,
+      "pass": true,
+      "observation": "One round ball rolls steadily left to right; no roll-back (one frame has a small second red speck from a reflection)",
+      "checker": {
+        "frames_with_ball": 49,
+        "frames": 49,
+        "longest_gap_frames": 0,
+        "max_rollback": 0.0,
+        "x_at_strip": [
+          0.191,
+          0.426,
+          0.626,
+          0.782,
+          0.904
+        ]
+      }
+    },
+    {
+      "video": "1344x896-49f-seed42.mp4",
+      "config": "1344x896x49",
+      "seed": 42,
+      "pass": false,
+      "observation": "Ball rolls right too fast, leaves the frame past the right edge around frames 39-42 (x 0.95, only a sliver visible), then rolls back into frame to meet the end keyframe (roll-back 0.08 of width)",
+      "checker": {
+        "frames_with_ball": 49,
+        "frames": 49,
+        "longest_gap_frames": 0,
+        "max_rollback": 0.08,
+        "x_at_strip": [
+          0.191,
+          0.511,
+          0.77,
+          0.95,
+          0.906
+        ]
+      }
+    },
+    {
+      "video": "1344x896-49f-seed43.mp4",
+      "config": "1344x896x49",
+      "seed": 43,
+      "pass": true,
+      "observation": "One round ball rolls steadily left to right; no roll-back",
+      "checker": {
+        "frames_with_ball": 49,
+        "frames": 49,
+        "longest_gap_frames": 0,
+        "max_rollback": 0.0,
+        "x_at_strip": [
+          0.19,
+          0.457,
+          0.64,
+          0.787,
+          0.904
+        ]
+      }
+    },
+    {
+      "video": "1536x1024-49f-seed42.mp4",
+      "config": "1536x1024x49",
+      "seed": 42,
+      "pass": true,
+      "observation": "One round ball rolls steadily left to right; no roll-back",
+      "checker": {
+        "frames_with_ball": 49,
+        "frames": 49,
+        "longest_gap_frames": 0,
+        "max_rollback": 0.0,
+        "x_at_strip": [
+          0.19,
+          0.432,
+          0.627,
+          0.782,
+          0.903
+        ]
+      }
+    },
+    {
+      "video": "1536x1024-49f-seed43.mp4",
+      "config": "1536x1024x49",
+      "seed": 43,
+      "pass": true,
+      "observation": "One round ball rolls steadily left to right; no roll-back",
+      "checker": {
+        "frames_with_ball": 49,
+        "frames": 49,
+        "longest_gap_frames": 0,
+        "max_rollback": 0.0,
+        "x_at_strip": [
+          0.19,
+          0.423,
+          0.619,
+          0.776,
+          0.903
+        ]
+      }
+    },
+    {
+      "video": "768x512-97f-seed42.mp4",
+      "config": "768x512x97",
+      "seed": 42,
+      "pass": false,
+      "observation": "Ball reaches the right edge by frame ~49 (x 0.97), then rolls back left to x 0.78 and returns to the end keyframe; direction reverses",
+      "checker": {
+        "frames_with_ball": 97,
+        "frames": 97,
+        "longest_gap_frames": 0,
+        "max_rollback": 0.196,
+        "x_at_strip": [
+          0.189,
+          0.698,
+          0.965,
+          0.776,
+          0.906
+        ]
+      }
+    },
+    {
+      "video": "768x512-97f-seed43.mp4",
+      "config": "768x512x97",
+      "seed": 43,
+      "pass": false,
+      "observation": "Ball reaches the right side by frame ~49, then leaves the frame for 8 frames and reappears at the end keyframe",
+      "checker": {
+        "frames_with_ball": 89,
+        "frames": 97,
+        "longest_gap_frames": 8,
+        "max_rollback": 0.141,
+        "x_at_strip": [
+          0.189,
+          0.722,
+          0.894,
+          null,
+          0.906
+        ]
+      }
+    },
+    {
+      "video": "768x512-121f-seed42.mp4",
+      "config": "768x512x121",
+      "seed": 42,
+      "pass": false,
+      "observation": "Ball rolls out past the right edge around frame 61 and is missing for 29 frames, then reappears at the end keyframe",
+      "checker": {
+        "frames_with_ball": 92,
+        "frames": 121,
+        "longest_gap_frames": 29,
+        "max_rollback": 0.086,
+        "x_at_strip": [
+          0.19,
+          0.662,
+          0.968,
+          null,
+          0.906
+        ]
+      }
+    },
+    {
+      "video": "768x512-121f-seed43.mp4",
+      "config": "768x512x121",
+      "seed": 43,
+      "pass": true,
+      "observation": "Ball rolls left to right, reaches x 0.91 around frame 61 and rests there until the end; no roll-back",
+      "checker": {
+        "frames_with_ball": 121,
+        "frames": 121,
+        "longest_gap_frames": 0,
+        "max_rollback": 0.003,
+        "x_at_strip": [
+          0.19,
+          0.666,
+          0.907,
+          0.907,
+          0.907
+        ]
+      }
+    },
+    {
+      "video": "768x512-145f-seed42.mp4",
+      "config": "768x512x145",
+      "seed": 42,
+      "pass": false,
+      "observation": "Ball rolls right by frame ~37, then rolls all the way back left (x 0.21 at frame 109) and right again; direction reverses twice",
+      "checker": {
+        "frames_with_ball": 142,
+        "frames": 145,
+        "longest_gap_frames": 3,
+        "max_rollback": 0.952,
+        "x_at_strip": [
+          0.191,
+          0.927,
+          0.397,
+          0.21,
+          0.905
+        ]
+      }
+    },
+    {
+      "video": "768x512-145f-seed43.mp4",
+      "config": "768x512x145",
+      "seed": 43,
+      "pass": true,
+      "observation": "Ball rolls left to right, reaches x 0.91 around frame 73 and rests there (tiny settle, 0.05 of width); no clear roll-back",
+      "checker": {
+        "frames_with_ball": 145,
+        "frames": 145,
+        "longest_gap_frames": 0,
+        "max_rollback": 0.048,
+        "x_at_strip": [
+          0.19,
+          0.748,
+          0.914,
+          0.906,
+          0.906
+        ]
+      }
+    },
+    {
+      "video": "1536x1024-97f-seed42.mp4",
+      "config": "1536x1024x97",
+      "seed": 42,
+      "pass": false,
+      "observation": "Ball reaches the right side by frame ~49, rolls back to x 0.54, then right again to the end keyframe; direction reverses",
+      "checker": {
+        "frames_with_ball": 97,
+        "frames": 97,
+        "longest_gap_frames": 0,
+        "max_rollback": 0.446,
+        "x_at_strip": [
+          0.19,
+          0.824,
+          0.916,
+          0.541,
+          0.904
+        ]
+      }
+    },
+    {
+      "video": "1536x1024-97f-seed43.mp4",
+      "config": "1536x1024x97",
+      "seed": 43,
+      "pass": false,
+      "observation": "Ball disappears for 23 frames after the start, reappears near the left (x 0.25) and then rolls right; not one continuous roll",
+      "checker": {
+        "frames_with_ball": 74,
+        "frames": 97,
+        "longest_gap_frames": 23,
+        "max_rollback": 0.182,
+        "x_at_strip": [
+          0.189,
+          null,
+          0.25,
+          0.614,
+          0.898
+        ]
+      }
+    }
+  ]
+}

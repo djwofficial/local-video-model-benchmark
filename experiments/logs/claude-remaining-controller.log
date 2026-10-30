@@ -1,0 +1,11 @@
+{"time": 1793259807.4558778, "stage": "waiting_for_wan21", "controller": "claude_continue_remaining.py"}
+{"time": 1793259972.535543, "stage": "needs_review", "controller": "claude_continue_remaining.py", "model": "wan21", "detail": "bench_failed"}
+{"time": 1793260061.318922, "stage": "testing", "controller": "claude_continue_remaining.py", "model": "wan21", "detail": "bench rerun after manual interrupt; cold smoke kept"}
+{"time": 1793263198, "event": "controller replaced by Claude to add charger gates (GPU start 30%, download 10%); Wan 2.1 bench left running"}
+{"time": 1793263203.908691, "stage": "waiting_for_wan21", "controller": "claude_continue_remaining.py", "detail": "bench rerun already running"}
+{"time": 1793263527.05541, "stage": "downloading", "controller": "claude_continue_remaining.py", "model": "wan22"}
+{"time": 1793278715.903203, "stage": "download_failed", "controller": "claude_continue_remaining.py", "model": "wan22", "exit_code": 1}
+{"time": 1793280482, "event": "Claude relaunched the controller on AC power (68 W charger, battery 4%); Wan 2.2 VAE download had failed at chunk 9 with curl status 6 while the Mac slept at 4% battery; 59/85 chunks verified and resumable"}
+{"time": 1793280490.687843, "stage": "downloading", "controller": "claude_continue_remaining.py", "model": "wan22"}
+{"time": 1793280525.8379169, "stage": "testing", "controller": "claude_continue_remaining.py", "model": "wan22"}
+{"time": 1793280727, "event": "Claude replaced claude_continue_remaining.py with claude_queue.py (user approved round-2 settings): Wan 2.2 round-1 tests left running; next round2/ltx095, then stop for review before retiring Wan caches"}

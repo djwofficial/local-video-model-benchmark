@@ -1,0 +1,14 @@
+{
+  "python": "3.12.13",
+  "machine": "arm64",
+  "system": "macOS-27.0.1-arm64-arm-64bit",
+  "mlx_metal_available": true,
+  "mlx_device_info": {
+    "device_name": "Apple M4 Pro",
+    "max_recommended_working_set_size": 19069665280,
+    "memory_size": 25769803776,
+    "architecture": "applegpu_g16s",
+    "max_buffer_length": 14302248960,
+    "resource_limit": 499000
+  }
+}

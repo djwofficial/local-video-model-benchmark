@@ -1,0 +1,8 @@
+{"time": 1793258247.816051, "stage": "waiting_for_verified_models"}
+{"time": 1793258247.8164852, "stage": "starting_local_server"}
+{"time": 1793258253.8654468, "stage": "running_smoke"}
+{"time": 1793258715.084805, "stage": "waiting_for_verified_models"}
+{"time": 1793258715.085382, "stage": "starting_local_server"}
+{"time": 1793258721.1372302, "stage": "running_smoke"}
+{"time": 1793259100.329014, "stage": "running_bench"}
+{"time": 1793259971.3885372, "stage": "bench_failed", "exit_code": 1}

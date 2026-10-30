@@ -1,0 +1,43 @@
+{
+  "label": "benchmark-49f-seed46",
+  "model": "LTX-2.3 distilled MLX 4-bit",
+  "round": 3,
+  "anchors": [
+    "start-ball-left.png@0 replace 1.0",
+    "end-ball-right.png@last guide 1.0"
+  ],
+  "prompt": "A single bright red ball rolls from the left side to the right side of a wooden table, moving steadily across the whole table until it reaches the right edge. The ball remains round and keeps the same size and color throughout the shot. A plain beige wall is visible in the background. Soft daylight enters from a window on the left. The camera stays completely still, showing the entire table surface in one continuous shot.",
+  "status": "success",
+  "error": null,
+  "seed": 46,
+  "width": 768,
+  "height": 512,
+  "frames": 49,
+  "playback_fps": 25,
+  "elapsed_client_s": 135.731,
+  "before": {
+    "time": 1793294960.692849,
+    "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t99%; finishing charge; (no estimate) present: true",
+    "swap_bytes": 12376735744,
+    "available_bytes": 11973885952,
+    "free_disk_bytes": 18322948096
+  },
+  "after": {
+    "time": 1793295096.435112,
+    "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t98%; charging; (no estimate) present: true",
+    "swap_bytes": 12334792704,
+    "available_bytes": 13006405632,
+    "free_disk_bytes": 18317475840
+  },
+  "mlx_peak_active_bytes": 9867162702,
+  "mlx_peak_sampled_max_bytes": 9867162702,
+  "phys_footprint_sampled_max_bytes": 6115248240,
+  "phys_footprint_lifetime_max_bytes": 15711054720,
+  "conditions": "AC",
+  "sampled_max_rss_bytes": 2809053184,
+  "swap_delta_bytes": -41943040,
+  "low_ram_streaming": true,
+  "audio": false,
+  "pipeline": "DistilledPipeline two-stage:384x256 8steps +2x spatial upscale +768x512 3steps",
+  "timing_scope": "Native pipeline generation through MP4 saving; includes uncached text encoding and native model load/free lifecycle. Warm runs reuse cached prompt embeddings, matching ComfyUI prompt caching; model residency differs by runtime. Setup and downloads excluded."
+}

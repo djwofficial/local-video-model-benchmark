@@ -1,0 +1,78 @@
+Local benchmark arguments: ['/Users/dyn/AI/ComfyUI/main.py', '--listen', '127.0.0.1', '--port', '8188', '--offline', '--disable-all-custom-nodes', '--cache-classic', '--extra-model-paths-config', '/Users/dyn/AI/video-model-comparison-2026-10-29/ltx-distilled/extra_model_paths.yaml', '--output-directory', '/Users/dyn/AI/video-model-comparison-2026-10-29/ltx-distilled/output']
+Python outbound network blocked except loopback; MPS memory safety defaults preserved.
+[32m[INFO][0m setup plugin alembic.autogenerate.schemas
+[32m[INFO][0m setup plugin alembic.autogenerate.tables
+[32m[INFO][0m setup plugin alembic.autogenerate.types
+[32m[INFO][0m setup plugin alembic.autogenerate.constraints
+[32m[INFO][0m setup plugin alembic.autogenerate.defaults
+[32m[INFO][0m setup plugin alembic.autogenerate.comments
+[32m[INFO][0m setup plugin alembic.ext.checkconstraint_byname
+[1m[33m[WARNING][0m Could not autodetect AIMDO implementation, assuming Nvidia
+[32m[INFO][0m comfy-aimdo unsupported operating system: Darwin
+[32m[INFO][0m NOTE: comfy-aimdo currently only supports Windows and Linux
+[32m[INFO][0m Adding extra search path checkpoints /Users/dyn/AI/models/checkpoints
+[32m[INFO][0m Adding extra search path text_encoders /Users/dyn/AI/models/text_encoders
+[32m[INFO][0m Setting output directory to: /Users/dyn/AI/video-model-comparison-2026-10-29/ltx-distilled/output
+[32m[INFO][0m Found comfy_kitchen backend ascend: {'available': False, 'disabled': False, 'unavailable_reason': "torch-npu is not installed: No module named 'torch_npu'", 'capabilities': []}
+[32m[INFO][0m Found comfy_kitchen backend eager: {'available': True, 'disabled': False, 'unavailable_reason': None, 'capabilities': ['adaln', 'apply_rope', 'apply_rope1', 'apply_rope1_', 'apply_rope_', 'apply_rope_split_half', 'apply_rope_split_half1', 'apply_rope_split_half1_', 'apply_rope_split_half_', 'convrot_w4a4_linear', 'dequantize_convrot_w4a4_weight', 'dequantize_int8_convrot_weight', 'dequantize_int8_convrot_weight_dtype', 'dequantize_int8_embedding', 'dequantize_int8_simple', 'dequantize_int8_simple_dtype', 'dequantize_mxfp8', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'dequantize_w4a8_int8_weight', 'fp16_conv3d', 'fp16_conv3d_out', 'fp16_linear', 'gemv_awq_w4a16', 'group_norm_silu_pad3d', 'group_norm_silu_pad3d_out', 'group_norm_stats3d', 'int8_linear', 'int8_linear_modulated', 'int8_linear_rms_modulated', 'na3d', 'prepare_int4_weight_for_int8_linear', 'quantize_and_rotate_rowwise', 'quantize_convrot_w4a4_weight', 'quantize_int8_convrot_weight', 'quantize_int8_rowwise', 'quantize_int8_tensorwise', 'quantize_mxfp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8', 'quantize_svdquant_w4a4', 'quantize_w4a8_int8_weight', 'rms_adaln', 'rms_gated_residual', 'rms_rope', 'rms_rope1', 'rms_rope1_', 'rms_rope_', 'rms_rope_split_half', 'rms_rope_split_half1', 'rms_rope_split_half1_', 'rms_rope_split_half_', 'rotate_int8_convrot_weight', 'scaled_mm_mxfp8', 'scaled_mm_nvfp4', 'scaled_mm_svdquant_w4a4', 'sol_attn', 'stochastic_rounding_fp8', 'w4a8_int8_linear', 'w4a8_packed_linear']}
+[32m[INFO][0m Found comfy_kitchen backend cuda: {'available': False, 'disabled': True, 'unavailable_reason': 'Extension file not found: /Users/dyn/AI/venvs/comfyui/lib/python3.12/site-packages/comfy_kitchen/backends/cuda/_C.abi3.so', 'capabilities': []}
+[32m[INFO][0m Found comfy_kitchen backend hip: {'available': False, 'disabled': False, 'unavailable_reason': 'PyTorch ROCm/HIP runtime not available', 'capabilities': []}
+[32m[INFO][0m Found comfy_kitchen backend triton: {'available': False, 'disabled': True, 'unavailable_reason': "ImportError: No module named 'triton'", 'capabilities': []}
+[32m[INFO][0m Checkpoint files will always be loaded safely.
+[32m[INFO][0m Total VRAM 24576 MB, total RAM 24576 MB
+[32m[INFO][0m pytorch version: 2.15.0
+[32m[INFO][0m Mac Version (27, 0, 1)
+[32m[INFO][0m Set vram state to: SHARED
+[32m[INFO][0m Device: mps
+[32m[INFO][0m Using sub quadratic optimization for attention, if you have memory or speed issues try using: --use-split-cross-attention
+[32m[INFO][0m Python version: 3.12.13 (main, Jun  2 2026, 22:42:28) [Clang 22.1.3 ]
+[32m[INFO][0m ComfyUI version: 0.43.0
+[32m[INFO][0m comfy-aimdo version: 0.6.0
+[32m[INFO][0m comfy-kitchen version: 0.2.40
+[32m[INFO][0m comfyui-frontend-package version: 1.57.4
+[32m[INFO][0m comfyui-workflow-templates version: 0.11.97
+[32m[INFO][0m comfyui-embedded-docs version: 0.5.15
+[32m[INFO][0m comfy-aimdo version: 0.6.0
+[32m[INFO][0m comfy-kitchen version: 0.2.40
+[32m[INFO][0m [Prompt Server] web root: /Users/dyn/AI/venvs/comfyui/lib/python3.12/site-packages/comfyui_frontend_package/static
+[32m[INFO][0m Asset seeder disabled
+[32m[INFO][0m No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[32m[INFO][0m Skipping loading of custom nodes
+[32m[INFO][0m ComfyUI is developed by Comfy Org. We also offer commercial products to deploy ComfyUI as scalable cloud endpoints. Visit platform.comfy.org/ascii for more information.
+[32m[INFO][0m Starting server
+
+[32m[INFO][0m To see the GUI go to: http://127.0.0.1:8188
+[32m[INFO][0m got prompt
+[32m[INFO][0m model weight dtype torch.bfloat16, manual cast: None
+[32m[INFO][0m model_type FLUX
+[32m[INFO][0m Model storage policy: fast_disk=False paths=['/Users/dyn/AI/models/checkpoints/ltxv-2b-0.9.6-distilled-04-25.safetensors']
+[32m[INFO][0m Model storage policy: fast_disk=False paths=['/Users/dyn/AI/models/checkpoints/ltxv-2b-0.9.6-distilled-04-25.safetensors']
+[32m[INFO][0m VAE load device: mps, offload device: cpu, dtype: torch.bfloat16
+[1m[33m[WARNING][0m no CLIP/text encoder weights in checkpoint, the text encoder model will not be loaded.
+[32m[INFO][0m loaded diffusion model directly to GPU
+[32m[INFO][0m Requested to load LTXV
+[32m[INFO][0m loaded completely;  3667.90 MB loaded, full load: True
+[32m[INFO][0m Model storage policy: fast_disk=False paths=['/Users/dyn/AI/models/text_encoders/t5xxl_fp16.safetensors']
+[32m[INFO][0m Requested to load MochiTEModel_
+[32m[INFO][0m loaded completely;  9083.39 MB loaded, full load: True
+[32m[INFO][0m CLIP/text encoder model load device: cpu, offload device: cpu, current: cpu, dtype: torch.float16
+  0%|          | 0/8 [00:00<?, ?it/s] 12%|█▎        | 1/8 [00:23<02:43, 23.42s/it] 25%|██▌       | 2/8 [00:24<01:00, 10.03s/it] 38%|███▊      | 3/8 [00:24<00:28,  5.76s/it] 50%|█████     | 4/8 [00:25<00:14,  3.72s/it] 62%|██████▎   | 5/8 [00:25<00:07,  2.60s/it] 75%|███████▌  | 6/8 [00:26<00:03,  1.93s/it] 88%|████████▊ | 7/8 [00:27<00:01,  1.55s/it]100%|██████████| 8/8 [00:28<00:00,  1.30s/it]100%|██████████| 8/8 [00:28<00:00,  3.52s/it]
+[32m[INFO][0m Requested to load VideoVAE
+[32m[INFO][0m Unloaded partially: 490.68 MB freed, 3177.92 MB remains loaded, 8.00 MB buffer reserved, lowvram patches: 0
+[32m[INFO][0m loaded completely;  2378.23 MB loaded, full load: True
+[32m[INFO][0m [32mPrompt executed in 105.91 seconds[0m
+[32m[INFO][0m got prompt
+[32m[INFO][0m loaded completely;  3667.90 MB loaded, full load: True
+  0%|          | 0/8 [00:00<?, ?it/s] 12%|█▎        | 1/8 [00:01<00:08,  1.24s/it] 25%|██▌       | 2/8 [00:02<00:07,  1.27s/it] 38%|███▊      | 3/8 [00:04<00:06,  1.37s/it] 50%|█████     | 4/8 [00:05<00:05,  1.43s/it] 62%|██████▎   | 5/8 [00:06<00:04,  1.44s/it] 75%|███████▌  | 6/8 [00:08<00:02,  1.41s/it] 88%|████████▊ | 7/8 [00:09<00:01,  1.38s/it]100%|██████████| 8/8 [00:11<00:00,  1.39s/it]100%|██████████| 8/8 [00:11<00:00,  1.39s/it]
+[32m[INFO][0m [32mPrompt executed in 16.97 seconds[0m
+[32m[INFO][0m got prompt
+  0%|          | 0/8 [00:00<?, ?it/s] 12%|█▎        | 1/8 [00:01<00:08,  1.28s/it] 25%|██▌       | 2/8 [00:02<00:09,  1.51s/it] 38%|███▊      | 3/8 [00:05<00:08,  1.78s/it] 50%|█████     | 4/8 [00:06<00:06,  1.74s/it] 62%|██████▎   | 5/8 [00:08<00:04,  1.62s/it] 75%|███████▌  | 6/8 [00:09<00:03,  1.55s/it] 88%|████████▊ | 7/8 [00:11<00:01,  1.58s/it]100%|██████████| 8/8 [00:12<00:00,  1.52s/it]100%|██████████| 8/8 [00:12<00:00,  1.57s/it]
+[32m[INFO][0m [32mPrompt executed in 18.07 seconds[0m
+[32m[INFO][0m got prompt
+  0%|          | 0/8 [00:00<?, ?it/s] 12%|█▎        | 1/8 [00:01<00:11,  1.67s/it] 25%|██▌       | 2/8 [00:03<00:09,  1.59s/it] 38%|███▊      | 3/8 [00:04<00:07,  1.53s/it] 50%|█████     | 4/8 [00:06<00:06,  1.56s/it] 62%|██████▎   | 5/8 [00:07<00:04,  1.51s/it] 75%|███████▌  | 6/8 [00:08<00:02,  1.42s/it] 88%|████████▊ | 7/8 [00:10<00:01,  1.36s/it]100%|██████████| 8/8 [00:11<00:00,  1.33s/it]100%|██████████| 8/8 [00:11<00:00,  1.43s/it]
+[32m[INFO][0m [32mPrompt executed in 16.37 seconds[0m
+[32m[INFO][0m got prompt
+  0%|          | 0/8 [00:00<?, ?it/s] 12%|█▎        | 1/8 [00:01<00:10,  1.56s/it] 25%|██▌       | 2/8 [00:02<00:08,  1.37s/it] 38%|███▊      | 3/8 [00:04<00:06,  1.36s/it] 50%|█████     | 4/8 [00:05<00:05,  1.32s/it] 62%|██████▎   | 5/8 [00:06<00:03,  1.32s/it] 75%|███████▌  | 6/8 [00:08<00:02,  1.30s/it] 88%|████████▊ | 7/8 [00:09<00:01,  1.28s/it]100%|██████████| 8/8 [00:10<00:00,  1.28s/it]100%|██████████| 8/8 [00:10<00:00,  1.31s/it]
+[32m[INFO][0m [32mPrompt executed in 15.19 seconds[0m
+/Users/dyn/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

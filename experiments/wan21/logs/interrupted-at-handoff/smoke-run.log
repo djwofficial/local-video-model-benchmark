@@ -1,0 +1,12 @@
+QUEUED smoke-25f-seed41 ed03f700-c7f7-43c8-a5c8-6721f0f7c9db
+smoke-25f-seed41 node 39 VAELoader
+smoke-25f-seed41 node 40 EmptyHunyuanLatentVideo
+smoke-25f-seed41 node 38 CLIPLoader
+smoke-25f-seed41 node 7 CLIPTextEncode
+smoke-25f-seed41 node 6 CLIPTextEncode
+smoke-25f-seed41 node 37 UNETLoader
+smoke-25f-seed41 node 48 ModelSamplingSD3
+smoke-25f-seed41 node 3 KSampler
+smoke-25f-seed41 sampling 1 / 30
+smoke-25f-seed41 sampling 2 / 30
+smoke-25f-seed41 sampling 3 / 30

@@ -1,0 +1,5 @@
+# Seed 42 interrupted by Claude for a colour check
+
+The cold smoke (25 frames, seed 41) succeeded but its frames had a strong magenta/red cast (mid-frame mean RGB about [185, 40, 88]; 75% of pixels with channel spread above 150, against 0.6% for the LTX baseline smoke). Suspecting an MPS precision fault, Claude sent ComfyUI `/interrupt` 16 s into measured seed 42, so that row is `execution_interrupted`. The 49-frame warm-up that had just finished turned out to have natural colours (mean RGB about [152, 128, 106], 3% saturated), which rules out a systematic fault: the warm-up reused the smoke's cached prompt encodings and the same loaded models. The interrupt was a premature precaution, not a model or runtime failure.
+
+Copies here preserve the smoke, warm-up and interrupted-seed logs and workflows before the warm benchmark is repeated with `claude_bench_only.py wan21` (new server session: warm-up seed 41, then seeds 42, 43, 44). The cold smoke is not repeated; its result stays in `results.jsonl`.

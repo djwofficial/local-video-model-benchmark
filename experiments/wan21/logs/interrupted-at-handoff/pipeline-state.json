@@ -1,0 +1,5 @@
+{
+  "time": 1793258309.5638452,
+  "stage": "handed_off_to_claude_at_user_request",
+  "note": "All Wan2.1 weights verified. First smoke was interrupted during handoff; inspect logs/results and resume without duplicate jobs."
+}

@@ -1,0 +1,330 @@
+{
+  "ltx095": {
+    "42": {
+      "clip": "/Users/dyn/AI/ltx-benchmark-2026-10-29/output/benchmark-49f-seed42_00001_.webm",
+      "frames_decoded": 49,
+      "size": [
+        512,
+        320
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    },
+    "43": {
+      "clip": "/Users/dyn/AI/ltx-benchmark-2026-10-29/output/benchmark-49f-seed43_00001_.webm",
+      "frames_decoded": 49,
+      "size": [
+        512,
+        320
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    },
+    "44": {
+      "clip": "/Users/dyn/AI/ltx-benchmark-2026-10-29/output/benchmark-49f-seed44_00001_.webm",
+      "frames_decoded": 49,
+      "size": [
+        512,
+        320
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    }
+  },
+  "ltx096d": {
+    "42": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/ltx-distilled/output/benchmark-49f-seed42_00002_.webm",
+      "frames_decoded": 49,
+      "size": [
+        512,
+        320
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    },
+    "43": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/ltx-distilled/output/benchmark-49f-seed43_00002_.webm",
+      "frames_decoded": 49,
+      "size": [
+        512,
+        320
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    },
+    "44": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/ltx-distilled/output/benchmark-49f-seed44_00002_.webm",
+      "frames_decoded": 49,
+      "size": [
+        512,
+        320
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    }
+  },
+  "wan21": {
+    "42": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/wan21/output/benchmark-49f-seed42_00001_.webm",
+      "frames_decoded": 49,
+      "size": [
+        512,
+        320
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    },
+    "43": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/wan21/output/benchmark-49f-seed43_00001_.webm",
+      "frames_decoded": 49,
+      "size": [
+        512,
+        320
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    },
+    "44": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/wan21/output/benchmark-49f-seed44_00001_.webm",
+      "frames_decoded": 49,
+      "size": [
+        512,
+        320
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    }
+  },
+  "wan22": {
+    "42": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/wan22/output/benchmark-49f-seed42_00002_.webm",
+      "frames_decoded": 49,
+      "size": [
+        512,
+        320
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    },
+    "43": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/wan22/output/benchmark-49f-seed43_00002_.webm",
+      "frames_decoded": 49,
+      "size": [
+        512,
+        320
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    },
+    "44": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/wan22/output/benchmark-49f-seed44_00002_.webm",
+      "frames_decoded": 49,
+      "size": [
+        512,
+        320
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    }
+  },
+  "ltx23mlx": {
+    "42": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/ltx23-mlx/output/benchmark-49f-seed42.mp4",
+      "frames_decoded": 49,
+      "size": [
+        512,
+        320
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    },
+    "43": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/ltx23-mlx/output/benchmark-49f-seed43.mp4",
+      "frames_decoded": 49,
+      "size": [
+        512,
+        320
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    },
+    "44": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/ltx23-mlx/output/benchmark-49f-seed44.mp4",
+      "frames_decoded": 49,
+      "size": [
+        512,
+        320
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    }
+  },
+  "ltx095_r2": {
+    "42": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx095/output/benchmark-49f-seed42_00002_.webm",
+      "frames_decoded": 49,
+      "size": [
+        768,
+        512
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    },
+    "43": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx095/output/benchmark-49f-seed43_00002_.webm",
+      "frames_decoded": 49,
+      "size": [
+        768,
+        512
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    },
+    "44": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx095/output/benchmark-49f-seed44_00002_.webm",
+      "frames_decoded": 49,
+      "size": [
+        768,
+        512
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    }
+  },
+  "ltx23mlx_r2": {
+    "42": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx23-mlx/output/benchmark-49f-seed42.mp4",
+      "frames_decoded": 49,
+      "size": [
+        768,
+        512
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    },
+    "43": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx23-mlx/output/benchmark-49f-seed43.mp4",
+      "frames_decoded": 49,
+      "size": [
+        768,
+        512
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    },
+    "44": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx23-mlx/output/benchmark-49f-seed44.mp4",
+      "frames_decoded": 49,
+      "size": [
+        768,
+        512
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    }
+  },
+  "ltx23mlx_kf": {
+    "42": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round3/ltx23-mlx-keyframes/output/benchmark-49f-seed42.mp4",
+      "frames_decoded": 49,
+      "size": [
+        768,
+        512
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    },
+    "43": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round3/ltx23-mlx-keyframes/output/benchmark-49f-seed43.mp4",
+      "frames_decoded": 49,
+      "size": [
+        768,
+        512
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    },
+    "44": {
+      "clip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round3/ltx23-mlx-keyframes/output/benchmark-49f-seed44.mp4",
+      "frames_decoded": 49,
+      "size": [
+        768,
+        512
+      ],
+      "frame_numbers": [
+        1,
+        25,
+        49
+      ]
+    }
+  }
+}

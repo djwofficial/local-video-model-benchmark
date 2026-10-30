@@ -1,0 +1,17 @@
+{
+  "recorded_at": "2026-10-29T11:11:35.832949+08:00",
+  "hardware": {
+    "model": "MacBook Pro Mac16,8",
+    "chip": "Apple M4 Pro",
+    "cpu_cores": 12,
+    "gpu_cores": 16,
+    "unified_memory_bytes": 25769803776
+  },
+  "macos": "ProductName:\t\tmacOS\nProductVersion:\t\t27.0.1\nBuildVersion:\t\t26A434\n",
+  "initial_power": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=23068771)\t95%; discharging; (no estimate) present: true\n",
+  "initial_power_settings": "Battery Power:\n Sleep On Power Button 1\n powermode            1\n standby              1\n ttyskeepawake        1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n displaysleep         2\n womp                 0\n networkoversleep     0\n sleep                1\n lessbright           1\n tcpkeepalive         1\n disksleep            10\nAC Power:\n Sleep On Power Button 1\n powermode            0\n standby              1\n ttyskeepawake        1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n displaysleep         0\n womp                 1\n networkoversleep     0\n sleep                1\n tcpkeepalive         1\n disksleep            10\n",
+  "initial_swap": "vm.swapusage: total = 7168.00M  used = 5502.62M  free = 1665.38M  (encrypted)\n",
+  "initial_memory": "The system has 25769803776 (1572864 pages with a page size of 16384).\nSystem-wide memory free percentage: 47%\n",
+  "disk": "Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on\n/dev/disk3s1s1   460Gi    13Gi    61Gi    18%    484k  637M    0%   /\n",
+  "note": "User cannot connect charger currently; runs on battery must be labelled nonstandard and are not AC benchmark results."
+}

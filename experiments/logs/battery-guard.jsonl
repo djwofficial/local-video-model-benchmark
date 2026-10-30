@@ -1,0 +1,700 @@
+{"time": 1793258715.118401, "percent": 69, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793258745.142808, "percent": 69, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793258775.1603358, "percent": 68, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793258805.186972, "percent": 68, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793258835.213249, "percent": 68, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793258865.238292, "percent": 67, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793258895.258003, "percent": 67, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793258925.276284, "percent": 67, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793258955.3054268, "percent": 66, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793258985.327714, "percent": 66, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259015.354916, "percent": 66, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259045.3706582, "percent": 65, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259075.391233, "percent": 65, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259105.40917, "percent": 65, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259135.428633, "percent": 64, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259165.456733, "percent": 64, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259195.478318, "percent": 63, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259225.4977589, "percent": 63, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259255.5154262, "percent": 63, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259285.5351942, "percent": 62, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259315.6441011, "percent": 62, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259345.7614982, "percent": 62, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259375.781562, "percent": 61, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259405.8094158, "percent": 61, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259435.835281, "percent": 61, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259465.8566651, "percent": 60, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259495.8801322, "percent": 60, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259525.922647, "percent": 60, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259555.943756, "percent": 59, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259585.960725, "percent": 59, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259615.976248, "percent": 58, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259646.001, "percent": 58, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259676.027266, "percent": 58, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259706.0540748, "percent": 57, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259736.078667, "percent": 57, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259766.102607, "percent": 57, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259796.137393, "percent": 56, "state": "discharging", "battery_power": true, "watched_pid": 72953, "stop_percent": 15}
+{"time": 1793259807.494635, "percent": 56, "state": "discharging", "battery_power": true, "watched_pid": 73753, "stop_percent": 6}
+{"time": 1793259837.52388, "percent": 56, "state": "discharging", "battery_power": true, "watched_pid": 73753, "stop_percent": 6}
+{"time": 1793259867.552574, "percent": 56, "state": "discharging", "battery_power": true, "watched_pid": 73753, "stop_percent": 6}
+{"time": 1793259897.585183, "percent": 55, "state": "discharging", "battery_power": true, "watched_pid": 73753, "stop_percent": 6}
+{"time": 1793259927.604007, "percent": 55, "state": "discharging", "battery_power": true, "watched_pid": 73753, "stop_percent": 6}
+{"time": 1793259957.627197, "percent": 55, "state": "discharging", "battery_power": true, "watched_pid": 73753, "stop_percent": 6}
+{"time": 1793260061.325451, "percent": 55, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260091.3511648, "percent": 55, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260121.3739562, "percent": 54, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260151.402175, "percent": 54, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260181.425258, "percent": 53, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260211.451604, "percent": 53, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260241.477105, "percent": 52, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260271.4936361, "percent": 52, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260301.529512, "percent": 52, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260331.57674, "percent": 51, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260361.60606, "percent": 51, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260391.6753101, "percent": 51, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260421.717419, "percent": 50, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260451.7821062, "percent": 50, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260481.806114, "percent": 49, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260511.826707, "percent": 49, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260541.898814, "percent": 49, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260571.9253561, "percent": 48, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260601.952233, "percent": 48, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260631.974977, "percent": 48, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260661.9978108, "percent": 47, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260692.023756, "percent": 47, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260722.0463738, "percent": 46, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260752.073899, "percent": 46, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260782.097086, "percent": 46, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260812.122103, "percent": 45, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260842.1453671, "percent": 45, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260872.163933, "percent": 45, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260902.181514, "percent": 44, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260932.2012548, "percent": 44, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260962.218604, "percent": 44, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793260992.2361972, "percent": 43, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261022.253867, "percent": 43, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261052.317605, "percent": 43, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261082.3347461, "percent": 42, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261112.352913, "percent": 42, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261142.374558, "percent": 42, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261172.392107, "percent": 41, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261202.409148, "percent": 41, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261232.428342, "percent": 41, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261262.44837, "percent": 40, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261292.4738188, "percent": 40, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261322.522037, "percent": 40, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261352.540384, "percent": 39, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261382.56252, "percent": 39, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261412.5808132, "percent": 39, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261442.600157, "percent": 38, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261472.6176388, "percent": 38, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261502.636836, "percent": 38, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261532.654334, "percent": 37, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261562.6735969, "percent": 37, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261592.690187, "percent": 36, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261622.710007, "percent": 36, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261652.729731, "percent": 36, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261682.748658, "percent": 35, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261712.829241, "percent": 35, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261742.851392, "percent": 35, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261772.867713, "percent": 34, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261802.886873, "percent": 34, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261832.9052641, "percent": 33, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261862.919601, "percent": 33, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261892.938164, "percent": 33, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261922.9638212, "percent": 32, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261952.983912, "percent": 32, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793261983.007518, "percent": 32, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262013.030457, "percent": 31, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262043.0510342, "percent": 31, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262073.0696619, "percent": 31, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262103.0851068, "percent": 30, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262133.1075242, "percent": 30, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262163.130734, "percent": 30, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262193.1453152, "percent": 29, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262223.1629639, "percent": 29, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262253.1827462, "percent": 29, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262283.207659, "percent": 28, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262313.2236328, "percent": 28, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262343.2401779, "percent": 28, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262373.255712, "percent": 27, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262403.27018, "percent": 27, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262433.292446, "percent": 27, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262463.3156018, "percent": 26, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262493.33952, "percent": 26, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262523.357703, "percent": 26, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262553.380967, "percent": 25, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262583.397513, "percent": 25, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262613.411745, "percent": 25, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262643.430113, "percent": 24, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262673.454375, "percent": 24, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262703.477652, "percent": 24, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262733.492598, "percent": 23, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262763.517683, "percent": 23, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262793.531289, "percent": 23, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262823.554943, "percent": 22, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262853.5783849, "percent": 22, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262883.602558, "percent": 22, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262913.6162539, "percent": 21, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262943.635776, "percent": 21, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793262973.656178, "percent": 21, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793263003.678436, "percent": 20, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793263033.7080681, "percent": 20, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793263063.728469, "percent": 20, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793263093.742531, "percent": 19, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793263123.7898948, "percent": 19, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793263153.816326, "percent": 19, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793263183.844618, "percent": 18, "state": "discharging", "battery_power": true, "watched_pid": 73932, "stop_percent": 6}
+{"time": 1793263203.9532359, "percent": 18, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263233.9753752, "percent": 18, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263264.0007691, "percent": 17, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263294.050368, "percent": 17, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263324.072545, "percent": 17, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263354.097523, "percent": 16, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263384.1223009, "percent": 16, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263414.152202, "percent": 15, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263444.174981, "percent": 15, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263474.2016141, "percent": 15, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263504.218959, "percent": 14, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263534.233811, "percent": 14, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263564.257258, "percent": 14, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263594.282673, "percent": 14, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263624.310347, "percent": 14, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263654.3489358, "percent": 14, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263684.37754, "percent": 14, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263714.3920808, "percent": 14, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263744.4145548, "percent": 14, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263774.4431539, "percent": 14, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263804.466691, "percent": 14, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263834.493671, "percent": 14, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263864.518978, "percent": 14, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263894.542449, "percent": 14, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263924.5716748, "percent": 13, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263954.596426, "percent": 13, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793263984.6120331, "percent": 13, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793264014.643083, "percent": 13, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793264044.664512, "percent": 13, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793264074.6844218, "percent": 13, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793264104.707309, "percent": 13, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793264134.72942, "percent": 12, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793264164.7558389, "percent": 12, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793264194.771418, "percent": 12, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793264224.795619, "percent": 12, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793264254.809385, "percent": 12, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793264284.830991, "percent": 12, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793264314.857774, "percent": 12, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793264344.884437, "percent": 12, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793264374.901183, "percent": 12, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793264404.925761, "percent": 12, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793264434.955402, "percent": 12, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793264464.985358, "percent": 11, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793264495.011816, "percent": 11, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793264525.042169, "percent": 11, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793264555.0665522, "percent": 11, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793264585.0944178, "percent": 11, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793264615.124094, "percent": 11, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793264645.148615, "percent": 11, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793264675.173965, "percent": 11, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793264705.201133, "percent": 11, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793265296.388926, "percent": 9, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793265637.027097, "percent": 9, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793265667.0551648, "percent": 9, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793265697.082413, "percent": 9, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793265727.0992799, "percent": 9, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793265757.11982, "percent": 9, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793265787.1364648, "percent": 9, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793265817.163119, "percent": 9, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793265847.17923, "percent": 9, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793265879.640182, "percent": 9, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793266390.878209, "percent": 8, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793266463.129983, "percent": 8, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793267636.771465, "percent": 8, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793268748.98624, "percent": 8, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793268828.420267, "percent": 8, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793269443.439968, "percent": 8, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6}
+{"time": 1793272589.73179, "percent": 4, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6, "action": ["comfy_not_interrupted: <urlopen error [Errno 61] Connection refused>"]}
+{"time": 1793276759.780448, "percent": 4, "state": "discharging", "battery_power": true, "watched_pid": 76721, "stop_percent": 6, "action": ["comfy_not_interrupted: <urlopen error [Errno 61] Connection refused>"]}
+{"time": 1793280482.650398, "percent": 5, "state": "charging", "battery_power": false, "watched_pid": 79737, "stop_percent": 6}
+{"time": 1793280512.665056, "percent": 6, "state": "charging", "battery_power": false, "watched_pid": 79737, "stop_percent": 6}
+{"time": 1793280542.687387, "percent": 7, "state": "charging", "battery_power": false, "watched_pid": 79737, "stop_percent": 6}
+{"time": 1793280572.7237928, "percent": 7, "state": "charging", "battery_power": false, "watched_pid": 79737, "stop_percent": 6}
+{"time": 1793280602.7400389, "percent": 7, "state": "charging", "battery_power": false, "watched_pid": 79737, "stop_percent": 6}
+{"time": 1793280632.758014, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 79737, "stop_percent": 6}
+{"time": 1793280662.773621, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 79737, "stop_percent": 6}
+{"time": 1793280692.791679, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 79737, "stop_percent": 6}
+{"time": 1793280722.8071082, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 79737, "stop_percent": 6}
+{"time": 1793280733.019636, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793280763.037695, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793280793.05723, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793280823.0774899, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793280853.096801, "percent": 7, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793280883.1216729, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793280913.1372092, "percent": 7, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793280943.157879, "percent": 7, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793280973.172805, "percent": 7, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281003.203327, "percent": 7, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281033.22542, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281063.240937, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281093.25947, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281123.283183, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281153.3021219, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281183.324755, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281213.351336, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281243.373039, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281273.3937962, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281303.415605, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281333.430749, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281363.4542232, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281393.454758, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281423.458762, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281453.4828732, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281483.4986398, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281513.5167592, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281543.541301, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281573.561012, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281603.58437, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281633.607507, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281663.634898, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281693.659472, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281723.6806479, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281753.700555, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281783.718982, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281813.7341938, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281843.745933, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281873.767825, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281903.7905438, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281933.809782, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793281963.850776, "percent": 8, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793282002.0187771, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793282034.194253, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793282064.211029, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793282094.225971, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793282124.246207, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793282154.262867, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793282184.2816188, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793282214.300548, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793282244.3139572, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793282274.334028, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793282304.353358, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793282334.3714051, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793282364.395913, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793282394.408113, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793282424.427975, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793282454.4445162, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793282484.4612548, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793282514.483497, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793282544.500878, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793282574.519658, "percent": 9, "state": "charging", "battery_power": false, "watched_pid": 80105, "stop_percent": 6}
+{"time": 1793282771.351071, "percent": 14, "state": "charging", "battery_power": false, "watched_pid": 80958, "stop_percent": 6}
+{"time": 1793282801.366706, "percent": 14, "state": "charging", "battery_power": false, "watched_pid": 80958, "stop_percent": 6}
+{"time": 1793282831.382568, "percent": 15, "state": "charging", "battery_power": false, "watched_pid": 80958, "stop_percent": 6}
+{"time": 1793282839.947529, "percent": 15, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793282869.961397, "percent": 16, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793282899.977119, "percent": 17, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793282929.990068, "percent": 17, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793282960.010196, "percent": 18, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793282990.020708, "percent": 19, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283020.03715, "percent": 19, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283050.066647, "percent": 20, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283080.102744, "percent": 21, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283110.132215, "percent": 21, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283140.154712, "percent": 22, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283170.183711, "percent": 23, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283200.2146409, "percent": 24, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283230.230199, "percent": 24, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283260.252023, "percent": 25, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283290.270487, "percent": 26, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283320.28354, "percent": 26, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283350.298151, "percent": 27, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283380.309392, "percent": 28, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283410.323806, "percent": 28, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283440.3343139, "percent": 29, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283470.3488798, "percent": 29, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283500.364619, "percent": 30, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283530.3808708, "percent": 31, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283560.396173, "percent": 31, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283590.413989, "percent": 32, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283620.432798, "percent": 33, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283650.446264, "percent": 33, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283680.459444, "percent": 34, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283710.472013, "percent": 34, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283740.4845839, "percent": 35, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283770.5074801, "percent": 36, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283800.526207, "percent": 36, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283830.551153, "percent": 37, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283860.5849202, "percent": 38, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283890.614872, "percent": 38, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283920.6330812, "percent": 39, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283950.6518111, "percent": 39, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793283980.6783512, "percent": 39, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284010.710905, "percent": 40, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284040.730381, "percent": 40, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284070.7594712, "percent": 41, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284100.783678, "percent": 41, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284130.799948, "percent": 42, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284160.8270028, "percent": 43, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284190.846257, "percent": 43, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284220.864074, "percent": 44, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284250.8765, "percent": 44, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284280.893524, "percent": 44, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284310.903466, "percent": 45, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284340.918585, "percent": 45, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284370.9315672, "percent": 46, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284400.944532, "percent": 46, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284430.96065, "percent": 47, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284460.9768372, "percent": 47, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284491.001033, "percent": 48, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284521.221465, "percent": 48, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284551.266259, "percent": 49, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284581.2862651, "percent": 49, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284611.3012638, "percent": 49, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284641.318635, "percent": 49, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284671.341325, "percent": 49, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284701.357234, "percent": 49, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284731.37784, "percent": 49, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284761.396079, "percent": 49, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284791.620425, "percent": 49, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284821.659304, "percent": 49, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284851.6823208, "percent": 49, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284881.701113, "percent": 48, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284911.717088, "percent": 48, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284941.734178, "percent": 48, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793284971.754715, "percent": 48, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793285001.7777889, "percent": 48, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793285031.7969751, "percent": 48, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793285061.821981, "percent": 47, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793285091.8487418, "percent": 47, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793285121.873912, "percent": 47, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793285151.897744, "percent": 47, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793285181.928822, "percent": 47, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793285211.9481988, "percent": 46, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793285241.980356, "percent": 46, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793285271.997612, "percent": 46, "state": "charging", "battery_power": false, "watched_pid": 81186, "stop_percent": 6}
+{"time": 1793292774.410026, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793292804.442165, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793292834.474695, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793292864.491439, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793292894.510337, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793292924.5273652, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793292954.553372, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793292984.57442, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793293014.596457, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793293044.620041, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793293074.641227, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793293104.6632278, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793293134.682584, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793293164.71565, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793293194.730837, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793293224.743435, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793293254.759321, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793293284.775419, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793293314.7991402, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793293344.8165529, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793293374.832994, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793293404.860733, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793293434.882561, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793293464.894603, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793293494.942283, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793293524.976518, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793293554.9917529, "percent": 100, "state": "charged", "battery_power": false, "watched_pid": 91611, "stop_percent": 6}
+{"time": 1793294283.7838569, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793294313.8074932, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793294343.821832, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793294373.842263, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793294403.860817, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793294433.8770392, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793294463.90706, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793294493.924494, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793294523.937314, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793294553.951585, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793294583.963873, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793294613.9804192, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793294643.9939141, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793294674.0196328, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793294704.038412, "percent": 99, "state": "finishing charge", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793294734.060373, "percent": 99, "state": "finishing charge", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793294764.077055, "percent": 99, "state": "finishing charge", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793294794.093098, "percent": 99, "state": "finishing charge", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793294824.1110048, "percent": 99, "state": "finishing charge", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793294854.136349, "percent": 99, "state": "finishing charge", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793294884.15537, "percent": 99, "state": "finishing charge", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793294914.173918, "percent": 99, "state": "finishing charge", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793294944.18836, "percent": 99, "state": "finishing charge", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793294974.207675, "percent": 99, "state": "finishing charge", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793295004.223773, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793295034.243077, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793295064.2678452, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793295094.284898, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793295124.301832, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793295154.3235688, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793295184.341932, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793295214.365532, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793295244.38157, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793295274.4173608, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793295304.438805, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793295334.452626, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793295364.467029, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793295394.4789839, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793295424.5018182, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793295454.521586, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793295484.542198, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793295514.5581791, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793295544.573882, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793295574.585613, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793295604.603111, "percent": 97, "state": "charging", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793295634.616797, "percent": 97, "state": "charging", "battery_power": false, "watched_pid": 93028, "stop_percent": 6}
+{"time": 1793296858.058836, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793296888.0912352, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793296918.1153438, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793296948.127418, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793296978.1447191, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297008.161271, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297038.17969, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297068.191543, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297098.2083561, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297128.231232, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297158.2540329, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297188.2715678, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297218.28813, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297248.3104918, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297278.32977, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297308.347512, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297338.3657632, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297368.382398, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297398.399478, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297428.670391, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297458.688905, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297488.709026, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297518.728532, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297548.743892, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297578.764948, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297608.78624, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297638.803234, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297668.819735, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297698.833173, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297728.8529658, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297758.872481, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297788.886049, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297818.903164, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297848.929885, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297878.944669, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297908.970658, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297938.988152, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297969.006755, "percent": 100, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793297999.029738, "percent": 99, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298029.0482628, "percent": 99, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298059.0725381, "percent": 99, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298089.097871, "percent": 99, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298119.126262, "percent": 99, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298149.1401632, "percent": 99, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298179.1667871, "percent": 99, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298209.2040682, "percent": 99, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298239.217658, "percent": 99, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298269.237719, "percent": 99, "state": "finishing charge", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298299.258901, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298329.277092, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298359.292937, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298389.322538, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298419.335752, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298449.352831, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298479.364437, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298509.379536, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298539.396775, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298569.416277, "percent": 98, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298599.4373682, "percent": 97, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298629.457433, "percent": 97, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298659.4751081, "percent": 97, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298689.505206, "percent": 97, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298719.526685, "percent": 97, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298749.546329, "percent": 97, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298779.564432, "percent": 97, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298809.579656, "percent": 97, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298839.593133, "percent": 97, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298869.610576, "percent": 97, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298899.626217, "percent": 97, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298929.641688, "percent": 96, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298959.661213, "percent": 96, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793298989.6769972, "percent": 96, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299019.695956, "percent": 96, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299050.2600908, "percent": 96, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299080.2817438, "percent": 96, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299110.295378, "percent": 96, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299140.307712, "percent": 96, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299170.327285, "percent": 96, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299200.344789, "percent": 96, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299230.371238, "percent": 96, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299260.386078, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299290.398622, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299320.419405, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299350.4413598, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299380.4541938, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299410.475229, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299440.4926138, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299470.50508, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299500.5250099, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299530.540027, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299560.5626519, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299590.578263, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299620.5925472, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299650.6072588, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299680.6274638, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299710.653141, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299740.671152, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299770.6899788, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299800.71377, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299830.729068, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299860.74609, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299890.7651641, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299920.777111, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299950.798097, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793299980.814186, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300010.833586, "percent": 95, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300040.846841, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300070.863507, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300100.874898, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300130.8904388, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300160.902624, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300190.9208288, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300220.934442, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300250.956574, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300280.970794, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300310.9882529, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300341.0054998, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300371.0247538, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300401.044936, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300431.05661, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300461.075563, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300491.093438, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300521.118637, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300551.181111, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300581.195025, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300611.210101, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300641.2269812, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300671.25566, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300701.278382, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300731.3100631, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300761.335181, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300791.356089, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300821.379203, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300851.3956401, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300881.416011, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300911.435002, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300941.4571671, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793300971.470068, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301001.492655, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301031.5353, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301061.559214, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301091.584437, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301121.6021152, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301151.6264472, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301181.648683, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301211.669458, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301241.682225, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301271.70502, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301301.728713, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301331.745742, "percent": 94, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301361.761559, "percent": 93, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301391.793366, "percent": 93, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301421.8130538, "percent": 93, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301451.83247, "percent": 93, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301481.849521, "percent": 93, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301511.868562, "percent": 93, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301541.8862479, "percent": 93, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301571.899456, "percent": 93, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301601.912688, "percent": 93, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301631.931621, "percent": 93, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301661.962821, "percent": 93, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301691.980408, "percent": 93, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301722.000336, "percent": 93, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301752.017326, "percent": 93, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301782.0327418, "percent": 93, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301812.05201, "percent": 93, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301842.073767, "percent": 93, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301872.092787, "percent": 93, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301902.116336, "percent": 93, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301932.148999, "percent": 93, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301962.169924, "percent": 93, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793301992.185219, "percent": 93, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302022.206818, "percent": 93, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302052.221736, "percent": 93, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302082.240683, "percent": 92, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302112.258398, "percent": 92, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302142.27564, "percent": 92, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302172.296257, "percent": 92, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302202.3187299, "percent": 92, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302232.336556, "percent": 92, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302262.3521159, "percent": 92, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302292.3722298, "percent": 92, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302322.391433, "percent": 92, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302352.408561, "percent": 91, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302382.427129, "percent": 91, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302412.443915, "percent": 91, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302442.471822, "percent": 91, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302472.484286, "percent": 91, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302502.50624, "percent": 91, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302532.5384152, "percent": 91, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302562.558412, "percent": 91, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302592.575961, "percent": 91, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302622.593339, "percent": 91, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302652.611522, "percent": 91, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302682.629706, "percent": 91, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302712.647202, "percent": 91, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302742.663489, "percent": 90, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302772.6943529, "percent": 90, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302802.708549, "percent": 90, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302832.72682, "percent": 90, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302862.753047, "percent": 90, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302892.7668438, "percent": 90, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302922.798784, "percent": 90, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302952.891617, "percent": 90, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793302982.9022841, "percent": 90, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303012.920141, "percent": 90, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303042.9449432, "percent": 89, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303072.960778, "percent": 89, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303103.0793128, "percent": 89, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303133.095711, "percent": 89, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303163.110657, "percent": 89, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303193.127554, "percent": 89, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303223.1433961, "percent": 88, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303253.166933, "percent": 88, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303283.1788611, "percent": 88, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303313.197202, "percent": 88, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303343.215822, "percent": 88, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303373.2347891, "percent": 88, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303403.252701, "percent": 88, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303433.2766001, "percent": 88, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303463.2967181, "percent": 87, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303493.318923, "percent": 87, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303523.3319721, "percent": 87, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303553.3512661, "percent": 87, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303583.368685, "percent": 87, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303613.3926232, "percent": 86, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303643.420375, "percent": 86, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303673.4382138, "percent": 86, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303703.473378, "percent": 86, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303733.5040262, "percent": 86, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303763.518687, "percent": 86, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303793.538851, "percent": 85, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303823.560638, "percent": 85, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303853.610395, "percent": 85, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303883.715368, "percent": 85, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303913.728522, "percent": 85, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303943.748656, "percent": 84, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793303973.763975, "percent": 84, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793304003.781992, "percent": 84, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793304033.7987058, "percent": 84, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793304063.8213289, "percent": 84, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793304093.848898, "percent": 83, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793304123.864567, "percent": 83, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793304153.880081, "percent": 83, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793304183.900873, "percent": 83, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793304213.914668, "percent": 83, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793304243.932935, "percent": 83, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793304273.957622, "percent": 82, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793304303.9859378, "percent": 82, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793304333.99966, "percent": 82, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793304364.021937, "percent": 82, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793304394.044162, "percent": 82, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793304424.061152, "percent": 81, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}
+{"time": 1793304454.0756428, "percent": 81, "state": "charging", "battery_power": false, "watched_pid": 95525, "stop_percent": 6}

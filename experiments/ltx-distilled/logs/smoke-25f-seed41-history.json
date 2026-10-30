@@ -1,0 +1,875 @@
+{
+  "ebaa771e-2e63-4486-a506-a5cf55715a4a": {
+    "prompt": [
+      0,
+      "ebaa771e-2e63-4486-a506-a5cf55715a4a",
+      {
+        "44": {
+          "class_type": "CheckpointLoaderSimple",
+          "inputs": {
+            "ckpt_name": "ltxv-2b-0.9.6-distilled-04-25.safetensors"
+          }
+        },
+        "38": {
+          "class_type": "CLIPLoader",
+          "inputs": {
+            "clip_name": "t5xxl_fp16.safetensors",
+            "type": "ltxv",
+            "device": "default"
+          }
+        },
+        "6": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "clip": [
+              "38",
+              0
+            ],
+            "text": "A single bright red ball rolls slowly from the left side to the right side of a wooden table. The ball remains round and keeps the same size and color throughout the shot. A plain beige wall is visible in the background. Soft daylight enters from a window on the left. The camera stays completely still, showing the entire table surface in one continuous shot."
+          }
+        },
+        "7": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "clip": [
+              "38",
+              0
+            ],
+            "text": "low quality, worst quality, deformed, distorted, disfigured, motion smear, motion artifacts, fused fingers, bad anatomy, weird hand, ugly"
+          }
+        },
+        "69": {
+          "class_type": "LTXVConditioning",
+          "inputs": {
+            "positive": [
+              "6",
+              0
+            ],
+            "negative": [
+              "7",
+              0
+            ],
+            "frame_rate": 25.0
+          }
+        },
+        "70": {
+          "class_type": "EmptyLTXVLatentVideo",
+          "inputs": {
+            "width": 512,
+            "height": 320,
+            "length": 25,
+            "batch_size": 1
+          }
+        },
+        "71": {
+          "class_type": "ManualSigmas",
+          "inputs": {
+            "sigmas": "1.0000, 0.9937, 0.9875, 0.9812, 0.9750, 0.9094, 0.7250, 0.4219, 0.0"
+          }
+        },
+        "73": {
+          "class_type": "KSamplerSelect",
+          "inputs": {
+            "sampler_name": "euler_ancestral"
+          }
+        },
+        "72": {
+          "class_type": "SamplerCustom",
+          "inputs": {
+            "model": [
+              "44",
+              0
+            ],
+            "add_noise": true,
+            "noise_seed": 41,
+            "cfg": 1.0,
+            "positive": [
+              "69",
+              0
+            ],
+            "negative": [
+              "69",
+              1
+            ],
+            "sampler": [
+              "73",
+              0
+            ],
+            "sigmas": [
+              "71",
+              0
+            ],
+            "latent_image": [
+              "70",
+              0
+            ]
+          }
+        },
+        "8": {
+          "class_type": "VAEDecode",
+          "inputs": {
+            "samples": [
+              "72",
+              0
+            ],
+            "vae": [
+              "44",
+              2
+            ]
+          }
+        },
+        "41": {
+          "class_type": "SaveAnimatedWEBP",
+          "inputs": {
+            "images": [
+              "8",
+              0
+            ],
+            "filename_prefix": "smoke-25f-seed41",
+            "fps": 25.0,
+            "lossless": false,
+            "quality": 95,
+            "method": "default"
+          }
+        },
+        "77": {
+          "class_type": "SaveWEBM",
+          "inputs": {
+            "images": [
+              "8",
+              0
+            ],
+            "filename_prefix": "smoke-25f-seed41",
+            "codec": "vp9",
+            "fps": 25.0,
+            "crf": 18.0
+          }
+        }
+      },
+      {
+        "extra_pnginfo": {
+          "workflow": {
+            "last_node_id": 77,
+            "last_link_id": 183,
+            "nodes": [
+              {
+                "id": 69,
+                "type": "LTXVConditioning",
+                "pos": [
+                  920,
+                  60
+                ],
+                "size": [
+                  223.8660125732422,
+                  78
+                ],
+                "flags": {},
+                "order": 8,
+                "mode": 0,
+                "inputs": [
+                  {
+                    "name": "positive",
+                    "type": "CONDITIONING",
+                    "link": 169
+                  },
+                  {
+                    "name": "negative",
+                    "type": "CONDITIONING",
+                    "link": 170
+                  }
+                ],
+                "outputs": [
+                  {
+                    "name": "positive",
+                    "type": "CONDITIONING",
+                    "links": [
+                      166
+                    ],
+                    "slot_index": 0
+                  },
+                  {
+                    "name": "negative",
+                    "type": "CONDITIONING",
+                    "links": [
+                      167
+                    ],
+                    "slot_index": 1
+                  }
+                ],
+                "properties": {
+                  "Node name for S&R": "LTXVConditioning"
+                },
+                "widgets_values": [
+                  25
+                ]
+              },
+              {
+                "id": 71,
+                "type": "ManualSigmas",
+                "pos": [
+                  856,
+                  531
+                ],
+                "size": [
+                  315,
+                  154
+                ],
+                "flags": {},
+                "order": 7,
+                "mode": 0,
+                "inputs": [],
+                "outputs": [
+                  {
+                    "name": "SIGMAS",
+                    "type": "SIGMAS",
+                    "links": [
+                      182
+                    ],
+                    "slot_index": 0
+                  }
+                ],
+                "properties": {
+                  "Node name for S&R": "ManualSigmas"
+                },
+                "widgets_values": [
+                  "1.0000, 0.9937, 0.9875, 0.9812, 0.9750, 0.9094, 0.7250, 0.4219, 0.0"
+                ]
+              },
+              {
+                "id": 76,
+                "type": "Note",
+                "pos": [
+                  40,
+                  350
+                ],
+                "size": [
+                  360,
+                  200
+                ],
+                "flags": {},
+                "order": 0,
+                "mode": 0,
+                "inputs": [],
+                "outputs": [],
+                "properties": {},
+                "widgets_values": [
+                  "This model needs long descriptive prompts, if the prompt is too short the quality will suffer greatly."
+                ],
+                "color": "#432",
+                "bgcolor": "#653"
+              },
+              {
+                "id": 44,
+                "type": "CheckpointLoaderSimple",
+                "pos": [
+                  520,
+                  30
+                ],
+                "size": [
+                  315,
+                  98
+                ],
+                "flags": {},
+                "order": 1,
+                "mode": 0,
+                "inputs": [],
+                "outputs": [
+                  {
+                    "name": "MODEL",
+                    "type": "MODEL",
+                    "links": [
+                      181
+                    ],
+                    "slot_index": 0
+                  },
+                  {
+                    "name": "CLIP",
+                    "type": "CLIP",
+                    "links": null
+                  },
+                  {
+                    "name": "VAE",
+                    "type": "VAE",
+                    "links": [
+                      87
+                    ],
+                    "slot_index": 2
+                  }
+                ],
+                "properties": {
+                  "Node name for S&R": "CheckpointLoaderSimple"
+                },
+                "widgets_values": [
+                  "ltxv-2b-0.9.6-distilled-04-25.safetensors"
+                ]
+              },
+              {
+                "id": 38,
+                "type": "CLIPLoader",
+                "pos": [
+                  60,
+                  190
+                ],
+                "size": [
+                  315,
+                  98
+                ],
+                "flags": {},
+                "order": 2,
+                "mode": 0,
+                "inputs": [],
+                "outputs": [
+                  {
+                    "name": "CLIP",
+                    "type": "CLIP",
+                    "links": [
+                      74,
+                      75
+                    ],
+                    "slot_index": 0
+                  }
+                ],
+                "properties": {
+                  "Node name for S&R": "CLIPLoader"
+                },
+                "widgets_values": [
+                  "t5xxl_fp16.safetensors",
+                  "ltxv",
+                  "default"
+                ]
+              },
+              {
+                "id": 72,
+                "type": "SamplerCustom",
+                "pos": [
+                  1201,
+                  32
+                ],
+                "size": [
+                  355.20001220703125,
+                  230
+                ],
+                "flags": {},
+                "order": 9,
+                "mode": 0,
+                "inputs": [
+                  {
+                    "name": "model",
+                    "type": "MODEL",
+                    "link": 181
+                  },
+                  {
+                    "name": "positive",
+                    "type": "CONDITIONING",
+                    "link": 166
+                  },
+                  {
+                    "name": "negative",
+                    "type": "CONDITIONING",
+                    "link": 167
+                  },
+                  {
+                    "name": "sampler",
+                    "type": "SAMPLER",
+                    "link": 172
+                  },
+                  {
+                    "name": "sigmas",
+                    "type": "SIGMAS",
+                    "link": 182
+                  },
+                  {
+                    "name": "latent_image",
+                    "type": "LATENT",
+                    "link": 175
+                  }
+                ],
+                "outputs": [
+                  {
+                    "name": "output",
+                    "type": "LATENT",
+                    "links": [
+                      171
+                    ],
+                    "slot_index": 0
+                  },
+                  {
+                    "name": "denoised_output",
+                    "type": "LATENT",
+                    "links": null
+                  }
+                ],
+                "properties": {
+                  "Node name for S&R": "SamplerCustom"
+                },
+                "widgets_values": [
+                  true,
+                  41,
+                  "fixed",
+                  1
+                ]
+              },
+              {
+                "id": 8,
+                "type": "VAEDecode",
+                "pos": [
+                  1600,
+                  30
+                ],
+                "size": [
+                  210,
+                  46
+                ],
+                "flags": {},
+                "order": 10,
+                "mode": 0,
+                "inputs": [
+                  {
+                    "name": "samples",
+                    "type": "LATENT",
+                    "link": 171
+                  },
+                  {
+                    "name": "vae",
+                    "type": "VAE",
+                    "link": 87
+                  }
+                ],
+                "outputs": [
+                  {
+                    "name": "IMAGE",
+                    "type": "IMAGE",
+                    "links": [
+                      106,
+                      183
+                    ],
+                    "slot_index": 0
+                  }
+                ],
+                "properties": {
+                  "Node name for S&R": "VAEDecode"
+                },
+                "widgets_values": []
+              },
+              {
+                "id": 77,
+                "type": "SaveWEBM",
+                "pos": [
+                  2530,
+                  30
+                ],
+                "size": [
+                  315,
+                  130
+                ],
+                "flags": {},
+                "order": 12,
+                "mode": 0,
+                "inputs": [
+                  {
+                    "name": "images",
+                    "type": "IMAGE",
+                    "link": 183
+                  }
+                ],
+                "outputs": [],
+                "properties": {
+                  "Node name for S&R": "SaveWEBM"
+                },
+                "widgets_values": [
+                  "smoke-25f-seed41",
+                  "vp9",
+                  25,
+                  18
+                ]
+              },
+              {
+                "id": 7,
+                "type": "CLIPTextEncode",
+                "pos": [
+                  420,
+                  500
+                ],
+                "size": [
+                  425.27801513671875,
+                  180.6060791015625
+                ],
+                "flags": {},
+                "order": 6,
+                "mode": 0,
+                "inputs": [
+                  {
+                    "name": "clip",
+                    "type": "CLIP",
+                    "link": 75
+                  }
+                ],
+                "outputs": [
+                  {
+                    "name": "CONDITIONING",
+                    "type": "CONDITIONING",
+                    "links": [
+                      170
+                    ],
+                    "slot_index": 0
+                  }
+                ],
+                "title": "CLIP Text Encode (Negative Prompt)",
+                "properties": {
+                  "Node name for S&R": "CLIPTextEncode"
+                },
+                "widgets_values": [
+                  "low quality, worst quality, deformed, distorted, disfigured, motion smear, motion artifacts, fused fingers, bad anatomy, weird hand, ugly"
+                ],
+                "color": "#322",
+                "bgcolor": "#533"
+              },
+              {
+                "id": 41,
+                "type": "SaveAnimatedWEBP",
+                "pos": [
+                  1830,
+                  30
+                ],
+                "size": [
+                  680,
+                  610
+                ],
+                "flags": {},
+                "order": 11,
+                "mode": 0,
+                "inputs": [
+                  {
+                    "name": "images",
+                    "type": "IMAGE",
+                    "link": 106
+                  }
+                ],
+                "outputs": [],
+                "properties": {},
+                "widgets_values": [
+                  "smoke-25f-seed41",
+                  25,
+                  false,
+                  95,
+                  "default"
+                ]
+              },
+              {
+                "id": 73,
+                "type": "KSamplerSelect",
+                "pos": [
+                  860,
+                  420
+                ],
+                "size": [
+                  315,
+                  58
+                ],
+                "flags": {},
+                "order": 3,
+                "mode": 0,
+                "inputs": [],
+                "outputs": [
+                  {
+                    "name": "SAMPLER",
+                    "type": "SAMPLER",
+                    "links": [
+                      172
+                    ]
+                  }
+                ],
+                "properties": {
+                  "Node name for S&R": "KSamplerSelect"
+                },
+                "widgets_values": [
+                  "euler_ancestral"
+                ]
+              },
+              {
+                "id": 70,
+                "type": "EmptyLTXVLatentVideo",
+                "pos": [
+                  860,
+                  240
+                ],
+                "size": [
+                  315,
+                  130
+                ],
+                "flags": {},
+                "order": 4,
+                "mode": 0,
+                "inputs": [],
+                "outputs": [
+                  {
+                    "name": "LATENT",
+                    "type": "LATENT",
+                    "links": [
+                      175
+                    ],
+                    "slot_index": 0
+                  }
+                ],
+                "properties": {
+                  "Node name for S&R": "EmptyLTXVLatentVideo"
+                },
+                "widgets_values": [
+                  512,
+                  320,
+                  25,
+                  1
+                ]
+              },
+              {
+                "id": 6,
+                "type": "CLIPTextEncode",
+                "pos": [
+                  422.44207763671875,
+                  184.3018035888672
+                ],
+                "size": [
+                  430,
+                  270
+                ],
+                "flags": {},
+                "order": 5,
+                "mode": 0,
+                "inputs": [
+                  {
+                    "name": "clip",
+                    "type": "CLIP",
+                    "link": 74
+                  }
+                ],
+                "outputs": [
+                  {
+                    "name": "CONDITIONING",
+                    "type": "CONDITIONING",
+                    "links": [
+                      169
+                    ],
+                    "slot_index": 0
+                  }
+                ],
+                "title": "CLIP Text Encode (Positive Prompt)",
+                "properties": {
+                  "Node name for S&R": "CLIPTextEncode"
+                },
+                "widgets_values": [
+                  "A single bright red ball rolls slowly from the left side to the right side of a wooden table. The ball remains round and keeps the same size and color throughout the shot. A plain beige wall is visible in the background. Soft daylight enters from a window on the left. The camera stays completely still, showing the entire table surface in one continuous shot."
+                ],
+                "color": "#232",
+                "bgcolor": "#353"
+              }
+            ],
+            "links": [
+              [
+                74,
+                38,
+                0,
+                6,
+                0,
+                "CLIP"
+              ],
+              [
+                75,
+                38,
+                0,
+                7,
+                0,
+                "CLIP"
+              ],
+              [
+                87,
+                44,
+                2,
+                8,
+                1,
+                "VAE"
+              ],
+              [
+                106,
+                8,
+                0,
+                41,
+                0,
+                "IMAGE"
+              ],
+              [
+                166,
+                69,
+                0,
+                72,
+                1,
+                "CONDITIONING"
+              ],
+              [
+                167,
+                69,
+                1,
+                72,
+                2,
+                "CONDITIONING"
+              ],
+              [
+                169,
+                6,
+                0,
+                69,
+                0,
+                "CONDITIONING"
+              ],
+              [
+                170,
+                7,
+                0,
+                69,
+                1,
+                "CONDITIONING"
+              ],
+              [
+                171,
+                72,
+                0,
+                8,
+                0,
+                "LATENT"
+              ],
+              [
+                172,
+                73,
+                0,
+                72,
+                3,
+                "SAMPLER"
+              ],
+              [
+                175,
+                70,
+                0,
+                72,
+                5,
+                "LATENT"
+              ],
+              [
+                181,
+                44,
+                0,
+                72,
+                0,
+                "MODEL"
+              ],
+              [
+                182,
+                71,
+                0,
+                72,
+                4,
+                "SIGMAS"
+              ],
+              [
+                183,
+                8,
+                0,
+                77,
+                0,
+                "IMAGE"
+              ]
+            ],
+            "groups": [],
+            "config": {},
+            "extra": {},
+            "version": 0.4
+          }
+        },
+        "client_id": "dad4b911-6f3b-4310-b107-435734ad2fe6",
+        "create_time": 1793256870562
+      },
+      [
+        "41",
+        "77"
+      ]
+    ],
+    "outputs": {
+      "41": {
+        "images": [
+          {
+            "filename": "smoke-25f-seed41_00001_.webp",
+            "subfolder": "",
+            "type": "output",
+            "metadata": {
+              "kind": "image",
+              "width": 512,
+              "height": 320
+            }
+          }
+        ],
+        "animated": [
+          true
+        ]
+      },
+      "77": {
+        "images": [
+          {
+            "filename": "smoke-25f-seed41_00002_.webm",
+            "subfolder": "",
+            "type": "output",
+            "metadata": {
+              "kind": "video",
+              "width": 512,
+              "height": 320,
+              "duration": 1.0,
+              "fps": 25.0
+            }
+          }
+        ],
+        "animated": [
+          true
+        ]
+      }
+    },
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "ebaa771e-2e63-4486-a506-a5cf55715a4a",
+            "timestamp": 1793256870563
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [],
+            "prompt_id": "ebaa771e-2e63-4486-a506-a5cf55715a4a",
+            "timestamp": 1793256870566
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "ebaa771e-2e63-4486-a506-a5cf55715a4a",
+            "timestamp": 1793256976464
+          }
+        ]
+      ]
+    },
+    "meta": {
+      "41": {
+        "node_id": "41",
+        "display_node": "41",
+        "parent_node": null,
+        "real_node_id": "41"
+      },
+      "77": {
+        "node_id": "77",
+        "display_node": "77",
+        "parent_node": null,
+        "real_node_id": "77"
+      }
+    }
+  }
+}

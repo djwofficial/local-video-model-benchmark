@@ -1,0 +1,49 @@
+Using Python 3.12.13 environment at: /Users/dyn/AI/venvs/ltx-mlx
+Resolved 39 packages in 3.79s
+   Building ltx-pipelines-mlx @ file:///Users/dyn/AI/video-model-comparison-2026-10-29/mlx-runtime/packages/ltx-pipelines-mlx
+   Building ltx-core-mlx @ file:///Users/dyn/AI/video-model-comparison-2026-10-29/mlx-runtime/packages/ltx-core-mlx
+Downloading mlx-metal (74.5MiB)
+      Built ltx-pipelines-mlx @ file:///Users/dyn/AI/video-model-comparison-2026-10-29/mlx-runtime/packages/ltx-pipelines-mlx
+      Built ltx-core-mlx @ file:///Users/dyn/AI/video-model-comparison-2026-10-29/mlx-runtime/packages/ltx-core-mlx
+ Downloaded mlx-metal
+Prepared 7 packages in 2m 35s
+Installed 39 packages in 248ms
+ + annotated-doc==0.0.5
+ + anyio==4.15.1
+ + click==8.5.0
+ + filelock==4.2.4
+ + fsspec==2026.9.0
+ + h11==0.16.0
+ + hf-xet==1.7.1
+ + httpcore2==2.16.0
+ + httpx2==2.16.0
+ + huggingface-hub==2.3.0
+ + idna==3.20
+ + jinja2==3.1.6
+ + ltx-core-mlx==0.18.0 (from file:///Users/dyn/AI/video-model-comparison-2026-10-29/mlx-runtime/packages/ltx-core-mlx)
+ + ltx-pipelines-mlx==0.18.0 (from file:///Users/dyn/AI/video-model-comparison-2026-10-29/mlx-runtime/packages/ltx-pipelines-mlx)
+ + markdown-it-py==4.2.0
+ + markupsafe==3.0.4
+ + mdurl==0.1.2
+ + mlx==0.32.4
+ + mlx-arsenal==0.18.0
+ + mlx-lm==0.32.2
+ + mlx-metal==0.32.4
+ + numpy==2.5.4
+ + packaging==26.3
+ + pillow==13.0.0
+ + protobuf==7.36.2
+ + psutil==7.2.2
+ + pygments==2.21.0
+ + pyyaml==6.0.3
+ + regex==2026.9.29
+ + rich==15.0.0
+ + safetensors==0.8.0
+ + sentencepiece==0.2.2
+ + shellingham==1.5.4
+ + tokenizers==0.23.3
+ + tqdm==4.70.1
+ + transformers==5.21.0
+ + truststore==0.10.5
+ + typer==0.27.3
+ + typing-extensions==4.16.0

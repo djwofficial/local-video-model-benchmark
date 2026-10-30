@@ -1,0 +1,3 @@
+{"time": 1793256255.286135, "stage": "waiting_for_ltx_distilled"}
+{"time": 1793257063.645526, "stage": "downloading", "model": "wan21"}
+{"time": 1793258247.7736378, "stage": "testing", "model": "wan21"}

@@ -1,0 +1,578 @@
+[
+  {
+    "video": "1152x768-49f-seed42.mp4",
+    "frames": 49,
+    "frames_with_ball": 49,
+    "frames_with_one_blob": 49,
+    "max_blobs": 1,
+    "start_x": 0.19,
+    "end_x": 0.904,
+    "max_backward_step": 0,
+    "max_rollback": 0.0,
+    "longest_gap_frames": 0,
+    "x_at_strip": [
+      0.19,
+      0.435,
+      0.639,
+      0.793,
+      0.904
+    ],
+    "min_aspect": 0.618,
+    "area_range": [
+      5087,
+      6504
+    ],
+    "strip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/1152x768-49f-seed42-strip.jpg",
+    "strip_frames": [
+      1,
+      13,
+      25,
+      37,
+      49
+    ]
+  },
+  {
+    "video": "1152x768-49f-seed43.mp4",
+    "frames": 49,
+    "frames_with_ball": 49,
+    "frames_with_one_blob": 48,
+    "max_blobs": 2,
+    "start_x": 0.191,
+    "end_x": 0.904,
+    "max_backward_step": 0,
+    "max_rollback": 0.0,
+    "longest_gap_frames": 0,
+    "x_at_strip": [
+      0.191,
+      0.426,
+      0.626,
+      0.782,
+      0.904
+    ],
+    "min_aspect": 0.626,
+    "area_range": [
+      4576,
+      6370
+    ],
+    "strip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/1152x768-49f-seed43-strip.jpg",
+    "strip_frames": [
+      1,
+      13,
+      25,
+      37,
+      49
+    ]
+  },
+  {
+    "video": "1344x896-49f-seed42.mp4",
+    "frames": 49,
+    "frames_with_ball": 49,
+    "frames_with_one_blob": 48,
+    "max_blobs": 2,
+    "start_x": 0.191,
+    "end_x": 0.906,
+    "max_backward_step": 0.02,
+    "max_rollback": 0.08,
+    "longest_gap_frames": 0,
+    "x_at_strip": [
+      0.191,
+      0.511,
+      0.77,
+      0.95,
+      0.906
+    ],
+    "min_aspect": 0.233,
+    "area_range": [
+      2204,
+      7588
+    ],
+    "strip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/1344x896-49f-seed42-strip.jpg",
+    "strip_frames": [
+      1,
+      13,
+      25,
+      37,
+      49
+    ]
+  },
+  {
+    "video": "1344x896-49f-seed43.mp4",
+    "frames": 49,
+    "frames_with_ball": 49,
+    "frames_with_one_blob": 49,
+    "max_blobs": 1,
+    "start_x": 0.19,
+    "end_x": 0.904,
+    "max_backward_step": 0,
+    "max_rollback": 0.0,
+    "longest_gap_frames": 0,
+    "x_at_strip": [
+      0.19,
+      0.457,
+      0.64,
+      0.787,
+      0.904
+    ],
+    "min_aspect": 0.645,
+    "area_range": [
+      4857,
+      6752
+    ],
+    "strip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/1344x896-49f-seed43-strip.jpg",
+    "strip_frames": [
+      1,
+      13,
+      25,
+      37,
+      49
+    ]
+  },
+  {
+    "video": "1536x1024-49f-seed42.mp4",
+    "frames": 49,
+    "frames_with_ball": 49,
+    "frames_with_one_blob": 49,
+    "max_blobs": 1,
+    "start_x": 0.19,
+    "end_x": 0.903,
+    "max_backward_step": 0,
+    "max_rollback": 0.0,
+    "longest_gap_frames": 0,
+    "x_at_strip": [
+      0.19,
+      0.432,
+      0.627,
+      0.782,
+      0.903
+    ],
+    "min_aspect": 0.645,
+    "area_range": [
+      4590,
+      6644
+    ],
+    "strip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/1536x1024-49f-seed42-strip.jpg",
+    "strip_frames": [
+      1,
+      13,
+      25,
+      37,
+      49
+    ]
+  },
+  {
+    "video": "1536x1024-49f-seed43.mp4",
+    "frames": 49,
+    "frames_with_ball": 49,
+    "frames_with_one_blob": 49,
+    "max_blobs": 1,
+    "start_x": 0.19,
+    "end_x": 0.903,
+    "max_backward_step": 0,
+    "max_rollback": 0.0,
+    "longest_gap_frames": 0,
+    "x_at_strip": [
+      0.19,
+      0.423,
+      0.619,
+      0.776,
+      0.903
+    ],
+    "min_aspect": 0.62,
+    "area_range": [
+      4831,
+      6888
+    ],
+    "strip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/1536x1024-49f-seed43-strip.jpg",
+    "strip_frames": [
+      1,
+      13,
+      25,
+      37,
+      49
+    ]
+  },
+  {
+    "video": "1536x1024-97f-seed42.mp4",
+    "frames": 97,
+    "frames_with_ball": 97,
+    "frames_with_one_blob": 97,
+    "max_blobs": 1,
+    "start_x": 0.19,
+    "end_x": 0.904,
+    "max_backward_step": 0.019,
+    "max_rollback": 0.446,
+    "longest_gap_frames": 0,
+    "x_at_strip": [
+      0.19,
+      0.824,
+      0.916,
+      0.541,
+      0.904
+    ],
+    "min_aspect": 0.331,
+    "area_range": [
+      3678,
+      7715
+    ],
+    "strip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/1536x1024-97f-seed42-strip.jpg",
+    "strip_frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ]
+  },
+  {
+    "video": "1536x1024-97f-seed43.mp4",
+    "frames": 97,
+    "frames_with_ball": 74,
+    "frames_with_one_blob": 58,
+    "max_blobs": 2,
+    "start_x": 0.189,
+    "end_x": 0.898,
+    "max_backward_step": 0.022,
+    "max_rollback": 0.182,
+    "longest_gap_frames": 23,
+    "x_at_strip": [
+      0.189,
+      null,
+      0.25,
+      0.614,
+      0.898
+    ],
+    "min_aspect": 0.239,
+    "area_range": [
+      766,
+      6479
+    ],
+    "strip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/1536x1024-97f-seed43-strip.jpg",
+    "strip_frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ]
+  },
+  {
+    "video": "768x512-121f-seed42.mp4",
+    "frames": 121,
+    "frames_with_ball": 92,
+    "frames_with_one_blob": 88,
+    "max_blobs": 2,
+    "start_x": 0.19,
+    "end_x": 0.906,
+    "max_backward_step": 0.007,
+    "max_rollback": 0.086,
+    "longest_gap_frames": 29,
+    "x_at_strip": [
+      0.19,
+      0.662,
+      0.968,
+      null,
+      0.906
+    ],
+    "min_aspect": 0.232,
+    "area_range": [
+      350,
+      9399
+    ],
+    "strip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/768x512-121f-seed42-strip.jpg",
+    "strip_frames": [
+      1,
+      31,
+      61,
+      91,
+      121
+    ]
+  },
+  {
+    "video": "768x512-121f-seed43.mp4",
+    "frames": 121,
+    "frames_with_ball": 121,
+    "frames_with_one_blob": 120,
+    "max_blobs": 2,
+    "start_x": 0.19,
+    "end_x": 0.907,
+    "max_backward_step": 0.002,
+    "max_rollback": 0.003,
+    "longest_gap_frames": 0,
+    "x_at_strip": [
+      0.19,
+      0.666,
+      0.907,
+      0.907,
+      0.907
+    ],
+    "min_aspect": 0.592,
+    "area_range": [
+      4870,
+      6908
+    ],
+    "strip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/768x512-121f-seed43-strip.jpg",
+    "strip_frames": [
+      1,
+      31,
+      61,
+      91,
+      121
+    ]
+  },
+  {
+    "video": "768x512-145f-seed42.mp4",
+    "frames": 145,
+    "frames_with_ball": 142,
+    "frames_with_one_blob": 126,
+    "max_blobs": 2,
+    "start_x": 0.191,
+    "end_x": 0.905,
+    "max_backward_step": 0.022,
+    "max_rollback": 0.952,
+    "longest_gap_frames": 3,
+    "x_at_strip": [
+      0.191,
+      0.927,
+      0.397,
+      0.21,
+      0.905
+    ],
+    "min_aspect": 0.289,
+    "area_range": [
+      1225,
+      7488
+    ],
+    "strip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/768x512-145f-seed42-strip.jpg",
+    "strip_frames": [
+      1,
+      37,
+      73,
+      109,
+      145
+    ]
+  },
+  {
+    "video": "768x512-145f-seed43.mp4",
+    "frames": 145,
+    "frames_with_ball": 145,
+    "frames_with_one_blob": 145,
+    "max_blobs": 1,
+    "start_x": 0.19,
+    "end_x": 0.906,
+    "max_backward_step": 0.004,
+    "max_rollback": 0.048,
+    "longest_gap_frames": 0,
+    "x_at_strip": [
+      0.19,
+      0.748,
+      0.914,
+      0.906,
+      0.906
+    ],
+    "min_aspect": 0.57,
+    "area_range": [
+      5094,
+      7559
+    ],
+    "strip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/768x512-145f-seed43-strip.jpg",
+    "strip_frames": [
+      1,
+      37,
+      73,
+      109,
+      145
+    ]
+  },
+  {
+    "video": "768x512-49f-seed42.mp4",
+    "frames": 49,
+    "frames_with_ball": 49,
+    "frames_with_one_blob": 49,
+    "max_blobs": 1,
+    "start_x": 0.19,
+    "end_x": 0.904,
+    "max_backward_step": 0,
+    "max_rollback": 0.0,
+    "longest_gap_frames": 0,
+    "x_at_strip": [
+      0.19,
+      0.423,
+      0.618,
+      0.775,
+      0.904
+    ],
+    "min_aspect": 0.631,
+    "area_range": [
+      4979,
+      6856
+    ],
+    "strip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/768x512-49f-seed42-strip.jpg",
+    "strip_frames": [
+      1,
+      13,
+      25,
+      37,
+      49
+    ]
+  },
+  {
+    "video": "768x512-49f-seed43.mp4",
+    "frames": 49,
+    "frames_with_ball": 49,
+    "frames_with_one_blob": 49,
+    "max_blobs": 1,
+    "start_x": 0.19,
+    "end_x": 0.905,
+    "max_backward_step": 0,
+    "max_rollback": 0.0,
+    "longest_gap_frames": 0,
+    "x_at_strip": [
+      0.19,
+      0.42,
+      0.616,
+      0.775,
+      0.905
+    ],
+    "min_aspect": 0.589,
+    "area_range": [
+      4994,
+      6741
+    ],
+    "strip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/768x512-49f-seed43-strip.jpg",
+    "strip_frames": [
+      1,
+      13,
+      25,
+      37,
+      49
+    ]
+  },
+  {
+    "video": "768x512-97f-seed42.mp4",
+    "frames": 97,
+    "frames_with_ball": 97,
+    "frames_with_one_blob": 94,
+    "max_blobs": 2,
+    "start_x": 0.189,
+    "end_x": 0.906,
+    "max_backward_step": 0.012,
+    "max_rollback": 0.196,
+    "longest_gap_frames": 0,
+    "x_at_strip": [
+      0.189,
+      0.698,
+      0.965,
+      0.776,
+      0.906
+    ],
+    "min_aspect": 0.418,
+    "area_range": [
+      4545,
+      7351
+    ],
+    "strip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/768x512-97f-seed42-strip.jpg",
+    "strip_frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ]
+  },
+  {
+    "video": "768x512-97f-seed43.mp4",
+    "frames": 97,
+    "frames_with_ball": 89,
+    "frames_with_one_blob": 87,
+    "max_blobs": 2,
+    "start_x": 0.189,
+    "end_x": 0.906,
+    "max_backward_step": 0.023,
+    "max_rollback": 0.141,
+    "longest_gap_frames": 8,
+    "x_at_strip": [
+      0.189,
+      0.722,
+      0.894,
+      null,
+      0.906
+    ],
+    "min_aspect": 0.254,
+    "area_range": [
+      339,
+      8569
+    ],
+    "strip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/768x512-97f-seed43-strip.jpg",
+    "strip_frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ]
+  },
+  {
+    "video": "960x640-49f-seed42.mp4",
+    "frames": 49,
+    "frames_with_ball": 49,
+    "frames_with_one_blob": 49,
+    "max_blobs": 1,
+    "start_x": 0.19,
+    "end_x": 0.905,
+    "max_backward_step": 0,
+    "max_rollback": 0.0,
+    "longest_gap_frames": 0,
+    "x_at_strip": [
+      0.19,
+      0.422,
+      0.623,
+      0.785,
+      0.905
+    ],
+    "min_aspect": 0.616,
+    "area_range": [
+      5077,
+      6680
+    ],
+    "strip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/960x640-49f-seed42-strip.jpg",
+    "strip_frames": [
+      1,
+      13,
+      25,
+      37,
+      49
+    ]
+  },
+  {
+    "video": "960x640-49f-seed43.mp4",
+    "frames": 49,
+    "frames_with_ball": 49,
+    "frames_with_one_blob": 49,
+    "max_blobs": 1,
+    "start_x": 0.19,
+    "end_x": 0.905,
+    "max_backward_step": 0.0,
+    "max_rollback": 0.0,
+    "longest_gap_frames": 0,
+    "x_at_strip": [
+      0.19,
+      0.445,
+      0.653,
+      0.798,
+      0.905
+    ],
+    "min_aspect": 0.617,
+    "area_range": [
+      4733,
+      6780
+    ],
+    "strip": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/960x640-49f-seed43-strip.jpg",
+    "strip_frames": [
+      1,
+      13,
+      25,
+      37,
+      49
+    ]
+  }
+]

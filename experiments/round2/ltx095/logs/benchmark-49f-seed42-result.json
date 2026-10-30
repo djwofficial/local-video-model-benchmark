@@ -1,0 +1,132 @@
+{
+  "label": "benchmark-49f-seed42",
+  "model": "LTX-Video 2B v0.9.5",
+  "round": 2,
+  "prompt": "A single bright red ball rolls from the left side to the right side of a wooden table, moving steadily across the whole table until it reaches the right edge. The ball remains round and keeps the same size and color throughout the shot. A plain beige wall is visible in the background. Soft daylight enters from a window on the left. The camera stays completely still, showing the entire table surface in one continuous shot.",
+  "seed": 42,
+  "width": 768,
+  "height": 512,
+  "frames": 49,
+  "playback_fps": 25,
+  "steps": 30,
+  "guidance": 3,
+  "sampler": "res_multistep",
+  "clip_device": "default",
+  "status": "execution_success",
+  "elapsed_client_s": 144.823,
+  "generated_frames_per_second": 0.3383,
+  "cached_nodes": [
+    "44",
+    "38",
+    "6",
+    "7",
+    "69",
+    "70",
+    "71",
+    "73"
+  ],
+  "sampler_executed": true,
+  "prompt_id": "6fb7a713-1764-4215-9fcd-800b125b273d",
+  "before": {
+    "time": 1793282159.8276968,
+    "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t9%; charging; 4:51 remaining present: true",
+    "power_settings": "Battery Power:\n Sleep On Power Button 1\n powermode            1\n standby              1\n ttyskeepawake        1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n displaysleep         2\n womp                 0\n networkoversleep     0\n sleep                1\n lessbright           1\n tcpkeepalive         1\n disksleep            10\nAC Power:\n Sleep On Power Button 1\n powermode            0\n standby              1\n ttyskeepawake        1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n displaysleep         0\n womp                 1\n networkoversleep     0\n sleep                1\n tcpkeepalive         1\n disksleep            10",
+    "swap": "vm.swapusage: total = 17408.00M  used = 17078.06M  free = 329.94M  (encrypted)",
+    "swap_bytes": 17907646464,
+    "memory_pressure": "The system has 25769803776 (1572864 pages with a page size of 16384).\nSystem-wide memory free percentage: 54%"
+  },
+  "after": {
+    "time": 1793282304.896412,
+    "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t9%; charging; (no estimate) present: true",
+    "power_settings": "Battery Power:\n Sleep On Power Button 1\n powermode            1\n standby              1\n ttyskeepawake        1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n displaysleep         2\n womp                 0\n networkoversleep     0\n sleep                1\n lessbright           1\n tcpkeepalive         1\n disksleep            10\nAC Power:\n Sleep On Power Button 1\n powermode            0\n standby              1\n ttyskeepawake        1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n displaysleep         0\n womp                 1\n networkoversleep     0\n sleep                1\n tcpkeepalive         1\n disksleep            10",
+    "swap": "vm.swapusage: total = 18432.00M  used = 17648.00M  free = 784.00M  (encrypted)",
+    "swap_bytes": 18505269248,
+    "memory_pressure": "The system has 25769803776 (1572864 pages with a page size of 16384).\nSystem-wide memory free percentage: 64%"
+  },
+  "swap_delta_bytes": 597622784,
+  "memory": {
+    "method": "1 Hz samples in ComfyUI server process; sampled maxima, not true allocator peaks. RSS and MPS counters overlap; do not add them.",
+    "sample_count": 142,
+    "sampled_max_rss_bytes": 793739264,
+    "sampled_max_mps_allocated_bytes": 8354639872,
+    "sampled_max_mps_driver_bytes": 16252223488,
+    "sampled_max_system_swap_used_bytes": 18505269248
+  },
+  "server_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "6fb7a713-1764-4215-9fcd-800b125b273d",
+          "timestamp": 1793282159876
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "44",
+            "38",
+            "6",
+            "7",
+            "69",
+            "70",
+            "71",
+            "73"
+          ],
+          "prompt_id": "6fb7a713-1764-4215-9fcd-800b125b273d",
+          "timestamp": 1793282159882
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "6fb7a713-1764-4215-9fcd-800b125b273d",
+          "timestamp": 1793282304670
+        }
+      ]
+    ]
+  },
+  "outputs": {
+    "41": {
+      "images": [
+        {
+          "filename": "benchmark-49f-seed42_00001_.webp",
+          "subfolder": "",
+          "type": "output",
+          "metadata": {
+            "kind": "image",
+            "width": 768,
+            "height": 512
+          }
+        }
+      ],
+      "animated": [
+        true
+      ]
+    },
+    "77": {
+      "images": [
+        {
+          "filename": "benchmark-49f-seed42_00002_.webm",
+          "subfolder": "",
+          "type": "output",
+          "metadata": {
+            "kind": "video",
+            "width": 768,
+            "height": 512,
+            "duration": 1.96,
+            "fps": 25.0
+          }
+        }
+      ],
+      "animated": [
+        true
+      ]
+    }
+  },
+  "conditions": "AC",
+  "timing_scope": "Client submit to execution success; includes uncached nodes, sampler, VAE decode, WebP and WebM output writing. Warm runs cache prompt encodings; model residency uses ComfyUI defaults. Downloads/setup excluded."
+}

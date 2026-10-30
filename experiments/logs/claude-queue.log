@@ -1,0 +1,21 @@
+skip completed wan22
+{"time": 1793281835.746815, "stage": "testing", "controller": "claude_queue.py", "model": "round2/ltx095", "modes": "smoke,bench"}
+{"time": 1793282590.49731, "stage": "queue_complete_pending_review", "controller": "claude_queue.py", "stages": ["comfy:wan22:smoke,bench", "comfy:round2/ltx095:smoke,bench"]}
+{"time": 1793282771.33637, "stage": "retiring_completed_candidate_caches", "controller": "claude_queue.py", "models": "wan21,wan22"}
+Retired completed-test cache: /Users/dyn/AI/models/diffusion_models/wan2.1_t2v_1.3B_fp16.safetensors
+Retired completed-test cache: /Users/dyn/AI/models/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors
+Retired completed-test cache: /Users/dyn/AI/models/vae/wan_2.1_vae.safetensors
+Retired completed-test cache: /Users/dyn/AI/models/diffusion_models/wan2.2_ti2v_5B_fp16.safetensors
+Retired completed-test cache: /Users/dyn/AI/models/vae/wan2.2_vae.safetensors
+{"time": 1793282781.833069, "stage": "downloading", "controller": "claude_queue.py", "model": "ltx23-mlx"}
+{"time": 1793282833, "event": "Claude replaced the queue to append mlx:round2/ltx23-mlx; LTX-2.3 download left running"}
+{"time": 1793284494.8938491, "stage": "downloading", "controller": "claude_queue.py", "model": "ltx23-mlx"}
+{"time": 1793284507.3675551, "stage": "testing", "controller": "claude_queue.py", "model": "ltx23-mlx"}
+{"time": 1793284782.0469792, "stage": "testing", "controller": "claude_queue.py", "model": "round2/ltx23-mlx"}
+{"time": 1793285296.995286, "stage": "queue_complete_pending_review", "controller": "claude_queue.py", "stages": ["download:ltx23-mlx", "mlx:ltx23-mlx", "mlx:round2/ltx23-mlx"]}
+{"time": 1793292774.403608, "stage": "testing", "controller": "claude_queue.py", "model": "round2/ltx23-mlx-moreseeds"}
+{"time": 1793293578.2725508, "stage": "queue_complete_pending_review", "controller": "claude_queue.py", "stages": ["mlx:round2/ltx23-mlx-moreseeds"]}
+{"time": 1793294283.7865229, "stage": "testing", "controller": "claude_queue.py", "model": "round3/ltx23-mlx-keyframes"}
+{"time": 1793295648.4271958, "stage": "queue_complete_pending_review", "controller": "claude_queue.py", "stages": ["mlx:round3/ltx23-mlx-keyframes"]}
+{"time": 1793296858.050473, "stage": "testing", "controller": "claude_queue.py", "model": "round4/ltx23-mlx-ladder"}
+{"time": 1793304482.781662, "stage": "queue_complete_pending_review", "controller": "claude_queue.py", "stages": ["mlx:round4/ltx23-mlx-ladder"]}

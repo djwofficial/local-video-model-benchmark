@@ -1,0 +1,45 @@
+{
+  "label": "768x512-145f-seed43",
+  "model": "LTX-2.3 distilled MLX 4-bit",
+  "round": 4,
+  "config": "768x512x145",
+  "cold": false,
+  "anchors": [
+    "start-ball-left.png@0 replace 1.0",
+    "end-ball-right.png@last guide 1.0"
+  ],
+  "prompt": "A single bright red ball rolls from the left side to the right side of a wooden table, moving steadily across the whole table until it reaches the right edge. The ball remains round and keeps the same size and color throughout the shot. A plain beige wall is visible in the background. Soft daylight enters from a window on the left. The camera stays completely still, showing the entire table surface in one continuous shot.",
+  "status": "success",
+  "error": null,
+  "seed": 43,
+  "width": 768,
+  "height": 512,
+  "frames": 145,
+  "playback_fps": 25,
+  "elapsed_client_s": 376.777,
+  "before": {
+    "time": 1793301671.658697,
+    "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t93%; charging; (no estimate) present: true",
+    "swap_bytes": 11461328896,
+    "available_bytes": 6994771968,
+    "free_disk_bytes": 17880584192
+  },
+  "after": {
+    "time": 1793302048.447645,
+    "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t93%; charging; (no estimate) present: true",
+    "swap_bytes": 10682826752,
+    "available_bytes": 12784910336,
+    "free_disk_bytes": 18960560128
+  },
+  "mlx_peak_active_bytes": 13078840514,
+  "mlx_peak_sampled_max_bytes": 13078840514,
+  "phys_footprint_sampled_max_bytes": 9944680392,
+  "phys_footprint_lifetime_max_bytes": 15637916544,
+  "conditions": "AC",
+  "sampled_max_rss_bytes": 1900118016,
+  "swap_delta_bytes": -778502144,
+  "low_ram_streaming": true,
+  "audio": false,
+  "pipeline": "DistilledPipeline two-stage:384x256 8steps +2x spatial upscale +768x512 3steps",
+  "timing_scope": "Native pipeline generation through MP4 saving; includes uncached text encoding and native model load/free lifecycle. Warm runs reuse cached prompt embeddings, matching ComfyUI prompt caching; model residency differs by runtime. Setup and downloads excluded."
+}

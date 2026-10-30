@@ -1,0 +1,23 @@
+{
+  "criterion": "Exactly one red ball visibly moves left to right while retaining a broadly round shape in the inspected keyframes. This narrow visual task does not score every prompt detail, flicker or overall model quality.",
+  "method": "Human visual review of six-keyframe contact sheets, all three measured seeds; no real-time playback claim. WebM retains49frames; WebP may coalesce repeats. Supported by an HSV red-blob check over all 49 decoded frames.",
+  "passed": 3,
+  "evaluated": 3,
+  "seeds": [
+    {
+      "seed": 42,
+      "pass": true,
+      "observation": "One round red ball rolls from the far left of the table to the right and towards the camera (red-blob x 0.08\u21920.42); the only other red-ish region is the static door frame"
+    },
+    {
+      "seed": 43,
+      "pass": true,
+      "observation": "One round red ball enters from the left edge and rolls steadily to the right (x 0.00\u21920.47); slight camera drift"
+    },
+    {
+      "seed": 44,
+      "pass": true,
+      "observation": "One round red ball enters from the left and rolls right across the table until it leaves the frame at the right edge (x 0.02\u21920.97)"
+    }
+  ]
+}

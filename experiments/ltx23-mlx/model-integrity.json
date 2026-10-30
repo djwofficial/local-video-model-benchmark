@@ -1,0 +1,51 @@
+[
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/ltx23-mlx/model/connector.safetensors",
+    "bytes": 6344495512,
+    "sha256": "5885c2bd7af4e761b3257cf5b17bc1fdb2d187cea3ca520ea723b6a129b7029f",
+    "verified": true,
+    "reused_existing": true
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/ltx23-mlx/model/spatial_upscaler_x2_v1_1.safetensors",
+    "bytes": 995745061,
+    "sha256": "755f69dcb8a3f9589045925eb4a2237e9969f9c026a016393bc395e65ebd5788",
+    "verified": true,
+    "reused_existing": true
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/ltx23-mlx/model/transformer-distilled-1.1.safetensors",
+    "bytes": 11322002285,
+    "sha256": "a78f67e1c9bf3c171b8c043721cdb7cbf72ff2a1fc8a5021769ca622f506b890",
+    "verified": true,
+    "reused_existing": true
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/ltx23-mlx/model/vae_decoder.safetensors",
+    "bytes": 814349531,
+    "sha256": "f404026fe0b59418eaec4a3fcdc474125c798f0b787dc390f6eb4e79934d4160",
+    "verified": true,
+    "reused_existing": true
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/ltx23-mlx/gemma/model-00001-of-00002.safetensors",
+    "bytes": 5367455313,
+    "sha256": "995cbd05b7bfd8f5ab5307b476eb5496b5ec3f5256a9dd26366236ce8816c93f",
+    "verified": true,
+    "reused_existing": true
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/ltx23-mlx/gemma/model-00002-of-00002.safetensors",
+    "bytes": 2661219935,
+    "sha256": "8b7af7eb5ff32109fc65cbcd0af5b8016ac0de46df17f40705f043f899495333",
+    "verified": true,
+    "reused_existing": true
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/ltx23-mlx/model/vae_encoder.safetensors",
+    "bytes": 637885319,
+    "sha256": "1512f5ef8387901db0baecb328690676e2667ddf2b63e28f8e6645188c1a8c06",
+    "verified": true,
+    "reused_existing": true
+  }
+]

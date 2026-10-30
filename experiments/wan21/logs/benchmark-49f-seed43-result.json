@@ -1,0 +1,128 @@
+{
+  "label": "benchmark-49f-seed43",
+  "model": "Wan 2.1 T2V 1.3B",
+  "seed": 43,
+  "width": 512,
+  "height": 320,
+  "frames": 49,
+  "playback_fps": 25,
+  "steps": 30,
+  "guidance": 6,
+  "sampler": "uni_pc",
+  "clip_device": "default",
+  "status": "execution_success",
+  "elapsed_client_s": 770.932,
+  "generated_frames_per_second": 0.0636,
+  "cached_nodes": [
+    "37",
+    "38",
+    "39",
+    "6",
+    "7",
+    "40",
+    "48"
+  ],
+  "sampler_executed": true,
+  "prompt_id": "2a478406-1dc2-4318-8df9-9ae246ab0e02",
+  "before": {
+    "time": 1793261877.635488,
+    "power": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=23068771)\t33%; discharging; 0:45 remaining present: true",
+    "power_settings": "Battery Power:\n Sleep On Power Button 1\n powermode            1\n standby              1\n ttyskeepawake        1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n displaysleep         2\n womp                 0\n networkoversleep     0\n sleep                1\n lessbright           1\n tcpkeepalive         1\n disksleep            10\nAC Power:\n Sleep On Power Button 1\n powermode            0\n standby              1\n ttyskeepawake        1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n displaysleep         0\n womp                 1\n networkoversleep     0\n sleep                1\n tcpkeepalive         1\n disksleep            10",
+    "swap": "vm.swapusage: total = 12288.00M  used = 10625.50M  free = 1662.50M  (encrypted)",
+    "swap_bytes": 11141644288,
+    "memory_pressure": "The system has 25769803776 (1572864 pages with a page size of 16384).\nSystem-wide memory free percentage: 79%"
+  },
+  "after": {
+    "time": 1793262648.780027,
+    "power": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=23068771)\t24%; discharging; 0:38 remaining present: true",
+    "power_settings": "Battery Power:\n Sleep On Power Button 1\n powermode            1\n standby              1\n ttyskeepawake        1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n displaysleep         2\n womp                 0\n networkoversleep     0\n sleep                1\n lessbright           1\n tcpkeepalive         1\n disksleep            10\nAC Power:\n Sleep On Power Button 1\n powermode            0\n standby              1\n ttyskeepawake        1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n displaysleep         0\n womp                 1\n networkoversleep     0\n sleep                1\n tcpkeepalive         1\n disksleep            10",
+    "swap": "vm.swapusage: total = 12288.00M  used = 10593.50M  free = 1694.50M  (encrypted)",
+    "swap_bytes": 11108089856,
+    "memory_pressure": "The system has 25769803776 (1572864 pages with a page size of 16384).\nSystem-wide memory free percentage: 78%"
+  },
+  "swap_delta_bytes": -33554432,
+  "memory": {
+    "method": "1 Hz samples in ComfyUI server process; sampled maxima, not true allocator peaks. RSS and MPS counters overlap; do not add them.",
+    "sample_count": 765,
+    "sampled_max_rss_bytes": 745488384,
+    "sampled_max_mps_allocated_bytes": 4568931328,
+    "sampled_max_mps_driver_bytes": 11630493696,
+    "sampled_max_system_swap_used_bytes": 11141644288
+  },
+  "server_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "2a478406-1dc2-4318-8df9-9ae246ab0e02",
+          "timestamp": 1793261877666
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "37",
+            "38",
+            "39",
+            "6",
+            "7",
+            "40",
+            "48"
+          ],
+          "prompt_id": "2a478406-1dc2-4318-8df9-9ae246ab0e02",
+          "timestamp": 1793261877668
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "2a478406-1dc2-4318-8df9-9ae246ab0e02",
+          "timestamp": 1793262648592
+        }
+      ]
+    ]
+  },
+  "outputs": {
+    "47": {
+      "images": [
+        {
+          "filename": "benchmark-49f-seed43_00001_.webm",
+          "subfolder": "",
+          "type": "output",
+          "metadata": {
+            "kind": "video",
+            "width": 512,
+            "height": 320,
+            "duration": 1.96,
+            "fps": 25.0
+          }
+        }
+      ],
+      "animated": [
+        true
+      ]
+    },
+    "28": {
+      "images": [
+        {
+          "filename": "benchmark-49f-seed43_00002_.webp",
+          "subfolder": "",
+          "type": "output",
+          "metadata": {
+            "kind": "image",
+            "width": 512,
+            "height": 320
+          }
+        }
+      ],
+      "animated": [
+        true
+      ]
+    }
+  },
+  "conditions": "BATTERY \u2014 nonstandard; not the AC benchmark requested in handoff",
+  "timing_scope": "Client submit to execution success; includes uncached nodes, sampler, VAE decode, WebP and WebM output writing. Warm runs cache prompt encodings; model residency uses ComfyUI defaults. Downloads/setup excluded."
+}

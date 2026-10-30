@@ -1,0 +1,6 @@
+{"time": 1793281835.797577, "stage": "starting_local_server", "controller": "claude_comfy_tests.py", "modes": ["smoke", "bench"]}
+{"time": 1793281841.840587, "stage": "running_smoke", "controller": "claude_comfy_tests.py"}
+{"time": 1793282011.42588, "stage": "running_bench", "controller": "claude_comfy_tests.py"}
+python(80521) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(80655) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"time": 1793282590.199195, "stage": "complete_pending_visual_review", "controller": "claude_comfy_tests.py"}

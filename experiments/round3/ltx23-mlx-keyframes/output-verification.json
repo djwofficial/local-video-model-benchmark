@@ -1,0 +1,112 @@
+[
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round3/ltx23-mlx-keyframes/output/benchmark-49f-seed42.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round3/ltx23-mlx-keyframes/output/benchmark-49f-seed42-contact.jpg",
+    "mean_absolute_frame_difference": 0.676073604159885
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round3/ltx23-mlx-keyframes/output/benchmark-49f-seed43.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round3/ltx23-mlx-keyframes/output/benchmark-49f-seed43-contact.jpg",
+    "mean_absolute_frame_difference": 0.6878251676206236
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round3/ltx23-mlx-keyframes/output/benchmark-49f-seed44.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round3/ltx23-mlx-keyframes/output/benchmark-49f-seed44-contact.jpg",
+    "mean_absolute_frame_difference": 0.7041897773742676
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round3/ltx23-mlx-keyframes/output/benchmark-49f-seed45.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round3/ltx23-mlx-keyframes/output/benchmark-49f-seed45-contact.jpg",
+    "mean_absolute_frame_difference": 0.6581679803353769
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round3/ltx23-mlx-keyframes/output/benchmark-49f-seed46.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round3/ltx23-mlx-keyframes/output/benchmark-49f-seed46-contact.jpg",
+    "mean_absolute_frame_difference": 0.6649150495175962
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round3/ltx23-mlx-keyframes/output/benchmark-49f-seed47.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round3/ltx23-mlx-keyframes/output/benchmark-49f-seed47-contact.jpg",
+    "mean_absolute_frame_difference": 0.6476254463195801
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round3/ltx23-mlx-keyframes/output/benchmark-49f-seed48.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round3/ltx23-mlx-keyframes/output/benchmark-49f-seed48-contact.jpg",
+    "mean_absolute_frame_difference": 0.6493528330767596
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round3/ltx23-mlx-keyframes/output/benchmark-49f-seed49.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round3/ltx23-mlx-keyframes/output/benchmark-49f-seed49-contact.jpg",
+    "mean_absolute_frame_difference": 0.6632090144687228
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round3/ltx23-mlx-keyframes/output/benchmark-49f-seed50.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round3/ltx23-mlx-keyframes/output/benchmark-49f-seed50-contact.jpg",
+    "mean_absolute_frame_difference": 0.669114077532733
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round3/ltx23-mlx-keyframes/output/warmup-49f-seed41.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round3/ltx23-mlx-keyframes/output/warmup-49f-seed41-contact.jpg",
+    "mean_absolute_frame_difference": 0.651209760595251
+  }
+]

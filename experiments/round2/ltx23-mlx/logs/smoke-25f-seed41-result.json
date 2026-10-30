@@ -1,0 +1,35 @@
+{
+  "label": "smoke-25f-seed41",
+  "model": "LTX-2.3 distilled MLX 4-bit",
+  "round": 2,
+  "prompt": "A single bright red ball rolls from the left side to the right side of a wooden table, moving steadily across the whole table until it reaches the right edge. The ball remains round and keeps the same size and color throughout the shot. A plain beige wall is visible in the background. Soft daylight enters from a window on the left. The camera stays completely still, showing the entire table surface in one continuous shot.",
+  "status": "success",
+  "error": null,
+  "seed": 41,
+  "width": 768,
+  "height": 512,
+  "frames": 25,
+  "playback_fps": 25,
+  "elapsed_client_s": 77.979,
+  "before": {
+    "time": 1793284782.389219,
+    "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t49%; charging; (no estimate) present: true",
+    "swap_bytes": 8451129344,
+    "available_bytes": 13314375680,
+    "free_disk_bytes": 17514475520
+  },
+  "after": {
+    "time": 1793284860.3781362,
+    "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t49%; charging; (no estimate) present: true",
+    "swap_bytes": 8980004864,
+    "available_bytes": 13729038336,
+    "free_disk_bytes": 17507262464
+  },
+  "mlx_peak_active_bytes": 9716061276,
+  "sampled_max_rss_bytes": 4337909760,
+  "swap_delta_bytes": 528875520,
+  "low_ram_streaming": true,
+  "audio": false,
+  "pipeline": "DistilledPipeline two-stage:384x256 8steps +2x spatial upscale +768x512 3steps",
+  "timing_scope": "Native pipeline generation through MP4 saving; includes uncached text encoding and native model load/free lifecycle. Warm runs reuse cached prompt embeddings, matching ComfyUI prompt caching; model residency differs by runtime. Setup and downloads excluded."
+}

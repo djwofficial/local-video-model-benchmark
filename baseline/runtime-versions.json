@@ -1,0 +1,15 @@
+{
+  "python": "3.12.13",
+  "architecture": "arm64",
+  "torch": "2.15.0",
+  "mps_built": true,
+  "mps_available": true,
+  "packages": {
+    "torchvision": "0.29.2",
+    "transformers": "5.21.0",
+    "comfyui-frontend-package": "1.57.4",
+    "av": "19.0.2",
+    "safetensors": "0.8.0"
+  },
+  "mps_test": "2x2 matrix product passed"
+}

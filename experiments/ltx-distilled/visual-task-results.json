@@ -1,0 +1,23 @@
+{
+  "criterion": "Exactly one red ball visibly moves left to right while retaining a broadly round shape in the inspected keyframes. This narrow visual task does not score every prompt detail, flicker or overall model quality.",
+  "method": "Human visual review of six-keyframe contact sheets, all three measured seeds; no real-time playback claim. WebM retains49frames; WebP may coalesce repeats.",
+  "passed": 0,
+  "evaluated": 3,
+  "seeds": [
+    {
+      "seed": 42,
+      "pass": false,
+      "observation": "A second red ball appears and moves right; original remains almost static"
+    },
+    {
+      "seed": 43,
+      "pass": false,
+      "observation": "Nearly static"
+    },
+    {
+      "seed": 44,
+      "pass": false,
+      "observation": "Nearly static"
+    }
+  ]
+}

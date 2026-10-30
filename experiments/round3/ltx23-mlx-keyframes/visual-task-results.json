@@ -1,0 +1,53 @@
+{
+  "criterion": "Exactly one red ball visibly moves left to right while retaining a broadly round shape in the inspected keyframes. This narrow visual task does not score every prompt detail, flicker or overall model quality.",
+  "method": "Human visual review of six-keyframe contact sheets, all three measured seeds; no real-time playback claim. WebM retains49frames; WebP may coalesce repeats. Supported by an HSV red-blob check over all 49 decoded frames. Five-frame strips of all nine seeds reviewed together.",
+  "passed": 9,
+  "evaluated": 9,
+  "seeds": [
+    {
+      "seed": 42,
+      "pass": true,
+      "observation": "One round red ball rolls steadily from the left (x 0.19) to the right (x 0.91) across the anchored scene; ball present in all 49 frames, never moves backwards"
+    },
+    {
+      "seed": 43,
+      "pass": true,
+      "observation": "One round red ball rolls steadily from the left (x 0.19) to the right (x 0.91) across the anchored scene; ball present in all 49 frames, never moves backwards"
+    },
+    {
+      "seed": 44,
+      "pass": true,
+      "observation": "One round red ball rolls steadily from the left (x 0.19) to the right (x 0.91) across the anchored scene; ball present in all 49 frames, never moves backwards"
+    },
+    {
+      "seed": 45,
+      "pass": true,
+      "observation": "One round red ball rolls steadily from the left (x 0.19) to the right (x 0.91) across the anchored scene; ball present in all 49 frames, never moves backwards"
+    },
+    {
+      "seed": 46,
+      "pass": true,
+      "observation": "One round red ball rolls steadily from the left (x 0.19) to the right (x 0.91) across the anchored scene; ball present in all 49 frames, never moves backwards"
+    },
+    {
+      "seed": 47,
+      "pass": true,
+      "observation": "One round red ball rolls steadily from the left (x 0.19) to the right (x 0.91) across the anchored scene; ball present in all 49 frames, never moves backwards"
+    },
+    {
+      "seed": 48,
+      "pass": true,
+      "observation": "One round red ball rolls steadily from the left (x 0.19) to the right (x 0.91) across the anchored scene; ball present in all 49 frames, never moves backwards"
+    },
+    {
+      "seed": 49,
+      "pass": true,
+      "observation": "One round red ball rolls steadily from the left (x 0.19) to the right (x 0.91) across the anchored scene; ball present in all 49 frames, never moves backwards"
+    },
+    {
+      "seed": 50,
+      "pass": true,
+      "observation": "One round red ball rolls steadily from the left (x 0.19) to the right (x 0.91) across the anchored scene; ball present in all 49 frames, never moves backwards"
+    }
+  ]
+}

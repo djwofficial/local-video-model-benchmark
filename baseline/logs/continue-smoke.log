@@ -1,0 +1,4 @@
+{"time": 1793247007.8279831, "stage": "waiting_for_verified_models"}
+{"time": 1793253739.643992, "stage": "running_smoke_25_frames_seed41"}
+{"time": 1793253856.3296242, "stage": "verifying_smoke_output"}
+{"time": 1793253856.734297, "stage": "smoke_ready_for_visual_inspection"}

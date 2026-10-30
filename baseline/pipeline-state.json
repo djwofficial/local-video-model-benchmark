@@ -1,0 +1,6 @@
+{
+  "stage": "complete",
+  "server": "stopped after tests",
+  "benchmark_mean_s": 78.835,
+  "conditions": "battery, Low Power Mode on, substantial system swap"
+}

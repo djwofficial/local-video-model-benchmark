@@ -1,0 +1,33 @@
+{
+  "label": "warmup-49f-seed41",
+  "model": "LTX-2.3 distilled MLX 4-bit",
+  "status": "success",
+  "error": null,
+  "seed": 41,
+  "width": 512,
+  "height": 320,
+  "frames": 49,
+  "playback_fps": 25,
+  "elapsed_client_s": 53.067,
+  "before": {
+    "time": 1793284569.0622149,
+    "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t49%; charging; 2:06 remaining present: true",
+    "swap_bytes": 8492351488,
+    "available_bytes": 14156627968,
+    "free_disk_bytes": 17539670016
+  },
+  "after": {
+    "time": 1793284622.140853,
+    "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t49%; charging; (no estimate) present: true",
+    "swap_bytes": 8492351488,
+    "available_bytes": 13618397184,
+    "free_disk_bytes": 17537974272
+  },
+  "mlx_peak_active_bytes": 8123977628,
+  "sampled_max_rss_bytes": 1283571712,
+  "swap_delta_bytes": 0,
+  "low_ram_streaming": true,
+  "audio": false,
+  "pipeline": "DistilledPipeline two-stage:256x160 8steps +2x spatial upscale +512x320 3steps",
+  "timing_scope": "Native pipeline generation through MP4 saving; includes uncached text encoding and native model load/free lifecycle. Warm runs reuse cached prompt embeddings, matching ComfyUI prompt caching; model residency differs by runtime. Setup and downloads excluded."
+}

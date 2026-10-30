@@ -1,0 +1,20 @@
+[
+  {
+    "repo": "Lightricks/LTX-Video",
+    "file": "ltxv-2b-0.9.6-distilled-04-25.safetensors",
+    "metadata": [
+      {
+        "type": "file",
+        "oid": "dbc6be97210c3cdb07b9b773668f784ce9361c4c",
+        "size": 6340744028,
+        "lfs": {
+          "oid": "94891bd4bd08de30d484befbfc54fdcffe6d1596a131baad700b9baa5e1de86b",
+          "size": 6340744028,
+          "pointerSize": 135
+        },
+        "xetHash": "6ae4a3b3b42ca1ddb25a815eb648da8874fad87bf0c557913c7c75317feece3b",
+        "path": "ltxv-2b-0.9.6-distilled-04-25.safetensors"
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+{"received_time": 1793259948.114002, "elapsed_s": 0.003799708967562765, "type": "status", "data": {"status": {"exec_info": {"queue_remaining": 0}}, "sid": "dc5220db-8f32-45bf-ad18-bf5a23a5fae4"}}
+{"received_time": 1793259948.1156008, "elapsed_s": 0.005399374989792705, "type": "status", "data": {"status": {"exec_info": {"queue_remaining": 1}}}}
+{"received_time": 1793259948.116042, "elapsed_s": 0.00583974999608472, "type": "status", "data": {"status": {"exec_info": {"queue_remaining": 1}}}}
+{"received_time": 1793259948.116099, "elapsed_s": 0.005897166964132339, "type": "execution_start", "data": {"prompt_id": "cd0c1f1c-a358-4c6d-a6be-c696439d3a97", "timestamp": 1793259948114}}
+{"received_time": 1793259948.11612, "elapsed_s": 0.005918084003496915, "type": "execution_cached", "data": {"nodes": ["37", "38", "39", "6", "7", "40", "48"], "prompt_id": "cd0c1f1c-a358-4c6d-a6be-c696439d3a97", "timestamp": 1793259948115}}
+{"received_time": 1793259948.116149, "elapsed_s": 0.005947166995611042, "type": "progress_state", "data": {"prompt_id": "cd0c1f1c-a358-4c6d-a6be-c696439d3a97", "nodes": {"3": {"value": 0.0, "max": 1.0, "state": "running", "node_id": "3", "prompt_id": "cd0c1f1c-a358-4c6d-a6be-c696439d3a97", "display_node_id": "3", "parent_node_id": null, "real_node_id": "3"}}}}
+{"received_time": 1793259948.116174, "elapsed_s": 0.005972124985419214, "type": "executing", "data": {"node": "3", "display_node": "3", "prompt_id": "cd0c1f1c-a358-4c6d-a6be-c696439d3a97"}}
+{"received_time": 1793259964.3269792, "elapsed_s": 16.21676799998386, "type": "execution_interrupted", "data": {"prompt_id": "cd0c1f1c-a358-4c6d-a6be-c696439d3a97", "node_id": "3", "node_type": "KSampler", "executed": [], "timestamp": 1793259964326}}

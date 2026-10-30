@@ -1,0 +1,33 @@
+{
+  "label": "smoke-25f-seed41",
+  "model": "LTX-2.3 distilled MLX 4-bit",
+  "status": "success",
+  "error": null,
+  "seed": 41,
+  "width": 512,
+  "height": 320,
+  "frames": 25,
+  "playback_fps": 25,
+  "elapsed_client_s": 61.104,
+  "before": {
+    "time": 1793284507.932024,
+    "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t48%; charging; 1:46 remaining present: true",
+    "swap_bytes": 7470776320,
+    "available_bytes": 9441198080,
+    "free_disk_bytes": 18648567808
+  },
+  "after": {
+    "time": 1793284569.047308,
+    "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t49%; charging; 2:06 remaining present: true",
+    "swap_bytes": 8492351488,
+    "available_bytes": 14156627968,
+    "free_disk_bytes": 17539678208
+  },
+  "mlx_peak_active_bytes": 8012348348,
+  "sampled_max_rss_bytes": 3405971456,
+  "swap_delta_bytes": 1021575168,
+  "low_ram_streaming": true,
+  "audio": false,
+  "pipeline": "DistilledPipeline two-stage:256x160 8steps +2x spatial upscale +512x320 3steps",
+  "timing_scope": "Native pipeline generation through MP4 saving; includes uncached text encoding and native model load/free lifecycle. Warm runs reuse cached prompt embeddings, matching ComfyUI prompt caching; model residency differs by runtime. Setup and downloads excluded."
+}

@@ -1,0 +1,103 @@
+START smoke-25f-seed41
+[Loading text encoder (Gemma)] ...
+[Loading text encoder (Gemma)] done in 4.0s
+[Encoding prompt] ...
+[Encoding prompt] done in 8.2s
+[Loading transformer (transformer-distilled-1.1.safetensors)] ...
+[Loading transformer (transformer-distilled-1.1.safetensors)] done in 0.4s
+[estimate] denoising: 8 steps x 1 passes over 384 video + 25 audio tokens = 8 forwards
+Denoising:   0%|          | 0/8 [00:00<?, ?it/s]                                                [estimate] denoising: ~27 s remaining (3.8 s/forward) (first step includes warm-up)
+Denoising:   0%|          | 0/8 [00:03<?, ?it/s]Denoising:  12%|█▎        | 1/8 [00:03<00:26,  3.81s/it]                                                        [estimate] denoising: ~21 s remaining (3.5 s/forward) (refined)
+Denoising:  12%|█▎        | 1/8 [00:07<00:26,  3.81s/it]Denoising:  25%|██▌       | 2/8 [00:07<00:21,  3.65s/it]Denoising:  38%|███▊      | 3/8 [00:10<00:17,  3.60s/it]Denoising:  50%|█████     | 4/8 [00:14<00:14,  3.59s/it]Denoising:  62%|██████▎   | 5/8 [00:18<00:10,  3.59s/it]Denoising:  75%|███████▌  | 6/8 [00:21<00:07,  3.59s/it]Denoising:  88%|████████▊ | 7/8 [00:25<00:03,  3.59s/it]Denoising: 100%|██████████| 8/8 [00:28<00:00,  3.59s/it]Denoising: 100%|██████████| 8/8 [00:28<00:00,  3.60s/it]
+[estimate] denoising: 3 steps x 1 passes over 1536 video + 25 audio tokens = 3 forwards
+Denoising:   0%|          | 0/3 [00:00<?, ?it/s]                                                [estimate] denoising: ~22 s remaining (11.1 s/forward) (first step includes warm-up)
+Denoising:   0%|          | 0/3 [00:11<?, ?it/s]Denoising:  33%|███▎      | 1/3 [00:11<00:22, 11.13s/it]                                                        [estimate] denoising: ~11 s remaining (10.9 s/forward) (refined)
+Denoising:  33%|███▎      | 1/3 [00:22<00:22, 11.13s/it]Denoising:  67%|██████▋   | 2/3 [00:22<00:10, 11.00s/it]Denoising: 100%|██████████| 3/3 [00:32<00:00, 10.95s/it]Denoising: 100%|██████████| 3/3 [00:32<00:00, 10.98s/it]
+[Loading decoders (VAE only, --no-audio)] ...
+[Loading decoders (VAE only, --no-audio)] done in 0.0s
+[Decoding video (--no-audio)] ...
+[vae-decode tiling] untiled est. 6.9 GB budget=12.0 GB
+[vae-decode tiling] peak Metal memory 9.05 GB
+[Decoding video (--no-audio)] done in 2.3s
+RESULT {"label": "smoke-25f-seed41", "model": "LTX-2.3 distilled MLX 4-bit", "round": 2, "prompt": "A single bright red ball rolls from the left side to the right side of a wooden table, moving steadily across the whole table until it reaches the right edge. The ball remains round and keeps the same size and color throughout the shot. A plain beige wall is visible in the background. Soft daylight enters from a window on the left. The camera stays completely still, showing the entire table surface in one continuous shot.", "status": "success", "error": null, "seed": 41, "width": 768, "height": 512, "frames": 25, "playback_fps": 25, "elapsed_client_s": 77.979, "before": {"time": 1793284782.389219, "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t49%; charging; (no estimate) present: true", "swap_bytes": 8451129344, "available_bytes": 13314375680, "free_disk_bytes": 17514475520}, "after": {"time": 1793284860.3781362, "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t49%; charging; (no estimate) present: true", "swap_bytes": 8980004864, "available_bytes": 13729038336, "free_disk_bytes": 17507262464}, "mlx_peak_active_bytes": 9716061276, "sampled_max_rss_bytes": 4337909760, "swap_delta_bytes": 528875520, "low_ram_streaming": true, "audio": false, "pipeline": "DistilledPipeline two-stage:384x256 8steps +2x spatial upscale +768x512 3steps", "timing_scope": "Native pipeline generation through MP4 saving; includes uncached text encoding and native model load/free lifecycle. Warm runs reuse cached prompt embeddings, matching ComfyUI prompt caching; model residency differs by runtime. Setup and downloads excluded."}
+START warmup-49f-seed41
+[Encoding prompt] ...
+[Encoding prompt] done in 0.0s
+[Loading transformer (transformer-distilled-1.1.safetensors)] ...
+[Loading transformer (transformer-distilled-1.1.safetensors)] done in 0.4s
+[estimate] denoising: 8 steps x 1 passes over 672 video + 49 audio tokens = 8 forwards
+Denoising:   0%|          | 0/8 [00:00<?, ?it/s]                                                [estimate] denoising: ~40 s remaining (5.7 s/forward) (first step includes warm-up)
+Denoising:   0%|          | 0/8 [00:05<?, ?it/s]Denoising:  12%|█▎        | 1/8 [00:05<00:39,  5.70s/it]                                                        [estimate] denoising: ~32 s remaining (5.4 s/forward) (refined)
+Denoising:  12%|█▎        | 1/8 [00:11<00:39,  5.70s/it]Denoising:  25%|██▌       | 2/8 [00:11<00:33,  5.52s/it]Denoising:  38%|███▊      | 3/8 [00:16<00:27,  5.46s/it]Denoising:  50%|█████     | 4/8 [00:21<00:21,  5.43s/it]Denoising:  62%|██████▎   | 5/8 [00:27<00:16,  5.49s/it]Denoising:  75%|███████▌  | 6/8 [00:33<00:11,  5.53s/it]Denoising:  88%|████████▊ | 7/8 [00:38<00:05,  5.49s/it]Denoising: 100%|██████████| 8/8 [00:43<00:00,  5.47s/it]Denoising: 100%|██████████| 8/8 [00:43<00:00,  5.49s/it]
+[estimate] denoising: 3 steps x 1 passes over 2688 video + 49 audio tokens = 3 forwards
+Denoising:   0%|          | 0/3 [00:00<?, ?it/s]                                                [estimate] denoising: ~38 s remaining (19.2 s/forward) (first step includes warm-up)
+Denoising:   0%|          | 0/3 [00:19<?, ?it/s]Denoising:  33%|███▎      | 1/3 [00:19<00:38, 19.16s/it]                                                        [estimate] denoising: ~19 s remaining (19.1 s/forward) (refined)
+Denoising:  33%|███▎      | 1/3 [00:38<00:38, 19.16s/it]Denoising:  67%|██████▋   | 2/3 [00:38<00:19, 19.10s/it]Denoising: 100%|██████████| 3/3 [00:57<00:00, 19.08s/it]Denoising: 100%|██████████| 3/3 [00:57<00:00, 19.09s/it]
+[Loading decoders (VAE only, --no-audio)] ...
+[Loading decoders (VAE only, --no-audio)] done in 0.0s
+[Decoding video (--no-audio)] ...
+[vae-decode tiling] frames=40/8 est. 11.7 GB budget=12.0 GB
+[vae-decode tiling] peak Metal memory 9.19 GB
+[Decoding video (--no-audio)] done in 6.2s
+RESULT {"label": "warmup-49f-seed41", "model": "LTX-2.3 distilled MLX 4-bit", "round": 2, "prompt": "A single bright red ball rolls from the left side to the right side of a wooden table, moving steadily across the whole table until it reaches the right edge. The ball remains round and keeps the same size and color throughout the shot. A plain beige wall is visible in the background. Soft daylight enters from a window on the left. The camera stays completely still, showing the entire table surface in one continuous shot.", "status": "success", "error": null, "seed": 41, "width": 768, "height": 512, "frames": 49, "playback_fps": 25, "elapsed_client_s": 108.492, "before": {"time": 1793284860.393891, "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t49%; charging; (no estimate) present: true", "swap_bytes": 8980004864, "available_bytes": 13726793728, "free_disk_bytes": 17507250176}, "after": {"time": 1793284968.8974159, "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t48%; charging; (no estimate) present: true", "swap_bytes": 8946450432, "available_bytes": 12617515008, "free_disk_bytes": 17427480576}, "mlx_peak_active_bytes": 9865884750, "sampled_max_rss_bytes": 1311178752, "swap_delta_bytes": -33554432, "low_ram_streaming": true, "audio": false, "pipeline": "DistilledPipeline two-stage:384x256 8steps +2x spatial upscale +768x512 3steps", "timing_scope": "Native pipeline generation through MP4 saving; includes uncached text encoding and native model load/free lifecycle. Warm runs reuse cached prompt embeddings, matching ComfyUI prompt caching; model residency differs by runtime. Setup and downloads excluded."}
+START benchmark-49f-seed42
+[Encoding prompt] ...
+[Encoding prompt] done in 0.0s
+[Loading transformer (transformer-distilled-1.1.safetensors)] ...
+[Loading transformer (transformer-distilled-1.1.safetensors)] done in 0.4s
+[estimate] denoising: 8 steps x 1 passes over 672 video + 49 audio tokens = 8 forwards
+Denoising:   0%|          | 0/8 [00:00<?, ?it/s]                                                [estimate] denoising: ~40 s remaining (5.7 s/forward) (first step includes warm-up)
+Denoising:   0%|          | 0/8 [00:05<?, ?it/s]Denoising:  12%|█▎        | 1/8 [00:05<00:39,  5.67s/it]                                                        [estimate] denoising: ~32 s remaining (5.4 s/forward) (refined)
+Denoising:  12%|█▎        | 1/8 [00:11<00:39,  5.67s/it]Denoising:  25%|██▌       | 2/8 [00:11<00:32,  5.49s/it]Denoising:  38%|███▊      | 3/8 [00:16<00:27,  5.43s/it]Denoising:  50%|█████     | 4/8 [00:21<00:21,  5.41s/it]Denoising:  62%|██████▎   | 5/8 [00:27<00:16,  5.39s/it]Denoising:  75%|███████▌  | 6/8 [00:32<00:10,  5.40s/it]Denoising:  88%|████████▊ | 7/8 [00:37<00:05,  5.40s/it]Denoising: 100%|██████████| 8/8 [00:43<00:00,  5.40s/it]Denoising: 100%|██████████| 8/8 [00:43<00:00,  5.42s/it]
+[estimate] denoising: 3 steps x 1 passes over 2688 video + 49 audio tokens = 3 forwards
+Denoising:   0%|          | 0/3 [00:00<?, ?it/s]                                                [estimate] denoising: ~38 s remaining (19.1 s/forward) (first step includes warm-up)
+Denoising:   0%|          | 0/3 [00:19<?, ?it/s]Denoising:  33%|███▎      | 1/3 [00:19<00:38, 19.13s/it]                                                        [estimate] denoising: ~19 s remaining (19.1 s/forward) (refined)
+Denoising:  33%|███▎      | 1/3 [00:38<00:38, 19.13s/it]Denoising:  67%|██████▋   | 2/3 [00:38<00:19, 19.08s/it]Denoising: 100%|██████████| 3/3 [00:57<00:00, 19.10s/it]Denoising: 100%|██████████| 3/3 [00:57<00:00, 19.10s/it]
+[Loading decoders (VAE only, --no-audio)] ...
+[Loading decoders (VAE only, --no-audio)] done in 0.0s
+[Decoding video (--no-audio)] ...
+[vae-decode tiling] frames=40/8 est. 11.7 GB budget=12.0 GB
+[vae-decode tiling] peak Metal memory 9.19 GB
+[Decoding video (--no-audio)] done in 6.0s
+RESULT {"label": "benchmark-49f-seed42", "model": "LTX-2.3 distilled MLX 4-bit", "round": 2, "prompt": "A single bright red ball rolls from the left side to the right side of a wooden table, moving steadily across the whole table until it reaches the right edge. The ball remains round and keeps the same size and color throughout the shot. A plain beige wall is visible in the background. Soft daylight enters from a window on the left. The camera stays completely still, showing the entire table surface in one continuous shot.", "status": "success", "error": null, "seed": 42, "width": 768, "height": 512, "frames": 49, "playback_fps": 25, "elapsed_client_s": 107.684, "before": {"time": 1793284968.9138482, "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t48%; charging; (no estimate) present: true", "swap_bytes": 8946450432, "available_bytes": 12617433088, "free_disk_bytes": 17427472384}, "after": {"time": 1793285076.6078022, "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t47%; charging; (no estimate) present: true", "swap_bytes": 8815443968, "available_bytes": 12517294080, "free_disk_bytes": 17413836800}, "mlx_peak_active_bytes": 9865884750, "sampled_max_rss_bytes": 1311948800, "swap_delta_bytes": -131006464, "low_ram_streaming": true, "audio": false, "pipeline": "DistilledPipeline two-stage:384x256 8steps +2x spatial upscale +768x512 3steps", "timing_scope": "Native pipeline generation through MP4 saving; includes uncached text encoding and native model load/free lifecycle. Warm runs reuse cached prompt embeddings, matching ComfyUI prompt caching; model residency differs by runtime. Setup and downloads excluded."}
+START benchmark-49f-seed43
+[Encoding prompt] ...
+[Encoding prompt] done in 0.0s
+[Loading transformer (transformer-distilled-1.1.safetensors)] ...
+[Loading transformer (transformer-distilled-1.1.safetensors)] done in 0.4s
+[estimate] denoising: 8 steps x 1 passes over 672 video + 49 audio tokens = 8 forwards
+Denoising:   0%|          | 0/8 [00:00<?, ?it/s]                                                [estimate] denoising: ~40 s remaining (5.7 s/forward) (first step includes warm-up)
+Denoising:   0%|          | 0/8 [00:05<?, ?it/s]Denoising:  12%|█▎        | 1/8 [00:05<00:39,  5.66s/it]                                                        [estimate] denoising: ~32 s remaining (5.4 s/forward) (refined)
+Denoising:  12%|█▎        | 1/8 [00:11<00:39,  5.66s/it]Denoising:  25%|██▌       | 2/8 [00:11<00:32,  5.50s/it]Denoising:  38%|███▊      | 3/8 [00:16<00:27,  5.45s/it]Denoising:  50%|█████     | 4/8 [00:22<00:21,  5.49s/it]Denoising:  62%|██████▎   | 5/8 [00:27<00:16,  5.52s/it]Denoising:  75%|███████▌  | 6/8 [00:33<00:11,  5.56s/it]Denoising:  88%|████████▊ | 7/8 [00:38<00:05,  5.56s/it]Denoising: 100%|██████████| 8/8 [00:44<00:00,  5.53s/it]Denoising: 100%|██████████| 8/8 [00:44<00:00,  5.53s/it]
+[estimate] denoising: 3 steps x 1 passes over 2688 video + 49 audio tokens = 3 forwards
+Denoising:   0%|          | 0/3 [00:00<?, ?it/s]                                                [estimate] denoising: ~38 s remaining (19.2 s/forward) (first step includes warm-up)
+Denoising:   0%|          | 0/3 [00:19<?, ?it/s]Denoising:  33%|███▎      | 1/3 [00:19<00:38, 19.21s/it]                                                        [estimate] denoising: ~19 s remaining (19.1 s/forward) (refined)
+Denoising:  33%|███▎      | 1/3 [00:38<00:38, 19.21s/it]Denoising:  67%|██████▋   | 2/3 [00:38<00:19, 19.14s/it]Denoising: 100%|██████████| 3/3 [00:57<00:00, 19.11s/it]Denoising: 100%|██████████| 3/3 [00:57<00:00, 19.13s/it]
+[Loading decoders (VAE only, --no-audio)] ...
+[Loading decoders (VAE only, --no-audio)] done in 0.0s
+[Decoding video (--no-audio)] ...
+[vae-decode tiling] frames=40/8 est. 11.7 GB budget=12.0 GB
+[vae-decode tiling] peak Metal memory 9.19 GB
+[Decoding video (--no-audio)] done in 6.0s
+RESULT {"label": "benchmark-49f-seed43", "model": "LTX-2.3 distilled MLX 4-bit", "round": 2, "prompt": "A single bright red ball rolls from the left side to the right side of a wooden table, moving steadily across the whole table until it reaches the right edge. The ball remains round and keeps the same size and color throughout the shot. A plain beige wall is visible in the background. Soft daylight enters from a window on the left. The camera stays completely still, showing the entire table surface in one continuous shot.", "status": "success", "error": null, "seed": 43, "width": 768, "height": 512, "frames": 49, "playback_fps": 25, "elapsed_client_s": 108.645, "before": {"time": 1793285076.621865, "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t47%; charging; (no estimate) present: true", "swap_bytes": 8815443968, "available_bytes": 12517031936, "free_disk_bytes": 17413824512}, "after": {"time": 1793285185.278226, "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t47%; charging; (no estimate) present: true", "swap_bytes": 8790278144, "available_bytes": 13616398336, "free_disk_bytes": 17448890368}, "mlx_peak_active_bytes": 9865884750, "sampled_max_rss_bytes": 1302036480, "swap_delta_bytes": -25165824, "low_ram_streaming": true, "audio": false, "pipeline": "DistilledPipeline two-stage:384x256 8steps +2x spatial upscale +768x512 3steps", "timing_scope": "Native pipeline generation through MP4 saving; includes uncached text encoding and native model load/free lifecycle. Warm runs reuse cached prompt embeddings, matching ComfyUI prompt caching; model residency differs by runtime. Setup and downloads excluded."}
+START benchmark-49f-seed44
+[Encoding prompt] ...
+[Encoding prompt] done in 0.0s
+[Loading transformer (transformer-distilled-1.1.safetensors)] ...
+[Loading transformer (transformer-distilled-1.1.safetensors)] done in 0.4s
+[estimate] denoising: 8 steps x 1 passes over 672 video + 49 audio tokens = 8 forwards
+Denoising:   0%|          | 0/8 [00:00<?, ?it/s]                                                [estimate] denoising: ~40 s remaining (5.7 s/forward) (first step includes warm-up)
+Denoising:   0%|          | 0/8 [00:05<?, ?it/s]Denoising:  12%|█▎        | 1/8 [00:05<00:39,  5.67s/it]                                                        [estimate] denoising: ~32 s remaining (5.4 s/forward) (refined)
+Denoising:  12%|█▎        | 1/8 [00:11<00:39,  5.67s/it]Denoising:  25%|██▌       | 2/8 [00:11<00:33,  5.51s/it]Denoising:  38%|███▊      | 3/8 [00:16<00:27,  5.45s/it]Denoising:  50%|█████     | 4/8 [00:21<00:21,  5.42s/it]Denoising:  62%|██████▎   | 5/8 [00:27<00:16,  5.41s/it]Denoising:  75%|███████▌  | 6/8 [00:32<00:10,  5.41s/it]Denoising:  88%|████████▊ | 7/8 [00:38<00:05,  5.41s/it]Denoising: 100%|██████████| 8/8 [00:43<00:00,  5.47s/it]Denoising: 100%|██████████| 8/8 [00:43<00:00,  5.45s/it]
+[estimate] denoising: 3 steps x 1 passes over 2688 video + 49 audio tokens = 3 forwards
+Denoising:   0%|          | 0/3 [00:00<?, ?it/s]                                                [estimate] denoising: ~39 s remaining (19.4 s/forward) (first step includes warm-up)
+Denoising:   0%|          | 0/3 [00:19<?, ?it/s]Denoising:  33%|███▎      | 1/3 [00:19<00:38, 19.45s/it]                                                        [estimate] denoising: ~20 s remaining (19.6 s/forward) (refined)
+Denoising:  33%|███▎      | 1/3 [00:39<00:38, 19.45s/it]Denoising:  67%|██████▋   | 2/3 [00:39<00:19, 19.54s/it]Denoising: 100%|██████████| 3/3 [00:59<00:00, 19.91s/it]Denoising: 100%|██████████| 3/3 [00:59<00:00, 19.80s/it]
+[Loading decoders (VAE only, --no-audio)] ...
+[Loading decoders (VAE only, --no-audio)] done in 0.0s
+[Decoding video (--no-audio)] ...
+[vae-decode tiling] frames=40/8 est. 11.7 GB budget=12.0 GB
+[vae-decode tiling] peak Metal memory 9.19 GB
+[Decoding video (--no-audio)] done in 6.5s
+RESULT {"label": "benchmark-49f-seed44", "model": "LTX-2.3 distilled MLX 4-bit", "round": 2, "prompt": "A single bright red ball rolls from the left side to the right side of a wooden table, moving steadily across the whole table until it reaches the right edge. The ball remains round and keeps the same size and color throughout the shot. A plain beige wall is visible in the background. Soft daylight enters from a window on the left. The camera stays completely still, showing the entire table surface in one continuous shot.", "status": "success", "error": null, "seed": 44, "width": 768, "height": 512, "frames": 49, "playback_fps": 25, "elapsed_client_s": 110.587, "before": {"time": 1793285185.2910101, "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t47%; charging; (no estimate) present: true", "swap_bytes": 8790278144, "available_bytes": 13616185344, "free_disk_bytes": 17448878080}, "after": {"time": 1793285295.895328, "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t45%; charging; (no estimate) present: true", "swap_bytes": 8312061952, "available_bytes": 12260786176, "free_disk_bytes": 17448513536}, "mlx_peak_active_bytes": 9865884750, "sampled_max_rss_bytes": 1735753728, "swap_delta_bytes": -478216192, "low_ram_streaming": true, "audio": false, "pipeline": "DistilledPipeline two-stage:384x256 8steps +2x spatial upscale +768x512 3steps", "timing_scope": "Native pipeline generation through MP4 saving; includes uncached text encoding and native model load/free lifecycle. Warm runs reuse cached prompt embeddings, matching ComfyUI prompt caching; model residency differs by runtime. Setup and downloads excluded."}
+ALL_RUNS_COMPLETED

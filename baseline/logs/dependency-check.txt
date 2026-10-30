@@ -1,0 +1,3 @@
+Using Python 3.12.13 environment at: /Users/dyn/AI/venvs/comfyui
+Checked 84 packages in 6ms
+All installed packages are compatible

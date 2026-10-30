@@ -1,0 +1,86 @@
+[
+  {
+    "sha": "e1d2cff33122a00a83d3d239234733fb3bb32535",
+    "node_id": "C_kwDONS17iNoAKGUxZDJjZmYzMzEyMmEwMGE4M2QzZDIzOTIzNDczM2ZiM2JiMzI1MzU",
+    "commit": {
+      "author": {
+        "name": "sync-bot",
+        "email": "sync-bot@github.com",
+        "date": "2026-01-06T06:06:43Z"
+      },
+      "committer": {
+        "name": "sync-bot",
+        "email": "sync-bot@github.com",
+        "date": "2026-01-06T06:06:43Z"
+      },
+      "message": "Automated PR - 2026-01-06",
+      "tree": {
+        "sha": "fb52b77cff7ffbf4cff593e22b0f75d56e35ff80",
+        "url": "https://api.github.com/repos/Lightricks/ComfyUI-LTXVideo/git/trees/fb52b77cff7ffbf4cff593e22b0f75d56e35ff80"
+      },
+      "url": "https://api.github.com/repos/Lightricks/ComfyUI-LTXVideo/git/commits/e1d2cff33122a00a83d3d239234733fb3bb32535",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/Lightricks/ComfyUI-LTXVideo/commits/e1d2cff33122a00a83d3d239234733fb3bb32535",
+    "html_url": "https://github.com/Lightricks/ComfyUI-LTXVideo/commit/e1d2cff33122a00a83d3d239234733fb3bb32535",
+    "comments_url": "https://api.github.com/repos/Lightricks/ComfyUI-LTXVideo/commits/e1d2cff33122a00a83d3d239234733fb3bb32535/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "08f892eace7a20ea441440f320dfa92f6d2abf5f",
+        "url": "https://api.github.com/repos/Lightricks/ComfyUI-LTXVideo/commits/08f892eace7a20ea441440f320dfa92f6d2abf5f",
+        "html_url": "https://github.com/Lightricks/ComfyUI-LTXVideo/commit/08f892eace7a20ea441440f320dfa92f6d2abf5f"
+      }
+    ]
+  },
+  {
+    "sha": "864ffa6183ba39a9d799c465465d157f7cf93ba0",
+    "node_id": "C_kwDONS17iNoAKDg2NGZmYTYxODNiYTM5YTlkNzk5YzQ2NTQ2NWQxNTdmN2NmOTNiYTA",
+    "commit": {
+      "author": {
+        "name": "sync-bot",
+        "email": "sync-bot@github.com",
+        "date": "2025-05-06T13:07:33Z"
+      },
+      "committer": {
+        "name": "sync-bot",
+        "email": "sync-bot@github.com",
+        "date": "2025-05-06T13:07:33Z"
+      },
+      "message": "Automated PR - 2025-05-06",
+      "tree": {
+        "sha": "daaf9cfe28701a3fc7e3f461ae49c44bcf2cb3a3",
+        "url": "https://api.github.com/repos/Lightricks/ComfyUI-LTXVideo/git/trees/daaf9cfe28701a3fc7e3f461ae49c44bcf2cb3a3"
+      },
+      "url": "https://api.github.com/repos/Lightricks/ComfyUI-LTXVideo/git/commits/864ffa6183ba39a9d799c465465d157f7cf93ba0",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/Lightricks/ComfyUI-LTXVideo/commits/864ffa6183ba39a9d799c465465d157f7cf93ba0",
+    "html_url": "https://github.com/Lightricks/ComfyUI-LTXVideo/commit/864ffa6183ba39a9d799c465465d157f7cf93ba0",
+    "comments_url": "https://api.github.com/repos/Lightricks/ComfyUI-LTXVideo/commits/864ffa6183ba39a9d799c465465d157f7cf93ba0/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "ddb96675f0f6d674a046f8b847caea9fca33b8ca",
+        "url": "https://api.github.com/repos/Lightricks/ComfyUI-LTXVideo/commits/ddb96675f0f6d674a046f8b847caea9fca33b8ca",
+        "html_url": "https://github.com/Lightricks/ComfyUI-LTXVideo/commit/ddb96675f0f6d674a046f8b847caea9fca33b8ca"
+      }
+    ]
+  }
+]

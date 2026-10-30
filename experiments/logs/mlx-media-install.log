@@ -1,0 +1,8 @@
+Using Python 3.12.13 environment at: /Users/dyn/AI/venvs/ltx-mlx
+Resolved 2 packages in 1.94s
+Downloading imageio-ffmpeg (20.1MiB)
+ Downloaded imageio-ffmpeg
+Prepared 1 package in 1m 02s
+Installed 2 packages in 13ms
+ + av==19.0.2
+ + imageio-ffmpeg==0.7.0

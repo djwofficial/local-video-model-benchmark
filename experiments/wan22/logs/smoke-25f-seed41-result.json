@@ -1,0 +1,112 @@
+{
+  "label": "smoke-25f-seed41",
+  "model": "Wan 2.2 TI2V 5B",
+  "seed": 41,
+  "width": 512,
+  "height": 320,
+  "frames": 25,
+  "playback_fps": 25,
+  "steps": 30,
+  "guidance": 5,
+  "sampler": "uni_pc",
+  "clip_device": "default",
+  "status": "execution_success",
+  "elapsed_client_s": 191.814,
+  "generated_frames_per_second": 0.1303,
+  "cached_nodes": [],
+  "sampler_executed": true,
+  "prompt_id": "39bc5823-3741-4639-b346-74e12d82dcd7",
+  "before": {
+    "time": 1793280532.1331599,
+    "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t6%; charging; 2:14 remaining present: true",
+    "power_settings": "Battery Power:\n Sleep On Power Button 1\n powermode            1\n standby              1\n ttyskeepawake        1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n displaysleep         2\n womp                 0\n networkoversleep     0\n sleep                1\n lessbright           1\n tcpkeepalive         1\n disksleep            10\nAC Power:\n Sleep On Power Button 1\n powermode            0\n standby              1\n ttyskeepawake        1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n displaysleep         0\n womp                 1\n networkoversleep     0\n sleep                1\n tcpkeepalive         1\n disksleep            10",
+    "swap": "vm.swapusage: total = 7168.00M  used = 6331.56M  free = 836.44M  (encrypted)",
+    "swap_bytes": 6639124480,
+    "memory_pressure": "The system has 25769803776 (1572864 pages with a page size of 16384).\nSystem-wide memory free percentage: 73%"
+  },
+  "after": {
+    "time": 1793280724.688094,
+    "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23068771)\t8%; charging; 2:36 remaining present: true",
+    "power_settings": "Battery Power:\n Sleep On Power Button 1\n powermode            1\n standby              1\n ttyskeepawake        1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n displaysleep         2\n womp                 0\n networkoversleep     0\n sleep                1\n lessbright           1\n tcpkeepalive         1\n disksleep            10\nAC Power:\n Sleep On Power Button 1\n powermode            0\n standby              1\n ttyskeepawake        1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n displaysleep         0\n womp                 1\n networkoversleep     0\n sleep                1\n tcpkeepalive         1\n disksleep            10",
+    "swap": "vm.swapusage: total = 13312.00M  used = 12238.50M  free = 1073.50M  (encrypted)",
+    "swap_bytes": 12832997376,
+    "memory_pressure": "The system has 25769803776 (1572864 pages with a page size of 16384).\nSystem-wide memory free percentage: 69%"
+  },
+  "swap_delta_bytes": 6193872896,
+  "memory": {
+    "method": "1 Hz samples in ComfyUI server process; sampled maxima, not true allocator peaks. RSS and MPS counters overlap; do not add them.",
+    "sample_count": 191,
+    "sampled_max_rss_bytes": 8909733888,
+    "sampled_max_mps_allocated_bytes": 10011964160,
+    "sampled_max_mps_driver_bytes": 14101987328,
+    "sampled_max_system_swap_used_bytes": 13795983360
+  },
+  "server_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "39bc5823-3741-4639-b346-74e12d82dcd7",
+          "timestamp": 1793280532163
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "39bc5823-3741-4639-b346-74e12d82dcd7",
+          "timestamp": 1793280532164
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "39bc5823-3741-4639-b346-74e12d82dcd7",
+          "timestamp": 1793280723966
+        }
+      ]
+    ]
+  },
+  "outputs": {
+    "28": {
+      "images": [
+        {
+          "filename": "smoke-25f-seed41_00001_.webp",
+          "subfolder": "",
+          "type": "output",
+          "metadata": {
+            "kind": "image",
+            "width": 512,
+            "height": 320
+          }
+        }
+      ],
+      "animated": [
+        true
+      ]
+    },
+    "47": {
+      "images": [
+        {
+          "filename": "smoke-25f-seed41_00002_.webm",
+          "subfolder": "",
+          "type": "output",
+          "metadata": {
+            "kind": "video",
+            "width": 512,
+            "height": 320,
+            "duration": 1.0,
+            "fps": 25.0
+          }
+        }
+      ],
+      "animated": [
+        true
+      ]
+    }
+  },
+  "conditions": "AC",
+  "timing_scope": "Client submit to execution success; includes uncached nodes, sampler, VAE decode, WebP and WebM output writing. Warm runs cache prompt encodings; model residency uses ComfyUI defaults. Downloads/setup excluded."
+}

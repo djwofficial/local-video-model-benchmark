@@ -1,0 +1,5 @@
+{"time": 1793256001.924133, "stage": "waiting_for_verified_models"}
+{"time": 1793256862.1966, "stage": "starting_local_server"}
+{"time": 1793256870.262625, "stage": "running_smoke"}
+{"time": 1793256977.369026, "stage": "running_bench"}
+{"time": 1793257046.192991, "stage": "complete_pending_visual_review"}

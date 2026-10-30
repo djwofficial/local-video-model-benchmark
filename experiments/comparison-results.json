@@ -1,0 +1,279 @@
+[
+  {
+    "model": "LTX-Video 2B v0.9.5",
+    "root": "/Users/dyn/AI/ltx-benchmark-2026-10-29",
+    "weights": "BF16",
+    "settings": "512\u00d7320, original prompt",
+    "completed_measured_runs": 3,
+    "status": "measured",
+    "task_passed": 1,
+    "task_evaluated": 3,
+    "mean_s_per_clip": 78.83533333333334,
+    "generated_frames_per_second": 0.6215487133518811,
+    "run_seconds": [
+      73.578,
+      79.84,
+      83.088
+    ],
+    "conditions": [
+      "BATTERY",
+      "BATTERY",
+      "BATTERY"
+    ],
+    "memory_gib": 8.153030395507812,
+    "memory_metric": "Mean of per-run 1 Hz sampled maxima of MPS driver allocation; not total RAM or a true peak",
+    "swap_delta_gib": [
+      -0.0390625,
+      0.445556640625,
+      -0.171875
+    ]
+  },
+  {
+    "model": "LTX-Video 2B distilled v0.9.6",
+    "root": "/Users/dyn/AI/video-model-comparison-2026-10-29/ltx-distilled",
+    "weights": "BF16",
+    "settings": "512\u00d7320, original prompt",
+    "completed_measured_runs": 3,
+    "status": "measured",
+    "task_passed": 0,
+    "task_evaluated": 3,
+    "mean_s_per_clip": 16.549333333333333,
+    "generated_frames_per_second": 2.9608443441830485,
+    "run_seconds": [
+      18.08,
+      16.375,
+      15.193
+    ],
+    "conditions": [
+      "BATTERY",
+      "BATTERY",
+      "BATTERY"
+    ],
+    "memory_gib": 8.153030395507812,
+    "memory_metric": "Mean of per-run 1 Hz sampled maxima of MPS driver allocation; not total RAM or a true peak",
+    "swap_delta_gib": [
+      -0.21966552734375,
+      0.72735595703125,
+      -0.14849853515625
+    ]
+  },
+  {
+    "model": "Wan 2.1 T2V 1.3B",
+    "root": "/Users/dyn/AI/video-model-comparison-2026-10-29/wan21",
+    "weights": "FP16",
+    "settings": "512\u00d7320, original prompt",
+    "completed_measured_runs": 3,
+    "status": "measured",
+    "task_passed": 0,
+    "task_evaluated": 3,
+    "mean_s_per_clip": 825.729,
+    "generated_frames_per_second": 0.05934150308394158,
+    "run_seconds": [
+      852.447,
+      770.932,
+      853.808
+    ],
+    "conditions": [
+      "BATTERY",
+      "BATTERY",
+      "BATTERY"
+    ],
+    "memory_gib": 11.163126627604166,
+    "memory_metric": "Mean of per-run 1 Hz sampled maxima of MPS driver allocation; not total RAM or a true peak",
+    "swap_delta_gib": [
+      0.8187255859375,
+      -0.03125,
+      -1.4383544921875
+    ],
+    "observed_failed_runs": [
+      {
+        "label": "benchmark-49f-seed42",
+        "status": "execution_interrupted",
+        "error": {
+          "status_str": "error",
+          "completed": false,
+          "messages": [
+            [
+              "execution_start",
+              {
+                "prompt_id": "cd0c1f1c-a358-4c6d-a6be-c696439d3a97",
+                "timestamp": 1793259948114
+              }
+            ],
+            [
+              "execution_cached",
+              {
+                "nodes": [
+                  "37",
+                  "38",
+                  "39",
+                  "6",
+                  "7",
+                  "40",
+                  "48"
+                ],
+                "prompt_id": "cd0c1f1c-a358-4c6d-a6be-c696439d3a97",
+                "timestamp": 1793259948115
+              }
+            ],
+            [
+              "execution_interrupted",
+              {
+                "prompt_id": "cd0c1f1c-a358-4c6d-a6be-c696439d3a97",
+                "node_id": "3",
+                "node_type": "KSampler",
+                "executed": [],
+                "timestamp": 1793259964326
+              }
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "model": "LTX-2.3 distilled MLX",
+    "root": "/Users/dyn/AI/video-model-comparison-2026-10-29/ltx23-mlx",
+    "weights": "MLX 4-bit",
+    "settings": "512\u00d7320, original prompt",
+    "completed_measured_runs": 3,
+    "status": "measured",
+    "task_passed": 1,
+    "task_evaluated": 3,
+    "mean_s_per_clip": 52.674,
+    "generated_frames_per_second": 0.9302502183240309,
+    "run_seconds": [
+      52.358,
+      52.618,
+      53.046
+    ],
+    "conditions": [
+      "AC",
+      "AC",
+      "AC"
+    ],
+    "memory_gib": 7.675835242494941,
+    "memory_metric": "Mean of per-run maxima of the 1 Hz sampled MLX peak (whole run); differs from MPS driver counter",
+    "swap_delta_gib": [
+      -0.0078125,
+      -0.015625,
+      -0.01495361328125
+    ]
+  },
+  {
+    "model": "Wan 2.2 TI2V 5B",
+    "root": "/Users/dyn/AI/video-model-comparison-2026-10-29/wan22",
+    "weights": "FP16",
+    "settings": "512\u00d7320, original prompt",
+    "completed_measured_runs": 3,
+    "status": "measured",
+    "task_passed": 1,
+    "task_evaluated": 3,
+    "mean_s_per_clip": 274.0586666666666,
+    "generated_frames_per_second": 0.17879383489666448,
+    "run_seconds": [
+      273.162,
+      273.085,
+      275.929
+    ],
+    "conditions": [
+      "AC",
+      "AC",
+      "AC"
+    ],
+    "memory_gib": 14.935272216796875,
+    "memory_metric": "Mean of per-run 1 Hz sampled maxima of MPS driver allocation; not total RAM or a true peak",
+    "swap_delta_gib": [
+      -0.15625,
+      -0.023681640625,
+      -0.06768798828125
+    ]
+  },
+  {
+    "model": "LTX-Video 2B v0.9.5 (round 2)",
+    "root": "/Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx095",
+    "weights": "BF16",
+    "settings": "768\u00d7512, prompt without \"slowly\"",
+    "completed_measured_runs": 3,
+    "status": "measured",
+    "task_passed": 0,
+    "task_evaluated": 3,
+    "mean_s_per_clip": 142.90633333333335,
+    "generated_frames_per_second": 0.34288193432061553,
+    "run_seconds": [
+      144.823,
+      142.549,
+      141.347
+    ],
+    "conditions": [
+      "AC",
+      "AC",
+      "AC"
+    ],
+    "memory_gib": 15.115229288736979,
+    "memory_metric": "Mean of per-run 1 Hz sampled maxima of MPS driver allocation; not total RAM or a true peak",
+    "swap_delta_gib": [
+      0.55657958984375,
+      0.57489013671875,
+      -0.11114501953125
+    ]
+  },
+  {
+    "model": "LTX-2.3 distilled MLX (round 2)",
+    "root": "/Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx23-mlx",
+    "weights": "MLX 4-bit",
+    "settings": "768\u00d7512, prompt without \"slowly\"",
+    "completed_measured_runs": 3,
+    "status": "measured",
+    "task_passed": 3,
+    "task_evaluated": 3,
+    "mean_s_per_clip": 108.972,
+    "generated_frames_per_second": 0.4496567925705686,
+    "run_seconds": [
+      107.684,
+      108.645,
+      110.587
+    ],
+    "conditions": [
+      "AC",
+      "AC",
+      "AC"
+    ],
+    "memory_gib": 9.188321186229587,
+    "memory_metric": "Mean of per-run maxima of the 1 Hz sampled MLX peak (whole run); differs from MPS driver counter",
+    "swap_delta_gib": [
+      -0.12200927734375,
+      -0.0234375,
+      -0.44537353515625
+    ]
+  },
+  {
+    "model": "LTX-2.3 distilled MLX (keyframes)",
+    "root": "/Users/dyn/AI/video-model-comparison-2026-10-29/round3/ltx23-mlx-keyframes",
+    "weights": "MLX 4-bit",
+    "settings": "768\u00d7512, new prompt, start + end keyframes",
+    "completed_measured_runs": 3,
+    "status": "measured",
+    "task_passed": 9,
+    "task_evaluated": 9,
+    "mean_s_per_clip": 132.21866666666668,
+    "generated_frames_per_second": 0.37059820096002577,
+    "run_seconds": [
+      129.52,
+      131.42,
+      135.716
+    ],
+    "conditions": [
+      "AC",
+      "AC",
+      "AC"
+    ],
+    "memory_gib": 9.189511371776462,
+    "memory_metric": "Mean of per-run maxima of the 1 Hz sampled MLX peak (whole run); differs from MPS driver counter",
+    "swap_delta_gib": [
+      -0.8804931640625,
+      -0.38323974609375,
+      -0.04833984375
+    ]
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "model": "LTX-Video 2B v0.9.5",
+    "root": "/Users/dyn/AI/ltx-benchmark-2026-10-29",
+    "weights": "BF16",
+    "completed_measured_runs": 3,
+    "status": "measured",
+    "mean_s_per_clip": 78.83533333333334,
+    "generated_frames_per_second": 0.6215487133518811,
+    "run_seconds": [
+      73.578,
+      79.84,
+      83.088
+    ],
+    "conditions": [
+      "BATTERY \u2014 nonstandard; not the AC benchmark requested in handoff",
+      "BATTERY \u2014 nonstandard; not the AC benchmark requested in handoff",
+      "BATTERY \u2014 nonstandard; not the AC benchmark requested in handoff"
+    ],
+    "memory_gib": 8.153030395507812,
+    "memory_metric": "Mean of per-run 1 Hz sampled maxima of MPS driver allocation; not total RAM or a true peak",
+    "swap_delta_gib": [
+      -0.0390625,
+      0.445556640625,
+      -0.171875
+    ]
+  },
+  {
+    "model": "LTX-Video 2B distilled v0.9.6",
+    "root": "/Users/dyn/AI/video-model-comparison-2026-10-29/ltx-distilled",
+    "weights": "BF16",
+    "completed_measured_runs": 3,
+    "status": "measured",
+    "mean_s_per_clip": 16.549333333333333,
+    "generated_frames_per_second": 2.9608443441830485,
+    "run_seconds": [
+      18.08,
+      16.375,
+      15.193
+    ],
+    "conditions": [
+      "BATTERY \u2014 nonstandard; not the AC benchmark requested in handoff",
+      "BATTERY \u2014 nonstandard; not the AC benchmark requested in handoff",
+      "BATTERY \u2014 nonstandard; not the AC benchmark requested in handoff"
+    ],
+    "memory_gib": 8.153030395507812,
+    "memory_metric": "Mean of per-run 1 Hz sampled maxima of MPS driver allocation; not total RAM or a true peak",
+    "swap_delta_gib": [
+      -0.21966552734375,
+      0.72735595703125,
+      -0.14849853515625
+    ]
+  },
+  {
+    "model": "Wan 2.1 T2V 1.3B",
+    "root": "/Users/dyn/AI/video-model-comparison-2026-10-29/wan21",
+    "weights": "FP16",
+    "completed_measured_runs": 0,
+    "status": "not fully measured"
+  },
+  {
+    "model": "LTX-2.3 distilled MLX",
+    "root": "/Users/dyn/AI/video-model-comparison-2026-10-29/ltx23-mlx",
+    "weights": "MLX 4-bit",
+    "completed_measured_runs": 0,
+    "status": "not fully measured"
+  },
+  {
+    "model": "Wan 2.2 TI2V 5B",
+    "root": "/Users/dyn/AI/video-model-comparison-2026-10-29/wan22",
+    "weights": "FP16",
+    "completed_measured_runs": 0,
+    "status": "not fully measured"
+  }
+]

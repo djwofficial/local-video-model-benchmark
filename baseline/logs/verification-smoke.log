@@ -1,0 +1,2 @@
+{"path": "/Users/dyn/AI/ltx-benchmark-2026-10-29/output/smoke-25f-seed41_00002_.webp", "frames": 25, "size": [512, 320], "duration_ms": 1000, "unique_decoded_frames": 25, "mean_absolute_frame_difference": 0.1216, "contact_sheet": "/Users/dyn/AI/ltx-benchmark-2026-10-29/output/smoke-25f-seed41_00002_-contact.jpg"}
+{"path": "/Users/dyn/AI/ltx-benchmark-2026-10-29/output/smoke-25f-seed41_00001_.webm", "format": "WebM", "codec": "vp9", "width": 512, "height": 320, "fps": 25.0, "frames": 25, "playback_seconds": 1.0}

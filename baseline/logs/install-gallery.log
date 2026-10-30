@@ -1,0 +1,32 @@
+Using Python 3.12.13 environment at: /Users/dyn/AI/venvs/comfyui
+Resolved 84 packages in 5.54s
+Downloading comfyui-workflow-templates-media-api (95.5MiB)
+Downloading comfyui-workflow-templates-media-video (99.5MiB)
+Downloading comfyui-workflow-templates-media-api (95.5MiB)
+Downloading comfyui-workflow-templates-media-video (99.5MiB)
+ Downloaded comfyui-workflow-templates-media-api
+Downloading comfyui-workflow-templates-media-assets-01 (89.8MiB)
+ Downloaded comfyui-workflow-templates-media-video
+Downloading comfyui-workflow-templates-media-image (85.3MiB)
+ Downloaded comfyui-workflow-templates-media-image
+Downloading comfyui-workflow-templates-media-other (85.0MiB)
+ Downloaded comfyui-workflow-templates-media-assets-01
+Downloading comfyui-workflow-templates-media-assets-02 (46.0MiB)
+ Downloaded comfyui-workflow-templates-media-assets-02
+Downloading comfyui-embedded-docs (23.0MiB)
+ Downloaded comfyui-embedded-docs
+Downloading comfyui-workflow-templates-json (4.0MiB)
+ Downloaded comfyui-workflow-templates-media-other
+ Downloaded comfyui-workflow-templates-json
+Prepared 8 packages in 26m 19s
+Installed 10 packages in 218ms
+ + comfyui-embedded-docs==0.5.15
+ + comfyui-workflow-templates==0.11.97
+ + comfyui-workflow-templates-core==0.3.388
+ + comfyui-workflow-templates-json==0.1.123
+ + comfyui-workflow-templates-media-api==0.3.84
+ + comfyui-workflow-templates-media-assets-01==0.1.48
+ + comfyui-workflow-templates-media-assets-02==0.1.24
+ + comfyui-workflow-templates-media-image==0.3.160
+ + comfyui-workflow-templates-media-other==0.3.229
+ + comfyui-workflow-templates-media-video==0.3.101

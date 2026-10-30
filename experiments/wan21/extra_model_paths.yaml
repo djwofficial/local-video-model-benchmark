@@ -1,0 +1,6 @@
+local_ai:
+  base_path: /Users/dyn/AI/models
+  checkpoints: checkpoints
+  text_encoders: text_encoders
+  diffusion_models: diffusion_models
+  vae: vae

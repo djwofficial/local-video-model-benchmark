@@ -1,0 +1,78 @@
+Local benchmark arguments: ['/Users/dyn/AI/ComfyUI/main.py', '--listen', '127.0.0.1', '--port', '8188', '--offline', '--disable-all-custom-nodes', '--cache-classic', '--extra-model-paths-config', '/Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx095/extra_model_paths.yaml', '--output-directory', '/Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx095/output']
+Python outbound network blocked except loopback; MPS memory safety defaults preserved.
+[32m[INFO][0m setup plugin alembic.autogenerate.schemas
+[32m[INFO][0m setup plugin alembic.autogenerate.tables
+[32m[INFO][0m setup plugin alembic.autogenerate.types
+[32m[INFO][0m setup plugin alembic.autogenerate.constraints
+[32m[INFO][0m setup plugin alembic.autogenerate.defaults
+[32m[INFO][0m setup plugin alembic.autogenerate.comments
+[32m[INFO][0m setup plugin alembic.ext.checkconstraint_byname
+[1m[33m[WARNING][0m Could not autodetect AIMDO implementation, assuming Nvidia
+[32m[INFO][0m comfy-aimdo unsupported operating system: Darwin
+[32m[INFO][0m NOTE: comfy-aimdo currently only supports Windows and Linux
+[32m[INFO][0m Adding extra search path checkpoints /Users/dyn/AI/models/checkpoints
+[32m[INFO][0m Adding extra search path text_encoders /Users/dyn/AI/models/text_encoders
+[32m[INFO][0m Setting output directory to: /Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx095/output
+[32m[INFO][0m Found comfy_kitchen backend cuda: {'available': False, 'disabled': True, 'unavailable_reason': 'Extension file not found: /Users/dyn/AI/venvs/comfyui/lib/python3.12/site-packages/comfy_kitchen/backends/cuda/_C.abi3.so', 'capabilities': []}
+[32m[INFO][0m Found comfy_kitchen backend triton: {'available': False, 'disabled': True, 'unavailable_reason': "ImportError: No module named 'triton'", 'capabilities': []}
+[32m[INFO][0m Found comfy_kitchen backend hip: {'available': False, 'disabled': False, 'unavailable_reason': 'PyTorch ROCm/HIP runtime not available', 'capabilities': []}
+[32m[INFO][0m Found comfy_kitchen backend ascend: {'available': False, 'disabled': False, 'unavailable_reason': "torch-npu is not installed: No module named 'torch_npu'", 'capabilities': []}
+[32m[INFO][0m Found comfy_kitchen backend eager: {'available': True, 'disabled': False, 'unavailable_reason': None, 'capabilities': ['adaln', 'apply_rope', 'apply_rope1', 'apply_rope1_', 'apply_rope_', 'apply_rope_split_half', 'apply_rope_split_half1', 'apply_rope_split_half1_', 'apply_rope_split_half_', 'convrot_w4a4_linear', 'dequantize_convrot_w4a4_weight', 'dequantize_int8_convrot_weight', 'dequantize_int8_convrot_weight_dtype', 'dequantize_int8_embedding', 'dequantize_int8_simple', 'dequantize_int8_simple_dtype', 'dequantize_mxfp8', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'dequantize_w4a8_int8_weight', 'fp16_conv3d', 'fp16_conv3d_out', 'fp16_linear', 'gemv_awq_w4a16', 'group_norm_silu_pad3d', 'group_norm_silu_pad3d_out', 'group_norm_stats3d', 'int8_linear', 'int8_linear_modulated', 'int8_linear_rms_modulated', 'na3d', 'prepare_int4_weight_for_int8_linear', 'quantize_and_rotate_rowwise', 'quantize_convrot_w4a4_weight', 'quantize_int8_convrot_weight', 'quantize_int8_rowwise', 'quantize_int8_tensorwise', 'quantize_mxfp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8', 'quantize_svdquant_w4a4', 'quantize_w4a8_int8_weight', 'rms_adaln', 'rms_gated_residual', 'rms_rope', 'rms_rope1', 'rms_rope1_', 'rms_rope_', 'rms_rope_split_half', 'rms_rope_split_half1', 'rms_rope_split_half1_', 'rms_rope_split_half_', 'rotate_int8_convrot_weight', 'scaled_mm_mxfp8', 'scaled_mm_nvfp4', 'scaled_mm_svdquant_w4a4', 'sol_attn', 'stochastic_rounding_fp8', 'w4a8_int8_linear', 'w4a8_packed_linear']}
+[32m[INFO][0m Checkpoint files will always be loaded safely.
+[32m[INFO][0m Total VRAM 24576 MB, total RAM 24576 MB
+[32m[INFO][0m pytorch version: 2.15.0
+[32m[INFO][0m Mac Version (27, 0, 1)
+[32m[INFO][0m Set vram state to: SHARED
+[32m[INFO][0m Device: mps
+[32m[INFO][0m Using sub quadratic optimization for attention, if you have memory or speed issues try using: --use-split-cross-attention
+[32m[INFO][0m Python version: 3.12.13 (main, Jun  2 2026, 22:42:28) [Clang 22.1.3 ]
+[32m[INFO][0m ComfyUI version: 0.43.0
+[32m[INFO][0m comfy-aimdo version: 0.6.0
+[32m[INFO][0m comfy-kitchen version: 0.2.40
+[32m[INFO][0m comfyui-frontend-package version: 1.57.4
+[32m[INFO][0m comfyui-workflow-templates version: 0.11.97
+[32m[INFO][0m comfyui-embedded-docs version: 0.5.15
+[32m[INFO][0m comfy-aimdo version: 0.6.0
+[32m[INFO][0m comfy-kitchen version: 0.2.40
+[32m[INFO][0m [Prompt Server] web root: /Users/dyn/AI/venvs/comfyui/lib/python3.12/site-packages/comfyui_frontend_package/static
+[32m[INFO][0m Asset seeder disabled
+[32m[INFO][0m No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[32m[INFO][0m Skipping loading of custom nodes
+[32m[INFO][0m ComfyUI is developed by Comfy Org. We also offer commercial products to deploy ComfyUI as scalable cloud endpoints. Visit platform.comfy.org/ascii for more information.
+[32m[INFO][0m Starting server
+
+[32m[INFO][0m To see the GUI go to: http://127.0.0.1:8188
+[32m[INFO][0m got prompt
+[32m[INFO][0m model weight dtype torch.bfloat16, manual cast: None
+[32m[INFO][0m model_type FLUX
+[32m[INFO][0m Model storage policy: fast_disk=False paths=['/Users/dyn/AI/models/checkpoints/ltx-video-2b-v0.9.5.safetensors']
+[32m[INFO][0m Model storage policy: fast_disk=False paths=['/Users/dyn/AI/models/checkpoints/ltx-video-2b-v0.9.5.safetensors']
+[32m[INFO][0m VAE load device: mps, offload device: cpu, dtype: torch.bfloat16
+[1m[33m[WARNING][0m no CLIP/text encoder weights in checkpoint, the text encoder model will not be loaded.
+[32m[INFO][0m loaded diffusion model directly to GPU
+[32m[INFO][0m Requested to load LTXV
+[32m[INFO][0m loaded completely;  3667.90 MB loaded, full load: True
+[32m[INFO][0m Model storage policy: fast_disk=False paths=['/Users/dyn/AI/models/text_encoders/t5xxl_fp16.safetensors']
+[32m[INFO][0m Requested to load MochiTEModel_
+[32m[INFO][0m loaded completely;  9083.39 MB loaded, full load: True
+[32m[INFO][0m CLIP/text encoder model load device: cpu, offload device: cpu, current: cpu, dtype: torch.float16
+  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:15<07:21, 15.22s/it]  7%|▋         | 2/30 [00:17<03:35,  7.69s/it] 10%|█         | 3/30 [00:19<02:21,  5.25s/it] 13%|█▎        | 4/30 [00:22<01:46,  4.10s/it] 17%|█▋        | 5/30 [00:24<01:27,  3.49s/it] 20%|██        | 6/30 [00:27<01:15,  3.13s/it] 23%|██▎       | 7/30 [00:29<01:06,  2.89s/it] 27%|██▋       | 8/30 [00:31<01:00,  2.73s/it] 30%|███       | 9/30 [00:34<00:55,  2.62s/it] 33%|███▎      | 10/30 [00:36<00:50,  2.55s/it] 37%|███▋      | 11/30 [00:39<00:47,  2.50s/it] 40%|████      | 12/30 [00:41<00:44,  2.47s/it] 43%|████▎     | 13/30 [00:43<00:41,  2.43s/it] 47%|████▋     | 14/30 [00:46<00:38,  2.40s/it] 50%|█████     | 15/30 [00:48<00:35,  2.38s/it] 53%|█████▎    | 16/30 [00:50<00:33,  2.38s/it] 57%|█████▋    | 17/30 [00:53<00:31,  2.39s/it] 60%|██████    | 18/30 [00:55<00:28,  2.39s/it] 63%|██████▎   | 19/30 [00:58<00:26,  2.39s/it] 67%|██████▋   | 20/30 [01:00<00:23,  2.39s/it] 70%|███████   | 21/30 [01:02<00:21,  2.39s/it] 73%|███████▎  | 22/30 [01:05<00:18,  2.36s/it] 77%|███████▋  | 23/30 [01:07<00:16,  2.35s/it] 80%|████████  | 24/30 [01:09<00:14,  2.34s/it] 83%|████████▎ | 25/30 [01:12<00:11,  2.33s/it] 87%|████████▋ | 26/30 [01:14<00:09,  2.33s/it] 90%|█████████ | 27/30 [01:16<00:06,  2.32s/it] 93%|█████████▎| 28/30 [01:19<00:04,  2.32s/it] 97%|█████████▋| 29/30 [01:21<00:02,  2.32s/it]100%|██████████| 30/30 [01:23<00:00,  2.32s/it]100%|██████████| 30/30 [01:23<00:00,  2.79s/it]
+[32m[INFO][0m Requested to load VideoVAE
+[32m[INFO][0m Unloaded partially: 1299.08 MB freed, 2369.53 MB remains loaded, 8.00 MB buffer reserved, lowvram patches: 0
+[32m[INFO][0m loaded completely;  2378.23 MB loaded, full load: True
+[32m[INFO][0m [32mPrompt executed in 163.88 seconds[0m
+[32m[INFO][0m got prompt
+[32m[INFO][0m loaded completely;  3667.90 MB loaded, full load: True
+  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:04<02:09,  4.47s/it]  7%|▋         | 2/30 [00:08<02:05,  4.49s/it] 10%|█         | 3/30 [00:13<02:01,  4.50s/it] 13%|█▎        | 4/30 [00:17<01:56,  4.50s/it] 17%|█▋        | 5/30 [00:22<01:52,  4.50s/it] 20%|██        | 6/30 [00:26<01:48,  4.50s/it] 23%|██▎       | 7/30 [00:31<01:43,  4.50s/it] 27%|██▋       | 8/30 [00:35<01:39,  4.50s/it] 30%|███       | 9/30 [00:40<01:34,  4.50s/it] 33%|███▎      | 10/30 [00:45<01:30,  4.50s/it] 37%|███▋      | 11/30 [00:49<01:26,  4.54s/it] 40%|████      | 12/30 [00:54<01:22,  4.58s/it] 43%|████▎     | 13/30 [00:59<01:18,  4.62s/it] 47%|████▋     | 14/30 [01:03<01:14,  4.66s/it] 50%|█████     | 15/30 [01:08<01:09,  4.66s/it] 53%|█████▎    | 16/30 [01:13<01:05,  4.66s/it] 57%|█████▋    | 17/30 [01:17<01:00,  4.65s/it] 60%|██████    | 18/30 [01:22<00:55,  4.65s/it] 63%|██████▎   | 19/30 [01:26<00:51,  4.64s/it] 67%|██████▋   | 20/30 [01:31<00:46,  4.65s/it] 70%|███████   | 21/30 [01:36<00:41,  4.64s/it] 73%|███████▎  | 22/30 [01:40<00:37,  4.64s/it] 77%|███████▋  | 23/30 [01:45<00:32,  4.64s/it] 80%|████████  | 24/30 [01:50<00:27,  4.64s/it] 83%|████████▎ | 25/30 [01:54<00:23,  4.64s/it] 87%|████████▋ | 26/30 [01:59<00:18,  4.64s/it] 90%|█████████ | 27/30 [02:04<00:13,  4.64s/it] 93%|█████████▎| 28/30 [02:08<00:09,  4.64s/it] 97%|█████████▋| 29/30 [02:13<00:04,  4.64s/it]100%|██████████| 30/30 [02:18<00:00,  4.63s/it]100%|██████████| 30/30 [02:18<00:00,  4.60s/it]
+[32m[INFO][0m [32mPrompt executed in 147.17 seconds[0m
+[32m[INFO][0m got prompt
+  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:04<02:19,  4.80s/it]  7%|▋         | 2/30 [00:09<02:09,  4.63s/it] 10%|█         | 3/30 [00:13<02:03,  4.58s/it] 13%|█▎        | 4/30 [00:18<01:58,  4.55s/it] 17%|█▋        | 5/30 [00:22<01:53,  4.54s/it] 20%|██        | 6/30 [00:27<01:48,  4.53s/it] 23%|██▎       | 7/30 [00:31<01:44,  4.52s/it] 27%|██▋       | 8/30 [00:36<01:39,  4.52s/it] 30%|███       | 9/30 [00:40<01:34,  4.52s/it] 33%|███▎      | 10/30 [00:45<01:30,  4.51s/it] 37%|███▋      | 11/30 [00:49<01:25,  4.51s/it] 40%|████      | 12/30 [00:54<01:21,  4.51s/it] 43%|████▎     | 13/30 [00:58<01:16,  4.51s/it] 47%|████▋     | 14/30 [01:03<01:12,  4.51s/it] 50%|█████     | 15/30 [01:07<01:07,  4.51s/it] 53%|█████▎    | 16/30 [01:12<01:03,  4.51s/it] 57%|█████▋    | 17/30 [01:16<00:58,  4.51s/it] 60%|██████    | 18/30 [01:21<00:54,  4.51s/it] 63%|██████▎   | 19/30 [01:26<00:49,  4.51s/it] 67%|██████▋   | 20/30 [01:30<00:45,  4.52s/it] 70%|███████   | 21/30 [01:35<00:40,  4.52s/it] 73%|███████▎  | 22/30 [01:39<00:36,  4.55s/it] 77%|███████▋  | 23/30 [01:44<00:31,  4.52s/it] 80%|████████  | 24/30 [01:48<00:26,  4.48s/it] 83%|████████▎ | 25/30 [01:53<00:22,  4.49s/it] 87%|████████▋ | 26/30 [01:57<00:17,  4.49s/it] 90%|█████████ | 27/30 [02:02<00:13,  4.49s/it] 93%|█████████▎| 28/30 [02:06<00:08,  4.49s/it] 97%|█████████▋| 29/30 [02:10<00:04,  4.49s/it]100%|██████████| 30/30 [02:15<00:00,  4.49s/it]100%|██████████| 30/30 [02:15<00:00,  4.52s/it]
+[32m[INFO][0m [32mPrompt executed in 144.80 seconds[0m
+[32m[INFO][0m got prompt
+  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:04<02:14,  4.66s/it]  7%|▋         | 2/30 [00:09<02:07,  4.57s/it] 10%|█         | 3/30 [00:13<02:02,  4.53s/it] 13%|█▎        | 4/30 [00:18<01:57,  4.51s/it] 17%|█▋        | 5/30 [00:22<01:52,  4.50s/it] 20%|██        | 6/30 [00:27<01:47,  4.50s/it] 23%|██▎       | 7/30 [00:31<01:43,  4.49s/it] 27%|██▋       | 8/30 [00:36<01:38,  4.49s/it] 30%|███       | 9/30 [00:40<01:34,  4.49s/it] 33%|███▎      | 10/30 [00:45<01:29,  4.49s/it] 37%|███▋      | 11/30 [00:49<01:25,  4.49s/it] 40%|████      | 12/30 [00:54<01:20,  4.49s/it] 43%|████▎     | 13/30 [00:58<01:16,  4.49s/it] 47%|████▋     | 14/30 [01:03<01:11,  4.49s/it] 50%|█████     | 15/30 [01:07<01:07,  4.49s/it] 53%|█████▎    | 16/30 [01:12<01:02,  4.49s/it] 57%|█████▋    | 17/30 [01:16<00:58,  4.49s/it] 60%|██████    | 18/30 [01:20<00:53,  4.49s/it] 63%|██████▎   | 19/30 [01:25<00:49,  4.49s/it] 67%|██████▋   | 20/30 [01:29<00:44,  4.49s/it] 70%|███████   | 21/30 [01:34<00:40,  4.49s/it] 73%|███████▎  | 22/30 [01:38<00:35,  4.49s/it] 77%|███████▋  | 23/30 [01:43<00:31,  4.49s/it] 80%|████████  | 24/30 [01:47<00:26,  4.49s/it] 83%|████████▎ | 25/30 [01:52<00:22,  4.49s/it] 87%|████████▋ | 26/30 [01:56<00:17,  4.49s/it] 90%|█████████ | 27/30 [02:01<00:13,  4.49s/it] 93%|█████████▎| 28/30 [02:05<00:08,  4.49s/it] 97%|█████████▋| 29/30 [02:10<00:04,  4.49s/it]100%|██████████| 30/30 [02:14<00:00,  4.49s/it]100%|██████████| 30/30 [02:14<00:00,  4.50s/it]
+[32m[INFO][0m [32mPrompt executed in 142.54 seconds[0m
+[32m[INFO][0m got prompt
+  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:04<02:15,  4.68s/it]  7%|▋         | 2/30 [00:09<02:07,  4.56s/it] 10%|█         | 3/30 [00:13<02:02,  4.53s/it] 13%|█▎        | 4/30 [00:18<01:57,  4.51s/it] 17%|█▋        | 5/30 [00:22<01:52,  4.51s/it] 20%|██        | 6/30 [00:27<01:47,  4.50s/it] 23%|██▎       | 7/30 [00:31<01:43,  4.50s/it] 27%|██▋       | 8/30 [00:36<01:38,  4.49s/it] 30%|███       | 9/30 [00:40<01:34,  4.50s/it] 33%|███▎      | 10/30 [00:45<01:29,  4.49s/it] 37%|███▋      | 11/30 [00:49<01:25,  4.49s/it] 40%|████      | 12/30 [00:54<01:20,  4.49s/it] 43%|████▎     | 13/30 [00:58<01:16,  4.49s/it] 47%|████▋     | 14/30 [01:03<01:11,  4.49s/it] 50%|█████     | 15/30 [01:07<01:07,  4.49s/it] 53%|█████▎    | 16/30 [01:11<01:02,  4.49s/it] 57%|█████▋    | 17/30 [01:16<00:58,  4.49s/it] 60%|██████    | 18/30 [01:20<00:53,  4.49s/it] 63%|██████▎   | 19/30 [01:25<00:49,  4.49s/it] 67%|██████▋   | 20/30 [01:29<00:44,  4.49s/it] 70%|███████   | 21/30 [01:34<00:40,  4.49s/it] 73%|███████▎  | 22/30 [01:38<00:35,  4.49s/it] 77%|███████▋  | 23/30 [01:43<00:31,  4.49s/it] 80%|████████  | 24/30 [01:47<00:26,  4.49s/it] 83%|████████▎ | 25/30 [01:52<00:22,  4.49s/it] 87%|████████▋ | 26/30 [01:56<00:17,  4.49s/it] 90%|█████████ | 27/30 [02:01<00:13,  4.49s/it] 93%|█████████▎| 28/30 [02:05<00:08,  4.49s/it] 97%|█████████▋| 29/30 [02:10<00:04,  4.49s/it]100%|██████████| 30/30 [02:14<00:00,  4.49s/it]100%|██████████| 30/30 [02:14<00:00,  4.50s/it]
+[32m[INFO][0m [32mPrompt executed in 141.34 seconds[0m
+/Users/dyn/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

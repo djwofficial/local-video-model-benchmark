@@ -1,0 +1,6 @@
+{
+  "webm_encoder": "libvpx-vp9",
+  "webm_encoder_long_name": "libvpx VP9",
+  "webp_available": true,
+  "libwebp_version": "1.6.0"
+}

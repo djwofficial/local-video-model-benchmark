@@ -1,0 +1,8 @@
+COMMAND     PID USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+python3.1 61394  dyn    7u  IPv4 0x8e2f8ac305c4a366      0t0  TCP 127.0.0.1:8188 (LISTEN)
+python3.1 61394  dyn   10u  IPv4 0xd821090bc29c929b      0t0  TCP 127.0.0.1:8188->127.0.0.1:60157 (ESTABLISHED)
+python3.1 61394  dyn   16u  IPv4 0xcfaffbc0ea6a0883      0t0  TCP 127.0.0.1:8188->127.0.0.1:60749 (ESTABLISHED)
+python3.1 61394  dyn   22u  IPv4  0x595f7e157a41559      0t0  TCP 127.0.0.1:8188->127.0.0.1:60750 (ESTABLISHED)
+python3.1 61394  dyn   25u  IPv4 0x419725b207540593      0t0  TCP 127.0.0.1:8188->127.0.0.1:60764 (ESTABLISHED)
+
+Python audit guard outbound blocks file: False

@@ -1,0 +1,821 @@
+{
+  "33d35d55-6ae0-4c5b-ab23-4305362cce90": {
+    "prompt": [
+      3,
+      "33d35d55-6ae0-4c5b-ab23-4305362cce90",
+      {
+        "37": {
+          "class_type": "UNETLoader",
+          "inputs": {
+            "unet_name": "wan2.2_ti2v_5B_fp16.safetensors",
+            "weight_dtype": "default"
+          }
+        },
+        "38": {
+          "class_type": "CLIPLoader",
+          "inputs": {
+            "clip_name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+            "type": "wan",
+            "device": "default"
+          }
+        },
+        "39": {
+          "class_type": "VAELoader",
+          "inputs": {
+            "vae_name": "wan2.2_vae.safetensors"
+          }
+        },
+        "6": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "clip": [
+              "38",
+              0
+            ],
+            "text": "A single bright red ball rolls slowly from the left side to the right side of a wooden table. The ball remains round and keeps the same size and color throughout the shot. A plain beige wall is visible in the background. Soft daylight enters from a window on the left. The camera stays completely still, showing the entire table surface in one continuous shot."
+          }
+        },
+        "7": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "clip": [
+              "38",
+              0
+            ],
+            "text": "\u8272\u8c03\u8273\u4e3d\uff0c\u8fc7\u66dd\uff0c\u9759\u6001\uff0c\u7ec6\u8282\u6a21\u7cca\u4e0d\u6e05\uff0c\u5b57\u5e55\uff0c\u98ce\u683c\uff0c\u4f5c\u54c1\uff0c\u753b\u4f5c\uff0c\u753b\u9762\uff0c\u9759\u6b62\uff0c\u6574\u4f53\u53d1\u7070\uff0c\u6700\u5dee\u8d28\u91cf\uff0c\u4f4e\u8d28\u91cf\uff0cJPEG\u538b\u7f29\u6b8b\u7559\uff0c\u4e11\u964b\u7684\uff0c\u6b8b\u7f3a\u7684\uff0c\u591a\u4f59\u7684\u624b\u6307\uff0c\u753b\u5f97\u4e0d\u597d\u7684\u624b\u90e8\uff0c\u753b\u5f97\u4e0d\u597d\u7684\u8138\u90e8\uff0c\u7578\u5f62\u7684\uff0c\u6bc1\u5bb9\u7684\uff0c\u5f62\u6001\u7578\u5f62\u7684\u80a2\u4f53\uff0c\u624b\u6307\u878d\u5408\uff0c\u9759\u6b62\u4e0d\u52a8\u7684\u753b\u9762\uff0c\u6742\u4e71\u7684\u80cc\u666f\uff0c\u4e09\u6761\u817f\uff0c\u80cc\u666f\u4eba\u5f88\u591a\uff0c\u5012\u7740\u8d70"
+          }
+        },
+        "55": {
+          "class_type": "Wan22ImageToVideoLatent",
+          "inputs": {
+            "vae": [
+              "39",
+              0
+            ],
+            "width": 512,
+            "height": 320,
+            "length": 49,
+            "batch_size": 1
+          }
+        },
+        "48": {
+          "class_type": "ModelSamplingSD3",
+          "inputs": {
+            "model": [
+              "37",
+              0
+            ],
+            "shift": 8.0
+          }
+        },
+        "3": {
+          "class_type": "KSampler",
+          "inputs": {
+            "model": [
+              "48",
+              0
+            ],
+            "seed": 43,
+            "steps": 30,
+            "cfg": 5.0,
+            "sampler_name": "uni_pc",
+            "scheduler": "simple",
+            "positive": [
+              "6",
+              0
+            ],
+            "negative": [
+              "7",
+              0
+            ],
+            "latent_image": [
+              "55",
+              0
+            ],
+            "denoise": 1.0
+          }
+        },
+        "8": {
+          "class_type": "VAEDecode",
+          "inputs": {
+            "samples": [
+              "3",
+              0
+            ],
+            "vae": [
+              "39",
+              0
+            ]
+          }
+        },
+        "28": {
+          "class_type": "SaveAnimatedWEBP",
+          "inputs": {
+            "images": [
+              "8",
+              0
+            ],
+            "filename_prefix": "benchmark-49f-seed43",
+            "fps": 25.0,
+            "lossless": false,
+            "quality": 95,
+            "method": "default"
+          }
+        },
+        "47": {
+          "class_type": "SaveWEBM",
+          "inputs": {
+            "images": [
+              "8",
+              0
+            ],
+            "filename_prefix": "benchmark-49f-seed43",
+            "codec": "vp9",
+            "fps": 25.0,
+            "crf": 18.0
+          }
+        }
+      },
+      {
+        "extra_pnginfo": {
+          "workflow": {
+            "id": "91f6bbe2-ed41-4fd6-bac7-71d5b5864ecb",
+            "revision": 0,
+            "last_node_id": 57,
+            "last_link_id": 106,
+            "nodes": [
+              {
+                "id": 8,
+                "type": "VAEDecode",
+                "pos": [
+                  1210,
+                  190
+                ],
+                "size": [
+                  210,
+                  46
+                ],
+                "flags": {},
+                "order": 9,
+                "mode": 0,
+                "inputs": [
+                  {
+                    "name": "samples",
+                    "type": "LATENT",
+                    "link": 35
+                  },
+                  {
+                    "name": "vae",
+                    "type": "VAE",
+                    "link": 76
+                  }
+                ],
+                "outputs": [
+                  {
+                    "name": "IMAGE",
+                    "type": "IMAGE",
+                    "slot_index": 0,
+                    "links": [
+                      56,
+                      93
+                    ]
+                  }
+                ],
+                "properties": {
+                  "Node name for S&R": "VAEDecode"
+                },
+                "widgets_values": []
+              },
+              {
+                "id": 7,
+                "type": "CLIPTextEncode",
+                "pos": [
+                  413,
+                  389
+                ],
+                "size": [
+                  425.27801513671875,
+                  180.6060791015625
+                ],
+                "flags": {},
+                "order": 6,
+                "mode": 0,
+                "inputs": [
+                  {
+                    "name": "clip",
+                    "type": "CLIP",
+                    "link": 75
+                  }
+                ],
+                "outputs": [
+                  {
+                    "name": "CONDITIONING",
+                    "type": "CONDITIONING",
+                    "slot_index": 0,
+                    "links": [
+                      52
+                    ]
+                  }
+                ],
+                "title": "CLIP Text Encode (Negative Prompt)",
+                "properties": {
+                  "Node name for S&R": "CLIPTextEncode"
+                },
+                "widgets_values": [
+                  "\u8272\u8c03\u8273\u4e3d\uff0c\u8fc7\u66dd\uff0c\u9759\u6001\uff0c\u7ec6\u8282\u6a21\u7cca\u4e0d\u6e05\uff0c\u5b57\u5e55\uff0c\u98ce\u683c\uff0c\u4f5c\u54c1\uff0c\u753b\u4f5c\uff0c\u753b\u9762\uff0c\u9759\u6b62\uff0c\u6574\u4f53\u53d1\u7070\uff0c\u6700\u5dee\u8d28\u91cf\uff0c\u4f4e\u8d28\u91cf\uff0cJPEG\u538b\u7f29\u6b8b\u7559\uff0c\u4e11\u964b\u7684\uff0c\u6b8b\u7f3a\u7684\uff0c\u591a\u4f59\u7684\u624b\u6307\uff0c\u753b\u5f97\u4e0d\u597d\u7684\u624b\u90e8\uff0c\u753b\u5f97\u4e0d\u597d\u7684\u8138\u90e8\uff0c\u7578\u5f62\u7684\uff0c\u6bc1\u5bb9\u7684\uff0c\u5f62\u6001\u7578\u5f62\u7684\u80a2\u4f53\uff0c\u624b\u6307\u878d\u5408\uff0c\u9759\u6b62\u4e0d\u52a8\u7684\u753b\u9762\uff0c\u6742\u4e71\u7684\u80cc\u666f\uff0c\u4e09\u6761\u817f\uff0c\u80cc\u666f\u4eba\u5f88\u591a\uff0c\u5012\u7740\u8d70"
+                ],
+                "color": "#322",
+                "bgcolor": "#533"
+              },
+              {
+                "id": 3,
+                "type": "KSampler",
+                "pos": [
+                  863,
+                  187
+                ],
+                "size": [
+                  315,
+                  262
+                ],
+                "flags": {},
+                "order": 8,
+                "mode": 0,
+                "inputs": [
+                  {
+                    "name": "model",
+                    "type": "MODEL",
+                    "link": 95
+                  },
+                  {
+                    "name": "positive",
+                    "type": "CONDITIONING",
+                    "link": 46
+                  },
+                  {
+                    "name": "negative",
+                    "type": "CONDITIONING",
+                    "link": 52
+                  },
+                  {
+                    "name": "latent_image",
+                    "type": "LATENT",
+                    "link": 104
+                  }
+                ],
+                "outputs": [
+                  {
+                    "name": "LATENT",
+                    "type": "LATENT",
+                    "slot_index": 0,
+                    "links": [
+                      35
+                    ]
+                  }
+                ],
+                "properties": {
+                  "Node name for S&R": "KSampler"
+                },
+                "widgets_values": [
+                  43,
+                  "fixed",
+                  30,
+                  5,
+                  "uni_pc",
+                  "simple",
+                  1
+                ]
+              },
+              {
+                "id": 39,
+                "type": "VAELoader",
+                "pos": [
+                  20,
+                  340
+                ],
+                "size": [
+                  330,
+                  60
+                ],
+                "flags": {},
+                "order": 0,
+                "mode": 0,
+                "inputs": [],
+                "outputs": [
+                  {
+                    "name": "VAE",
+                    "type": "VAE",
+                    "slot_index": 0,
+                    "links": [
+                      76,
+                      105
+                    ]
+                  }
+                ],
+                "properties": {
+                  "Node name for S&R": "VAELoader"
+                },
+                "widgets_values": [
+                  "wan2.2_vae.safetensors"
+                ],
+                "color": "#223",
+                "bgcolor": "#335"
+              },
+              {
+                "id": 38,
+                "type": "CLIPLoader",
+                "pos": [
+                  20,
+                  190
+                ],
+                "size": [
+                  380,
+                  106
+                ],
+                "flags": {},
+                "order": 1,
+                "mode": 0,
+                "inputs": [],
+                "outputs": [
+                  {
+                    "name": "CLIP",
+                    "type": "CLIP",
+                    "slot_index": 0,
+                    "links": [
+                      74,
+                      75
+                    ]
+                  }
+                ],
+                "properties": {
+                  "Node name for S&R": "CLIPLoader"
+                },
+                "widgets_values": [
+                  "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+                  "wan",
+                  "default"
+                ],
+                "color": "#223",
+                "bgcolor": "#335"
+              },
+              {
+                "id": 48,
+                "type": "ModelSamplingSD3",
+                "pos": [
+                  440,
+                  60
+                ],
+                "size": [
+                  210,
+                  58
+                ],
+                "flags": {},
+                "order": 7,
+                "mode": 0,
+                "inputs": [
+                  {
+                    "name": "model",
+                    "type": "MODEL",
+                    "link": 94
+                  }
+                ],
+                "outputs": [
+                  {
+                    "name": "MODEL",
+                    "type": "MODEL",
+                    "slot_index": 0,
+                    "links": [
+                      95
+                    ]
+                  }
+                ],
+                "properties": {
+                  "Node name for S&R": "ModelSamplingSD3"
+                },
+                "widgets_values": [
+                  8.000000000000002
+                ]
+              },
+              {
+                "id": 37,
+                "type": "UNETLoader",
+                "pos": [
+                  20,
+                  60
+                ],
+                "size": [
+                  346.7470703125,
+                  82
+                ],
+                "flags": {},
+                "order": 2,
+                "mode": 0,
+                "inputs": [],
+                "outputs": [
+                  {
+                    "name": "MODEL",
+                    "type": "MODEL",
+                    "slot_index": 0,
+                    "links": [
+                      94
+                    ]
+                  }
+                ],
+                "properties": {
+                  "Node name for S&R": "UNETLoader"
+                },
+                "widgets_values": [
+                  "wan2.2_ti2v_5B_fp16.safetensors",
+                  "default"
+                ],
+                "color": "#223",
+                "bgcolor": "#335"
+              },
+              {
+                "id": 47,
+                "type": "SaveWEBM",
+                "pos": [
+                  2367.213134765625,
+                  193.6114959716797
+                ],
+                "size": [
+                  670,
+                  650
+                ],
+                "flags": {},
+                "order": 11,
+                "mode": 0,
+                "inputs": [
+                  {
+                    "name": "images",
+                    "type": "IMAGE",
+                    "link": 93
+                  }
+                ],
+                "outputs": [],
+                "properties": {
+                  "Node name for S&R": "SaveWEBM"
+                },
+                "widgets_values": [
+                  "benchmark-49f-seed43",
+                  "vp9",
+                  25,
+                  18
+                ]
+              },
+              {
+                "id": 56,
+                "type": "Note",
+                "pos": [
+                  710.781005859375,
+                  608.9545288085938
+                ],
+                "size": [
+                  320.9936218261719,
+                  182.6057586669922
+                ],
+                "flags": {},
+                "order": 3,
+                "mode": 0,
+                "inputs": [],
+                "outputs": [],
+                "properties": {},
+                "widgets_values": [
+                  "Optimal resolution is: 1280x704 length 121\n\nThe reason it's lower in this workflow is just because I didn't want you to wait too long to get an initial video.\n\nTo get image to video just plug in a start image. For text to video just don't give it a start image."
+                ],
+                "color": "#432",
+                "bgcolor": "#653"
+              },
+              {
+                "id": 55,
+                "type": "Wan22ImageToVideoLatent",
+                "pos": [
+                  420,
+                  610
+                ],
+                "size": [
+                  271.9126892089844,
+                  150
+                ],
+                "flags": {},
+                "order": 4,
+                "mode": 0,
+                "inputs": [
+                  {
+                    "name": "vae",
+                    "type": "VAE",
+                    "link": 105
+                  },
+                  {
+                    "name": "start_image",
+                    "shape": 7,
+                    "type": "IMAGE",
+                    "link": null
+                  }
+                ],
+                "outputs": [
+                  {
+                    "name": "LATENT",
+                    "type": "LATENT",
+                    "links": [
+                      104
+                    ]
+                  }
+                ],
+                "properties": {
+                  "Node name for S&R": "Wan22ImageToVideoLatent"
+                },
+                "widgets_values": [
+                  512,
+                  320,
+                  49,
+                  1
+                ]
+              },
+              {
+                "id": 6,
+                "type": "CLIPTextEncode",
+                "pos": [
+                  415,
+                  186
+                ],
+                "size": [
+                  422.84503173828125,
+                  164.31304931640625
+                ],
+                "flags": {},
+                "order": 5,
+                "mode": 0,
+                "inputs": [
+                  {
+                    "name": "clip",
+                    "type": "CLIP",
+                    "link": 74
+                  }
+                ],
+                "outputs": [
+                  {
+                    "name": "CONDITIONING",
+                    "type": "CONDITIONING",
+                    "slot_index": 0,
+                    "links": [
+                      46
+                    ]
+                  }
+                ],
+                "title": "CLIP Text Encode (Positive Prompt)",
+                "properties": {
+                  "Node name for S&R": "CLIPTextEncode"
+                },
+                "widgets_values": [
+                  "A single bright red ball rolls slowly from the left side to the right side of a wooden table. The ball remains round and keeps the same size and color throughout the shot. A plain beige wall is visible in the background. Soft daylight enters from a window on the left. The camera stays completely still, showing the entire table surface in one continuous shot."
+                ],
+                "color": "#232",
+                "bgcolor": "#353"
+              },
+              {
+                "id": 28,
+                "type": "SaveAnimatedWEBP",
+                "pos": [
+                  1460,
+                  190
+                ],
+                "size": [
+                  870.8511352539062,
+                  648.4141235351562
+                ],
+                "flags": {},
+                "order": 10,
+                "mode": 0,
+                "inputs": [
+                  {
+                    "name": "images",
+                    "type": "IMAGE",
+                    "link": 56
+                  }
+                ],
+                "outputs": [],
+                "properties": {},
+                "widgets_values": [
+                  "benchmark-49f-seed43",
+                  25,
+                  false,
+                  95,
+                  "default"
+                ]
+              }
+            ],
+            "links": [
+              [
+                35,
+                3,
+                0,
+                8,
+                0,
+                "LATENT"
+              ],
+              [
+                46,
+                6,
+                0,
+                3,
+                1,
+                "CONDITIONING"
+              ],
+              [
+                52,
+                7,
+                0,
+                3,
+                2,
+                "CONDITIONING"
+              ],
+              [
+                56,
+                8,
+                0,
+                28,
+                0,
+                "IMAGE"
+              ],
+              [
+                74,
+                38,
+                0,
+                6,
+                0,
+                "CLIP"
+              ],
+              [
+                75,
+                38,
+                0,
+                7,
+                0,
+                "CLIP"
+              ],
+              [
+                76,
+                39,
+                0,
+                8,
+                1,
+                "VAE"
+              ],
+              [
+                93,
+                8,
+                0,
+                47,
+                0,
+                "IMAGE"
+              ],
+              [
+                94,
+                37,
+                0,
+                48,
+                0,
+                "MODEL"
+              ],
+              [
+                95,
+                48,
+                0,
+                3,
+                0,
+                "MODEL"
+              ],
+              [
+                104,
+                55,
+                0,
+                3,
+                3,
+                "LATENT"
+              ],
+              [
+                105,
+                39,
+                0,
+                55,
+                0,
+                "VAE"
+              ]
+            ],
+            "groups": [],
+            "config": {},
+            "extra": {
+              "ds": {
+                "scale": 1.11678157794253,
+                "offset": [
+                  7.041966347099882,
+                  -19.733042401058505
+                ]
+              },
+              "frontendVersion": "1.23.4"
+            },
+            "version": 0.4
+          }
+        },
+        "client_id": "d91bfa98-f633-4500-9074-071c35ab60b2",
+        "workflow_metadata": {
+          "workflow_id": "91f6bbe2-ed41-4fd6-bac7-71d5b5864ecb"
+        },
+        "create_time": 1793281280426
+      },
+      [
+        "28",
+        "47"
+      ]
+    ],
+    "outputs": {
+      "28": {
+        "images": [
+          {
+            "filename": "benchmark-49f-seed43_00001_.webp",
+            "subfolder": "",
+            "type": "output",
+            "metadata": {
+              "kind": "image",
+              "width": 512,
+              "height": 320
+            }
+          }
+        ],
+        "animated": [
+          true
+        ]
+      },
+      "47": {
+        "images": [
+          {
+            "filename": "benchmark-49f-seed43_00002_.webm",
+            "subfolder": "",
+            "type": "output",
+            "metadata": {
+              "kind": "video",
+              "width": 512,
+              "height": 320,
+              "duration": 1.96,
+              "fps": 25.0
+            }
+          }
+        ],
+        "animated": [
+          true
+        ]
+      }
+    },
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "33d35d55-6ae0-4c5b-ab23-4305362cce90",
+            "timestamp": 1793281280427
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "37",
+              "38",
+              "39",
+              "6",
+              "7",
+              "55",
+              "48"
+            ],
+            "prompt_id": "33d35d55-6ae0-4c5b-ab23-4305362cce90",
+            "timestamp": 1793281280427
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "33d35d55-6ae0-4c5b-ab23-4305362cce90",
+            "timestamp": 1793281553466
+          }
+        ]
+      ]
+    },
+    "meta": {
+      "28": {
+        "node_id": "28",
+        "display_node": "28",
+        "parent_node": null,
+        "real_node_id": "28"
+      },
+      "47": {
+        "node_id": "47",
+        "display_node": "47",
+        "parent_node": null,
+        "real_node_id": "47"
+      }
+    }
+  }
+}

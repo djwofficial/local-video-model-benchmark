@@ -1,0 +1,79 @@
+[
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx23-mlx-moreseeds/output/benchmark-49f-seed45.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx23-mlx-moreseeds/output/benchmark-49f-seed45-contact.jpg",
+    "mean_absolute_frame_difference": 1.6242966475310148
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx23-mlx-moreseeds/output/benchmark-49f-seed46.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx23-mlx-moreseeds/output/benchmark-49f-seed46-contact.jpg",
+    "mean_absolute_frame_difference": 0.5717837898819536
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx23-mlx-moreseeds/output/benchmark-49f-seed47.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx23-mlx-moreseeds/output/benchmark-49f-seed47-contact.jpg",
+    "mean_absolute_frame_difference": 0.860613363760489
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx23-mlx-moreseeds/output/benchmark-49f-seed48.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx23-mlx-moreseeds/output/benchmark-49f-seed48-contact.jpg",
+    "mean_absolute_frame_difference": 1.0937176633764196
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx23-mlx-moreseeds/output/benchmark-49f-seed49.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx23-mlx-moreseeds/output/benchmark-49f-seed49-contact.jpg",
+    "mean_absolute_frame_difference": 1.0438294763918277
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx23-mlx-moreseeds/output/benchmark-49f-seed50.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx23-mlx-moreseeds/output/benchmark-49f-seed50-contact.jpg",
+    "mean_absolute_frame_difference": 0.8279708932947228
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx23-mlx-moreseeds/output/warmup-49f-seed41.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round2/ltx23-mlx-moreseeds/output/warmup-49f-seed41-contact.jpg",
+    "mean_absolute_frame_difference": 1.6641018832171401
+  }
+]

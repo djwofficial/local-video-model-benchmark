@@ -1,0 +1,200 @@
+[
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/1152x768-49f-seed42.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      1152,
+      768
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/1152x768-49f-seed42-contact.jpg",
+    "mean_absolute_frame_difference": 0.610513663586275
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/1152x768-49f-seed43.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      1152,
+      768
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/1152x768-49f-seed43-contact.jpg",
+    "mean_absolute_frame_difference": 0.5911983678370346
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/1344x896-49f-seed42.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      1344,
+      896
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/1344x896-49f-seed42-contact.jpg",
+    "mean_absolute_frame_difference": 0.6384780779987776
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/1344x896-49f-seed43.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      1344,
+      896
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/1344x896-49f-seed43-contact.jpg",
+    "mean_absolute_frame_difference": 0.6474714790972812
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/1536x1024-49f-seed42.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      1536,
+      1024
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/1536x1024-49f-seed42-contact.jpg",
+    "mean_absolute_frame_difference": 0.6235399952641241
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/1536x1024-49f-seed43.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      1536,
+      1024
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/1536x1024-49f-seed43-contact.jpg",
+    "mean_absolute_frame_difference": 0.696945283148024
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/1536x1024-97f-seed42.mp4",
+    "frames": 97,
+    "fps": 25.0,
+    "size": [
+      1536,
+      1024
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/1536x1024-97f-seed42-contact.jpg",
+    "mean_absolute_frame_difference": 0.5738902555571662
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/1536x1024-97f-seed43.mp4",
+    "frames": 97,
+    "fps": 25.0,
+    "size": [
+      1536,
+      1024
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/1536x1024-97f-seed43-contact.jpg",
+    "mean_absolute_frame_difference": 0.7020594389350325
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/768x512-121f-seed42.mp4",
+    "frames": 121,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/768x512-121f-seed42-contact.jpg",
+    "mean_absolute_frame_difference": 0.428812203583894
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/768x512-121f-seed43.mp4",
+    "frames": 121,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/768x512-121f-seed43-contact.jpg",
+    "mean_absolute_frame_difference": 0.34840310414632164
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/768x512-145f-seed42.mp4",
+    "frames": 145,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/768x512-145f-seed42-contact.jpg",
+    "mean_absolute_frame_difference": 0.8277851328437711
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/768x512-145f-seed43.mp4",
+    "frames": 145,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/768x512-145f-seed43-contact.jpg",
+    "mean_absolute_frame_difference": 0.34874851909684546
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/768x512-49f-seed42.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/768x512-49f-seed42-contact.jpg",
+    "mean_absolute_frame_difference": 0.676073604159885
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/768x512-49f-seed43.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/768x512-49f-seed43-contact.jpg",
+    "mean_absolute_frame_difference": 0.6878251676206236
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/768x512-97f-seed42.mp4",
+    "frames": 97,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/768x512-97f-seed42-contact.jpg",
+    "mean_absolute_frame_difference": 0.5596403634106671
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/768x512-97f-seed43.mp4",
+    "frames": 97,
+    "fps": 25.0,
+    "size": [
+      768,
+      512
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/768x512-97f-seed43-contact.jpg",
+    "mean_absolute_frame_difference": 0.5305237593474211
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/960x640-49f-seed42.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      960,
+      640
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/960x640-49f-seed42-contact.jpg",
+    "mean_absolute_frame_difference": 0.6034424054181134
+  },
+  {
+    "path": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/960x640-49f-seed43.mp4",
+    "frames": 49,
+    "fps": 25.0,
+    "size": [
+      960,
+      640
+    ],
+    "contact_sheet": "/Users/dyn/AI/video-model-comparison-2026-10-29/round4/ltx23-mlx-ladder/output/960x640-49f-seed43-contact.jpg",
+    "mean_absolute_frame_difference": 0.5853397397641783
+  }
+]
