@@ -5,7 +5,7 @@
 """Approximate PNG previews of a deck for layout QA when PowerPoint/Quick Look rendering is unavailable.
 
 Run: uv run preview_deck.py <deck.pptx> <out_dir>
-Draws backgrounds, pictures, rectangles, text boxes and tables with the Aptos fonts bundled in
+Draws backgrounds, pictures, rectangles, text boxes and tables with the Aptos or Calibri fonts (per run) bundled in
 Microsoft PowerPoint, wrapping text the way PowerPoint does (greedy, 1.2 line spacing) and growing
 table rows to fit. Text that runs past its box or the slide edge is outlined in red and listed.
 It is a layout check, not a pixel-exact PowerPoint render.
@@ -19,8 +19,9 @@ from pptx.util import Emu
 
 DPI=144;FONTS='/Applications/Microsoft PowerPoint.app/Contents/Resources/DFonts/'
 _cache={}
-def font(pt,bold,italic):
-    name={(False,False):'Aptos',(True,False):'Aptos-Bold',(False,True):'Aptos-Italic',(True,True):'Aptos-Bold-Italic'}[(bool(bold),bool(italic))]
+FAMILIES={'Aptos':('Aptos','Aptos-Bold','Aptos-Italic','Aptos-Bold-Italic'),'Calibri':('Calibri','Calibrib','Calibrii','Calibriz')}
+def font(pt,bold,italic,family=None):
+    name=FAMILIES.get(family,FAMILIES['Aptos'])[bool(bold)+2*bool(italic)]
     key=(name,pt)
     if key not in _cache: _cache[key]=ImageFont.truetype(FONTS+name+'.ttf',size=round(pt*DPI/72))
     return _cache[key]
@@ -36,7 +37,7 @@ def layout(tf,width):
         words=[];size=None
         for r in p.runs:
             f=r.font;pt=f.size.pt if f.size else 18;size=max(size or 0,pt)
-            fnt=font(pt,bool(f.bold),bool(f.italic));col=rgb(f.color) if f.color and f.color.type else (0,0,0)
+            fnt=font(pt,bool(f.bold),bool(f.italic),f.name);col=rgb(f.color) if f.color and f.color.type else (0,0,0)
             for i,part in enumerate(r.text.split(' ')):
                 words.append([('' if i==0 else ' ')+part,fnt,col])
         size=size or 18;h=size*1.2*DPI/72;after=(p.space_after.pt if p.space_after is not None else 0)*DPI/72

@@ -25,7 +25,9 @@ Use **LTX-2.3 distilled (MLX 4-bit) with start and end keyframes**:
 | Keyframes | One still pins the first frame (ball on the left); another guides the last frame (ball on the right) |
 
 - **Ready-to-run script for the Mac mini:** [`experiments/mac-mini-recipe/`](experiments/mac-mini-recipe/). It covers setup, the weights list with SHA-256 checksums, and `generate_red_ball.py`.
-- **Slides** (mentor's table format, videos embedded): [`deck/Local-video-model-comparison-M4-Pro-rev7.pptx`](deck/Local-video-model-comparison-M4-Pro-rev7.pptx).
+- **Slides:**
+  - [`deck/Local-video-model-summary-M4-Pro.pptx`](deck/Local-video-model-summary-M4-Pro.pptx): a 3-slide summary of the setup that passed every seed (the table, its videos with what the name means, and how big it can go on 24 GB).
+  - [`deck/Local-video-model-comparison-M4-Pro-rev7.pptx`](deck/Local-video-model-comparison-M4-Pro-rev7.pptx): every configuration in the mentor's table format, with videos embedded.
 
 ## Every configuration tested
 
@@ -84,7 +86,7 @@ Details: [`experiments/round4/ltx23-mlx-ladder/`](experiments/round4/ltx23-mlx-l
 | `experiments/round4/ltx23-mlx-ladder` | Memory and size ladder, plus `check_ball.py`. |
 | `experiments/mac-mini-recipe/` | The standalone script and setup guide. |
 | `baseline/` | The original LTX-Video 2B v0.9.5 ComfyUI benchmark that the comparison started from. |
-| `deck/` | The PowerPoint, plus the python-pptx scripts and assets (frames, H.264 copies of the videos) that build it. |
+| `deck/` | Both PowerPoints, plus the python-pptx scripts and assets (frames, H.264 copies of the videos) that build it. |
 | `docs/HANDOFF.md` | Running notes from the whole project. |
 
 **Left out:**
